@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAlertType" targetNamespace="http://tempuri.org/dsAlertType.xsd" xmlns:mstns="http://tempuri.org/dsAlertType.xsd" xmlns="http://tempuri.org/dsAlertType.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAlertType" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsAlertType" msprop:Generator_DataSetName="dsAlertType">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ApplicationAlertPoint" msprop:Generator_UserTableName="ApplicationAlertPoint" msprop:Generator_RowDeletedName="ApplicationAlertPointRowDeleted" msprop:Generator_RowChangedName="ApplicationAlertPointRowChanged" msprop:Generator_RowClassName="ApplicationAlertPointRow" msprop:Generator_RowChangingName="ApplicationAlertPointRowChanging" msprop:Generator_RowEvArgName="ApplicationAlertPointRowChangeEvent" msprop:Generator_RowEvHandlerName="ApplicationAlertPointRowChangeEventHandler" msprop:Generator_TableClassName="ApplicationAlertPointDataTable" msprop:Generator_TableVarName="tableApplicationAlertPoint" msprop:Generator_RowDeletingName="ApplicationAlertPointRowDeleting" msprop:Generator_TablePropName="ApplicationAlertPoint">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="ALERT" msprop:Generator_UserColumnName="ALERT" msprop:Generator_ColumnVarNameInTable="columnALERT" msprop:Generator_ColumnPropNameInRow="ALERT" msprop:Generator_ColumnPropNameInTable="ALERTColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALERT_POINT" msprop:Generator_UserColumnName="ALERT_POINT" msprop:Generator_ColumnVarNameInTable="columnALERT_POINT" msprop:Generator_ColumnPropNameInRow="ALERT_POINT" msprop:Generator_ColumnPropNameInTable="ALERT_POINTColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DisplayName" msprop:Generator_UserColumnName="DisplayName" msprop:Generator_ColumnPropNameInRow="DisplayName" msprop:Generator_ColumnVarNameInTable="columnDisplayName" msprop:Generator_ColumnPropNameInTable="DisplayNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ApplicationAlertPoint" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

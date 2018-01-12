@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAlertPoint" targetNamespace="http://tempuri.org/dsAlertPoint.xsd" xmlns:mstns="http://tempuri.org/dsAlertPoint.xsd" xmlns="http://tempuri.org/dsAlertPoint.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAlertPoint" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsAlertPoint" msprop:Generator_DataSetName="dsAlertPoint">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ApplicationAlertPoint" msprop:Generator_UserTableName="ApplicationAlertPoint" msprop:Generator_RowDeletedName="ApplicationAlertPointRowDeleted" msprop:Generator_RowChangedName="ApplicationAlertPointRowChanged" msprop:Generator_RowClassName="ApplicationAlertPointRow" msprop:Generator_RowChangingName="ApplicationAlertPointRowChanging" msprop:Generator_RowEvArgName="ApplicationAlertPointRowChangeEvent" msprop:Generator_RowEvHandlerName="ApplicationAlertPointRowChangeEventHandler" msprop:Generator_TableClassName="ApplicationAlertPointDataTable" msprop:Generator_TableVarName="tableApplicationAlertPoint" msprop:Generator_RowDeletingName="ApplicationAlertPointRowDeleting" msprop:Generator_TablePropName="ApplicationAlertPoint">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="APP_MOD_ID" msprop:Generator_UserColumnName="APP_MOD_ID" msprop:Generator_ColumnVarNameInTable="columnAPP_MOD_ID" msprop:Generator_ColumnPropNameInRow="APP_MOD_ID" msprop:Generator_ColumnPropNameInTable="APP_MOD_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ALERT" msprop:Generator_UserColumnName="ALERT" msprop:Generator_ColumnVarNameInTable="columnALERT" msprop:Generator_ColumnPropNameInRow="ALERT" msprop:Generator_ColumnPropNameInTable="ALERTColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALERT_POINT" msprop:Generator_UserColumnName="ALERT_POINT" msprop:Generator_ColumnVarNameInTable="columnALERT_POINT" msprop:Generator_ColumnPropNameInRow="ALERT_POINT" msprop:Generator_ColumnPropNameInTable="ALERT_POINTColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ID1" msprop:Generator_UserColumnName="ID1" msprop:Generator_ColumnVarNameInTable="columnID1" msprop:Generator_ColumnPropNameInRow="ID1" msprop:Generator_ColumnPropNameInTable="ID1Column" type="xs:int" minOccurs="0" />
+              <xs:element name="REQUIRED" msprop:Generator_UserColumnName="REQUIRED" msprop:Generator_ColumnVarNameInTable="columnREQUIRED" msprop:Generator_ColumnPropNameInRow="REQUIRED" msprop:Generator_ColumnPropNameInTable="REQUIREDColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TYPE" msprop:Generator_UserColumnName="TYPE" msprop:Generator_ColumnPropNameInRow="TYPE" msprop:Generator_ColumnVarNameInTable="columnTYPE" msprop:Generator_ColumnPropNameInTable="TYPEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="has_properties" msprop:Generator_UserColumnName="has_properties" msprop:Generator_ColumnVarNameInTable="columnhas_properties" msprop:Generator_ColumnPropNameInRow="has_properties" msprop:Generator_ColumnPropNameInTable="has_propertiesColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Email" msprop:Generator_UserColumnName="Email" msprop:Generator_ColumnPropNameInRow="Email" msprop:Generator_ColumnVarNameInTable="columnEmail" msprop:Generator_ColumnPropNameInTable="EmailColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ExtEmail" msprop:Generator_UserColumnName="ExtEmail" msprop:Generator_ColumnVarNameInTable="columnExtEmail" msprop:Generator_ColumnPropNameInRow="ExtEmail" msprop:Generator_ColumnPropNameInTable="ExtEmailColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:ApplicationAlertPoint" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

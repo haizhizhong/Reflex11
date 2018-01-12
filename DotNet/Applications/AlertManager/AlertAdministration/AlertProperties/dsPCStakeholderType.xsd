@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsPCStakeholderType" targetNamespace="http://tempuri.org/dsPCStakeholderType.xsd" xmlns:mstns="http://tempuri.org/dsPCStakeholderType.xsd" xmlns="http://tempuri.org/dsPCStakeholderType.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsPCStakeholderType" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsPCStakeholderType" msprop:Generator_DataSetName="dsPCStakeholderType">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PC_Stakeholder_Type" msprop:Generator_UserTableName="PC_Stakeholder_Type" msprop:Generator_RowDeletedName="PC_Stakeholder_TypeRowDeleted" msprop:Generator_TableClassName="PC_Stakeholder_TypeDataTable" msprop:Generator_RowChangedName="PC_Stakeholder_TypeRowChanged" msprop:Generator_RowClassName="PC_Stakeholder_TypeRow" msprop:Generator_RowChangingName="PC_Stakeholder_TypeRowChanging" msprop:Generator_RowEvArgName="PC_Stakeholder_TypeRowChangeEvent" msprop:Generator_RowEvHandlerName="PC_Stakeholder_TypeRowChangeEventHandler" msprop:Generator_TablePropName="PC_Stakeholder_Type" msprop:Generator_TableVarName="tablePC_Stakeholder_Type" msprop:Generator_RowDeletingName="PC_Stakeholder_TypeRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PC_Stakeholder_Type_ID" msprop:Generator_UserColumnName="PC_Stakeholder_Type_ID" msprop:Generator_ColumnPropNameInRow="PC_Stakeholder_Type_ID" msprop:Generator_ColumnVarNameInTable="columnPC_Stakeholder_Type_ID" msprop:Generator_ColumnPropNameInTable="PC_Stakeholder_Type_IDColumn" type="xs:int" />
+              <xs:element name="Proj_Contact_Fieldname" msprop:Generator_UserColumnName="Proj_Contact_Fieldname" msprop:Generator_ColumnPropNameInRow="Proj_Contact_Fieldname" msprop:Generator_ColumnVarNameInTable="columnProj_Contact_Fieldname" msprop:Generator_ColumnPropNameInTable="Proj_Contact_FieldnameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DisplayName" msprop:Generator_UserColumnName="DisplayName" msprop:Generator_ColumnPropNameInRow="DisplayName" msprop:Generator_ColumnVarNameInTable="columnDisplayName" msprop:Generator_ColumnPropNameInTable="DisplayNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PC_Stakeholder_Type" />
+      <xs:field xpath="mstns:PC_Stakeholder_Type_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,782 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7C78796B-1A47-4E56-A29D-BB42E949794E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AlertViews</RootNamespace>
+    <AssemblyName>AlertViews</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\DotNetCompileDirectory%28no running%29\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AlertManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\DotNetCompileDirectory(no running)\AlertManager.dll</HintPath>
+    </Reference>
+    <Reference Include="AppDetails_PO_Details, Version=1.0.4713.27656, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Data.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraRichEdit.v9.1, Version=9.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DM_CentralizedFSManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="GL_Account_Lookup_Rep, Version=1.0.3772.28461, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="HMConnection, Version=1.0.3786.19988, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\DotNetCompileDirectory(no running)\HMConnection.dll</HintPath>
+    </Reference>
+    <Reference Include="PC_CostCodesLU, Version=1.0.4253.16698, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="ProjectTypes, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="ReflexChat, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="SharePointMgr, Version=1.0.3727.14325, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="SubmissionHistory, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TUC_HMDevXManager, Version=1.0.3589.15831, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\DotNetCompileDirectory(no running)\TUC_HMDevXManager.dll</HintPath>
+    </Reference>
+    <Reference Include="WO_CentralizedFSManager, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="WS_Chat, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="WS_InvReDist, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="WS_Popups, Version=1.0.3589.16129, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\DotNetCompileDirectory(no running)\WS_Popups.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AP\ucWFAPDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AP\ucWFAPDetail.Designer.cs">
+      <DependentUpon>ucWFAPDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="avChat.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="avChat.Designer.cs">
+      <DependentUpon>avChat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Costing\avContractorPayment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Costing\avContractorPayment.Designer.cs">
+      <DependentUpon>avContractorPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Costing\avWebSubConPayReq.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Costing\avWebSubConPayReq.Designer.cs">
+      <DependentUpon>avWebSubConPayReq.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Costing\LandReminders\avLandPaymentDue.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Costing\LandReminders\avLandPaymentDue.Designer.cs">
+      <DependentUpon>avLandPaymentDue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Costing\LandReminders\avMasterAgreementReminder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Costing\LandReminders\avMasterAgreementReminder.Designer.cs">
+      <DependentUpon>avMasterAgreementReminder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Costing\LandReminders\ucLandPaymentDue.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Costing\LandReminders\ucLandPaymentDue.Designer.cs">
+      <DependentUpon>ucLandPaymentDue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Costing\LandReminders\ucMasterAgreementReminder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Costing\LandReminders\ucMasterAgreementReminder.Designer.cs">
+      <DependentUpon>ucMasterAgreementReminder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Costing\ucWebInvDet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Costing\ucWebInvDet.Designer.cs">
+      <DependentUpon>ucWebInvDet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Costing\LandReminders\avLandReminder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Costing\LandReminders\avLandReminder.Designer.cs">
+      <DependentUpon>avLandReminder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Costing\LandReminders\ucLandReminder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Costing\LandReminders\ucLandReminder.Designer.cs">
+      <DependentUpon>ucLandReminder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Costing\LotExpiry\avLotHoldExpiry.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Costing\LotExpiry\avLotHoldExpiry.Designer.cs">
+      <DependentUpon>avLotHoldExpiry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Costing\LotExpiry\ucLotHoldDet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Costing\LotExpiry\ucLotHoldDet.Designer.cs">
+      <DependentUpon>ucLotHoldDet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Costing\POReceiving\ucPORecNotify.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Costing\POReceiving\ucPORecNotify.Designer.cs">
+      <DependentUpon>ucPORecNotify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Costing\POReceiving\ucPORecNotifyDet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Costing\POReceiving\ucPORecNotifyDet.Designer.cs">
+      <DependentUpon>ucPORecNotifyDet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Costing\TenantReminders\avLeaseExpiryReminder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Costing\TenantReminders\avLeaseExpiryReminder.Designer.cs">
+      <DependentUpon>avLeaseExpiryReminder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Costing\TenantReminders\ucLeaseExpiryReminder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Costing\TenantReminders\ucLeaseExpiryReminder.Designer.cs">
+      <DependentUpon>ucLeaseExpiryReminder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Costing\ucAPHBDet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Costing\ucAPHBDet.Designer.cs">
+      <DependentUpon>ucAPHBDet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Costing\ucAPInvDet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Costing\ucAPInvDet.Designer.cs">
+      <DependentUpon>ucAPInvDet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Costing\dsDetail.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDetail.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Costing\LandReminders\dsAgreeDet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAgreeDet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Costing\LandReminders\dsExtDet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsExtDet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AP\dsAPDetail.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAPDetail.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsAP_NonPORoute.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAP_NonPORoute.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsLease.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLease.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Costing\LandReminders\dsMastAgree.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsMastAgree.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsOccupant.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsOccupant.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPO_Det.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPO_Det.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPO_Hdr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPO_Hdr.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsRentalEnd.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsRentalEnd.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsRentalStart.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsRentalStart.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsStatusChange.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsStatusChange.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsTenantContact.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTenantContact.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsWF_Route.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWF_Route.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsWS_PCPO_Det.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWS_PCPO_Det.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsWS_PCPO_Hdr.cs">
+      <DependentUpon>dsWS_PCPO_Hdr.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsWS_PCPO_Hdr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWS_PCPO_Hdr.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_LandPaymentDue.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_LandPaymentDue.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PO\avWebPODetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PO\avWebPODetails.Designer.cs">
+      <DependentUpon>avWebPODetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PO\avPODocDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PO\avPODocDetail.Designer.cs">
+      <DependentUpon>avPODocDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PO\ucPODetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PO\ucPODetails.Designer.cs">
+      <DependentUpon>ucPODetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PO\ucWebPODetails.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PO\ucWebPODetails.Designer.cs">
+      <DependentUpon>ucWebPODetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PO\ucWFPODetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PO\ucWFPODetail.Designer.cs">
+      <DependentUpon>ucWFPODetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rental\ucRentalEnd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Rental\ucRentalEnd.Designer.cs">
+      <DependentUpon>ucRentalEnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rental\ucRentalRequestStatusChg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Rental\ucRentalRequestStatusChg.Designer.cs">
+      <DependentUpon>ucRentalRequestStatusChg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rental\ucRentalStart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Rental\ucRentalStart.Designer.cs">
+      <DependentUpon>ucRentalStart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkOrders\BackFlush\dsDetails.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDetails.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsGST.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsGST.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Costing\POReceiving\dsPORecDet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPORecDet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsWarehouse.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsWarehouse.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="WorkOrders\BackFlush\ucBackFlush.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WorkOrders\BackFlush\ucBackFlush.Designer.cs">
+      <DependentUpon>ucBackFlush.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AP\ucWFAPDetail.resx">
+      <DependentUpon>ucWFAPDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="avChat.resx">
+      <DependentUpon>avChat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Costing\avContractorPayment.resx">
+      <DependentUpon>avContractorPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Costing\avWebSubConPayReq.resx">
+      <DependentUpon>avWebSubConPayReq.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Costing\LandReminders\avLandPaymentDue.resx">
+      <DependentUpon>avLandPaymentDue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Costing\LandReminders\avMasterAgreementReminder.resx">
+      <DependentUpon>avMasterAgreementReminder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Costing\LandReminders\ucLandPaymentDue.resx">
+      <DependentUpon>ucLandPaymentDue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Costing\LandReminders\ucMasterAgreementReminder.resx">
+      <DependentUpon>ucMasterAgreementReminder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Costing\ucWebInvDet.resx">
+      <DependentUpon>ucWebInvDet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Costing\LandReminders\avLandReminder.resx">
+      <DependentUpon>avLandReminder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Costing\LandReminders\ucLandReminder.resx">
+      <DependentUpon>ucLandReminder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Costing\LotExpiry\avLotHoldExpiry.resx">
+      <DependentUpon>avLotHoldExpiry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Costing\LotExpiry\ucLotHoldDet.resx">
+      <DependentUpon>ucLotHoldDet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Costing\POReceiving\ucPORecNotify.resx">
+      <DependentUpon>ucPORecNotify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Costing\POReceiving\ucPORecNotifyDet.resx">
+      <DependentUpon>ucPORecNotifyDet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Costing\TenantReminders\avLeaseExpiryReminder.resx">
+      <DependentUpon>avLeaseExpiryReminder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Costing\TenantReminders\ucLeaseExpiryReminder.resx">
+      <DependentUpon>ucLeaseExpiryReminder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Costing\ucAPHBDet.resx">
+      <DependentUpon>ucAPHBDet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Costing\ucAPInvDet.resx">
+      <DependentUpon>ucAPInvDet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PO\avWebPODetails.resx">
+      <DependentUpon>avWebPODetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PO\avPODocDetail.resx">
+      <DependentUpon>avPODocDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PO\ucPODetails.resx">
+      <DependentUpon>ucPODetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PO\ucWebPODetails.resx">
+      <DependentUpon>ucWebPODetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PO\ucWFPODetail.resx">
+      <DependentUpon>ucWFPODetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rental\ucRentalEnd.resx">
+      <DependentUpon>ucRentalEnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rental\ucRentalRequestStatusChg.resx">
+      <DependentUpon>ucRentalRequestStatusChg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rental\ucRentalStart.resx">
+      <DependentUpon>ucRentalStart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkOrders\BackFlush\ucBackFlush.resx">
+      <DependentUpon>ucBackFlush.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Costing\dsDetail.xsc">
+      <DependentUpon>dsDetail.xsd</DependentUpon>
+    </None>
+    <None Include="Costing\dsDetail.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDetail.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Costing\dsDetail.xss">
+      <DependentUpon>dsDetail.xsd</DependentUpon>
+    </None>
+    <None Include="Costing\LandReminders\dsAgreeDet.xsc">
+      <DependentUpon>dsAgreeDet.xsd</DependentUpon>
+    </None>
+    <None Include="Costing\LandReminders\dsAgreeDet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAgreeDet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Costing\LandReminders\dsAgreeDet.xss">
+      <DependentUpon>dsAgreeDet.xsd</DependentUpon>
+    </None>
+    <None Include="Costing\LandReminders\dsExtDet.xsc">
+      <DependentUpon>dsExtDet.xsd</DependentUpon>
+    </None>
+    <None Include="Costing\LandReminders\dsExtDet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsExtDet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Costing\LandReminders\dsExtDet.xss">
+      <DependentUpon>dsExtDet.xsd</DependentUpon>
+    </None>
+    <None Include="AP\dsAPDetail.xsc">
+      <DependentUpon>dsAPDetail.xsd</DependentUpon>
+    </None>
+    <None Include="AP\dsAPDetail.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAPDetail.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AP\dsAPDetail.xss">
+      <DependentUpon>dsAPDetail.xsd</DependentUpon>
+    </None>
+    <None Include="dsAP_NonPORoute.xsc">
+      <DependentUpon>dsAP_NonPORoute.xsd</DependentUpon>
+    </None>
+    <None Include="dsAP_NonPORoute.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAP_NonPORoute.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsAP_NonPORoute.xss">
+      <DependentUpon>dsAP_NonPORoute.xsd</DependentUpon>
+    </None>
+    <None Include="dsLease.xsc">
+      <DependentUpon>dsLease.xsd</DependentUpon>
+    </None>
+    <None Include="dsLease.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLease.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsLease.xss">
+      <DependentUpon>dsLease.xsd</DependentUpon>
+    </None>
+    <None Include="Costing\LandReminders\dsMastAgree.xsc">
+      <DependentUpon>dsMastAgree.xsd</DependentUpon>
+    </None>
+    <None Include="Costing\LandReminders\dsMastAgree.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsMastAgree.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Costing\LandReminders\dsMastAgree.xss">
+      <DependentUpon>dsMastAgree.xsd</DependentUpon>
+    </None>
+    <None Include="dsOccupant.xsc">
+      <DependentUpon>dsOccupant.xsd</DependentUpon>
+    </None>
+    <None Include="dsOccupant.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsOccupant.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsOccupant.xss">
+      <DependentUpon>dsOccupant.xsd</DependentUpon>
+    </None>
+    <None Include="dsPO_Det.xsc">
+      <DependentUpon>dsPO_Det.xsd</DependentUpon>
+    </None>
+    <None Include="dsPO_Det.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPO_Det.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsPO_Det.xss">
+      <DependentUpon>dsPO_Det.xsd</DependentUpon>
+    </None>
+    <None Include="dsPO_Hdr.xsc">
+      <DependentUpon>dsPO_Hdr.xsd</DependentUpon>
+    </None>
+    <None Include="dsPO_Hdr.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPO_Hdr.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsPO_Hdr.xss">
+      <DependentUpon>dsPO_Hdr.xsd</DependentUpon>
+    </None>
+    <None Include="dsRentalEnd.xsc">
+      <DependentUpon>dsRentalEnd.xsd</DependentUpon>
+    </None>
+    <None Include="dsRentalEnd.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsRentalEnd.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsRentalEnd.xss">
+      <DependentUpon>dsRentalEnd.xsd</DependentUpon>
+    </None>
+    <None Include="dsRentalStart.xsc">
+      <DependentUpon>dsRentalStart.xsd</DependentUpon>
+    </None>
+    <None Include="dsRentalStart.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsRentalStart.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsRentalStart.xss">
+      <DependentUpon>dsRentalStart.xsd</DependentUpon>
+    </None>
+    <None Include="dsStatusChange.xsc">
+      <DependentUpon>dsStatusChange.xsd</DependentUpon>
+    </None>
+    <None Include="dsStatusChange.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsStatusChange.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsStatusChange.xss">
+      <DependentUpon>dsStatusChange.xsd</DependentUpon>
+    </None>
+    <None Include="dsTenantContact.xsc">
+      <DependentUpon>dsTenantContact.xsd</DependentUpon>
+    </None>
+    <None Include="dsTenantContact.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTenantContact.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsTenantContact.xss">
+      <DependentUpon>dsTenantContact.xsd</DependentUpon>
+    </None>
+    <None Include="dsWF_Route.xsc">
+      <DependentUpon>dsWF_Route.xsd</DependentUpon>
+    </None>
+    <None Include="dsWF_Route.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWF_Route.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsWF_Route.xss">
+      <DependentUpon>dsWF_Route.xsd</DependentUpon>
+    </None>
+    <None Include="dsWS_PCPO_Det.xsc">
+      <DependentUpon>dsWS_PCPO_Det.xsd</DependentUpon>
+    </None>
+    <None Include="dsWS_PCPO_Det.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWS_PCPO_Det.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsWS_PCPO_Det.xss">
+      <DependentUpon>dsWS_PCPO_Det.xsd</DependentUpon>
+    </None>
+    <None Include="dsWS_PCPO_Hdr.xsc">
+      <DependentUpon>dsWS_PCPO_Hdr.xsd</DependentUpon>
+    </None>
+    <None Include="dsWS_PCPO_Hdr.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWS_PCPO_Hdr.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsWS_PCPO_Hdr.xss">
+      <DependentUpon>dsWS_PCPO_Hdr.xsd</DependentUpon>
+    </None>
+    <None Include="ds_LandPaymentDue.xsc">
+      <DependentUpon>ds_LandPaymentDue.xsd</DependentUpon>
+    </None>
+    <None Include="ds_LandPaymentDue.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_LandPaymentDue.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ds_LandPaymentDue.xss">
+      <DependentUpon>ds_LandPaymentDue.xsd</DependentUpon>
+    </None>
+    <None Include="WorkOrders\BackFlush\dsDetails.xsc">
+      <DependentUpon>dsDetails.xsd</DependentUpon>
+    </None>
+    <None Include="WorkOrders\BackFlush\dsDetails.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDetails.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WorkOrders\BackFlush\dsDetails.xss">
+      <DependentUpon>dsDetails.xsd</DependentUpon>
+    </None>
+    <None Include="dsGST.xsc">
+      <DependentUpon>dsGST.xsd</DependentUpon>
+    </None>
+    <None Include="dsGST.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsGST.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsGST.xss">
+      <DependentUpon>dsGST.xsd</DependentUpon>
+    </None>
+    <None Include="Costing\POReceiving\dsPORecDet.xsc">
+      <DependentUpon>dsPORecDet.xsd</DependentUpon>
+    </None>
+    <None Include="Costing\POReceiving\dsPORecDet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPORecDet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Costing\POReceiving\dsPORecDet.xss">
+      <DependentUpon>dsPORecDet.xsd</DependentUpon>
+    </None>
+    <None Include="dsWarehouse.xsc">
+      <DependentUpon>dsWarehouse.xsd</DependentUpon>
+    </None>
+    <None Include="dsWarehouse.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsWarehouse.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsWarehouse.xss">
+      <DependentUpon>dsWarehouse.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

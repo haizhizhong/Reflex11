@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsGST" targetNamespace="http://tempuri.org/dsGST.xsd" xmlns:mstns="http://tempuri.org/dsGST.xsd" xmlns="http://tempuri.org/dsGST.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsGST" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsGST" msprop:Generator_DataSetName="dsGST">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GST_CODES" msprop:Generator_UserTableName="GST_CODES" msprop:Generator_RowDeletedName="GST_CODESRowDeleted" msprop:Generator_TableClassName="GST_CODESDataTable" msprop:Generator_RowChangedName="GST_CODESRowChanged" msprop:Generator_RowClassName="GST_CODESRow" msprop:Generator_RowChangingName="GST_CODESRowChanging" msprop:Generator_RowEvArgName="GST_CODESRowChangeEvent" msprop:Generator_RowEvHandlerName="GST_CODESRowChangeEventHandler" msprop:Generator_TablePropName="GST_CODES" msprop:Generator_TableVarName="tableGST_CODES" msprop:Generator_RowDeletingName="GST_CODESRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="GST_CODE" msprop:Generator_UserColumnName="GST_CODE" msprop:Generator_ColumnPropNameInRow="GST_CODE" msprop:Generator_ColumnVarNameInTable="columnGST_CODE" msprop:Generator_ColumnPropNameInTable="GST_CODEColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GST_DESC" msprop:Generator_UserColumnName="GST_DESC" msprop:Generator_ColumnPropNameInRow="GST_DESC" msprop:Generator_ColumnVarNameInTable="columnGST_DESC" msprop:Generator_ColumnPropNameInTable="GST_DESCColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GST_PCT" msprop:Generator_UserColumnName="GST_PCT" msprop:Generator_ColumnPropNameInRow="GST_PCT" msprop:Generator_ColumnVarNameInTable="columnGST_PCT" msprop:Generator_ColumnPropNameInTable="GST_PCTColumn" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:GST_CODES" />
+      <xs:field xpath="mstns:GST_CODE" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

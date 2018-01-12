@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsModule" targetNamespace="http://tempuri.org/dsModule.xsd" xmlns:mstns="http://tempuri.org/dsModule.xsd" xmlns="http://tempuri.org/dsModule.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsModule" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsModule" msprop:Generator_DataSetName="dsModule">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ApplicationModule" msprop:Generator_UserTableName="ApplicationModule" msprop:Generator_RowDeletedName="ApplicationModuleRowDeleted" msprop:Generator_TableClassName="ApplicationModuleDataTable" msprop:Generator_RowChangedName="ApplicationModuleRowChanged" msprop:Generator_RowClassName="ApplicationModuleRow" msprop:Generator_RowChangingName="ApplicationModuleRowChanging" msprop:Generator_RowEvArgName="ApplicationModuleRowChangeEvent" msprop:Generator_RowEvHandlerName="ApplicationModuleRowChangeEventHandler" msprop:Generator_TablePropName="ApplicationModule" msprop:Generator_TableVarName="tableApplicationModule" msprop:Generator_RowDeletingName="ApplicationModuleRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_UserColumnName="id" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInTable="idColumn" type="xs:int" />
+              <xs:element name="displayname" msprop:Generator_UserColumnName="displayname" msprop:Generator_ColumnPropNameInRow="displayname" msprop:Generator_ColumnVarNameInTable="columndisplayname" msprop:Generator_ColumnPropNameInTable="displaynameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="dsWF_Route1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>798, 15</value>
+  </metadata>
+  <metadata name="dsWS_PCPO_Det.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>531, 15</value>
+  </metadata>
+  <metadata name="dsWS_PCPO_Hdr.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>250, 14</value>
+  </metadata>
+  <metadata name="sqlSelectCommand_daWS_PCPO_Hdr.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand_daWS_PCPO_Hdr.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand_daWS_PCPO_Hdr.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlSelectCommand_daWS_PCPO_Hdr.CommandText" xml:space="preserve">
+    <value>select w.ws_pcpo_id, w.pri_id, w.field_po, w.po_no, w.po_date, w.required_date, w.supplier, t.DESCRIPTION AS POType, st.Description AS POSupplyType, 
+	l1.lv1_code + ' - ' + l1.lv1_desc AS Level1, l2.lv2_code + ' - ' + l2.lv2_desc AS Level2, l3.lv3_code + ' - ' + l3.lv3_desc AS Level3, 
+	l4.lv4_code + ' - ' + l4.lv4_desc AS Level4, w.supplier_name AS POName, w.po_addr1, w.po_addr2, w.po_city, w.po_state, w.po_zip, 
+	c.DESCRIPTION AS Country, w.submission_comments, cast(p.pri_code as varchar(15)) + ' - '+p.pri_name [Project], s.NAME [SupplierName],
+	isnull((select SUM(ISNULL(wd.extension,0)) from WS_PCPO_Det wd where wd.ws_pcpo_id=w.ws_pcpo_id),0) [PurchaseAmount]
+from WS_PCPO_Hdr AS w 
+left outer join SUPPLIER_MASTER s on s.SUPPLIER_ID=w.supplier_id
+left outer join COUNTRIES AS c ON c.COUNTRY_ID = w.po_country_id 
+left outer join PO_TYPE AS t ON t.TYPE = w.po_type 
+left outer join PO_SupplyType AS st ON st.PO_SupplyType_ID = w.po_supply_type_id 
+left outer join PROJ_HEADER p on p.pri_id=w.pri_id
+left outer join Level1_Codes AS l1 ON l1.lv1ID = w.lv1id 
+left outer join Level2_Codes AS l2 ON l2.lv2ID = w.lv2id 
+left outer join Level3_Codes AS l3 ON l3.lv3ID = w.lv3id 
+left outer join Level4_Codes AS l4 ON l4.lv4ID = w.lv4id
+where (w.ws_pcpo_id = @ws_pcpo_id)</value>
+  </data>
+  <metadata name="TRCon.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="daWS_PCPO_Hdr.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>105, 14</value>
+  </metadata>
+  <metadata name="sqlSelectCommand_daWS_PCPO_Det.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand_daWS_PCPO_Det.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand_daWS_PCPO_Det.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlSelectCommand_daWS_PCPO_Det.CommandText" xml:space="preserve">
+    <value>SELECT        w.description, 
+                         CASE WHEN w.lem_comp = 'L' THEN 'Labor' WHEN w.lem_comp = 'E' THEN 'Equipment' WHEN w.lem_comp = 'M' THEN 'Material' WHEN w.lem_comp = 'O' THEN 'Other' WHEN w.lem_comp = 'S' THEN 'Sub-Contract'
+                          ELSE '' END AS LEMComponent, w.qty_ordered, u.DESCRIPTION AS UnitOfMeasure, w.unit_price AS Amount, w.extension AS Total, w.reference
+FROM            WS_PCPO_Det AS w LEFT OUTER JOIN
+                         UNITS_OF_MEASURE AS u ON u.UNIT_OF_MEASURE_CODE = w.uom
+WHERE        (w.ws_pcpo_id = @ws_pcpo_id)</value>
+  </data>
+  <metadata name="daWS_PCPO_Det.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>388, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand_daAP_NonPORoute.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand_daAP_NonPORoute.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand_daAP_NonPORoute.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlSelectCommand_daAP_NonPORoute.CommandText" xml:space="preserve">
+    <value>select c.KnownAs, l.Level_ID, l.Level_Description, a.response, a.response_time, a.response_notes
+from WF_Route AS h 
+JOIN WF_RouteDet AS a ON a.WF_Route_ID = h.WF_Route_ID 
+JOIN web_strike_test.dbo.Contact AS c ON c.ID = a.contact_id 
+JOIN web_strike_test.dbo.WS_Approval_Levels AS l ON l.Approval_Level_ID = a.approval_level_id
+where (h.Link_ID = @ws_pcpo_id) and h.WF_ApprovalPoint_ID=1
+order by l.Level_ID, c.KnownAs</value>
+  </data>
+  <metadata name="daWF_Route.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>678, 15</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>51</value>
+  </metadata>
+</root>

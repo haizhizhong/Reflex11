@@ -1,0 +1,667 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{26C6EE2E-C96D-42DB-AA75-B8A613A6FB46}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AlertProperties</RootNamespace>
+    <AssemblyName>AlertProperties</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\DotNetCompileDirectory%28no running%29\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Pdf.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v16.2.Core, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Data.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v16.2, Version=16.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="GridG, Version=1.0.4673.21416, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="HMConnection, Version=1.0.3786.19988, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TUC_HMDevXManager, Version=1.0.4001.22673, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="WordMerge2003, Version=1.0.5122.31247, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="WS_Popups, Version=1.0.3589.16129, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CommonComponents\ucStakeholderType.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CommonComponents\ucStakeholderType.Designer.cs">
+      <DependentUpon>ucStakeholderType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dsAlertBuyer.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAlertBuyer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsAlertEmployeeScheduling.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAlertEmployeeScheduling.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsAlertSetup.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAlertSetup.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsAlertUsers.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAlertUsers.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsAlert_PC_Stakeholder.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAlert_PC_Stakeholder.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsAllUsers.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAllUsers.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsBuyer.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsBuyer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCommPurpose.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCommPurpose.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsComPur.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsComPur.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsDocMerge.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDocMerge.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsDocMergeLibraryItems.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDocMergeLibraryItems.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPaymentTolerance.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPaymentTolerance.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPCStakeholderType.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPCStakeholderType.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPC_StakeholderType_Lookup.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPC_StakeholderType_Lookup.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsRentalPreAlerts.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsRentalPreAlerts.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsRentalStartPreAlerts.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsRentalStartPreAlerts.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsUser.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsUser.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralConstruction\ucProjectBudActNotifications.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GeneralConstruction\ucProjectBudActNotifications.Designer.cs">
+      <DependentUpon>ucProjectBudActNotifications.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralConstruction\ucProjectCostingEmployeeScheduling.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GeneralConstruction\ucProjectCostingEmployeeScheduling.Designer.cs">
+      <DependentUpon>ucProjectCostingEmployeeScheduling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralConstruction\ucProjectPOSubtypeApproval.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GeneralConstruction\ucProjectPOSubtypeApproval.Designer.cs">
+      <DependentUpon>ucProjectPOSubtypeApproval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HumanResources\ucEmpCertificateExpiry.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HumanResources\ucEmpCertificateExpiry.Designer.cs">
+      <DependentUpon>ucEmpCertificateExpiry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LandDevelopment\dsTolerance.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTolerance.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="fLauncher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fLauncher.Designer.cs">
+      <DependentUpon>fLauncher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LandDevelopment\ucBuilderNextLotDrawExclusion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LandDevelopment\ucBuilderNextLotDrawExclusion.Designer.cs">
+      <DependentUpon>ucBuilderNextLotDrawExclusion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LandDevelopment\ucCollectionReminders.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LandDevelopment\ucCollectionReminders.Designer.cs">
+      <DependentUpon>ucCollectionReminders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LandDevelopment\ucCommPurDocMerge.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LandDevelopment\ucCommPurDocMerge.Designer.cs">
+      <DependentUpon>ucCommPurDocMerge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LandDevelopment\ucDownPaymentDue.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LandDevelopment\ucDownPaymentDue.Designer.cs">
+      <DependentUpon>ucDownPaymentDue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LandDevelopment\ucFinancingPaymentDue.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LandDevelopment\ucFinancingPaymentDue.Designer.cs">
+      <DependentUpon>ucFinancingPaymentDue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LandDevelopment\ucHomeOwner.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LandDevelopment\ucHomeOwner.Designer.cs">
+      <DependentUpon>ucHomeOwner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LandDevelopment\ucInterestFreeExpiryMaster.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LandDevelopment\ucInterestFreeExpiryMaster.Designer.cs">
+      <DependentUpon>ucInterestFreeExpiryMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LandDevelopment\ucInterestFreeExpiry.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LandDevelopment\ucInterestFreeExpiry.Designer.cs">
+      <DependentUpon>ucInterestFreeExpiry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LandDevelopment\ucLatePaymentReminder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LandDevelopment\ucLatePaymentReminder.Designer.cs">
+      <DependentUpon>ucLatePaymentReminder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LandDevelopment\ucLotHold.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LandDevelopment\ucLotHold.Designer.cs">
+      <DependentUpon>ucLotHold.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LandDevelopment\ucMasterAgreeMergeDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LandDevelopment\ucMasterAgreeMergeDetail.Designer.cs">
+      <DependentUpon>ucMasterAgreeMergeDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LandDevelopment\ucPastDuePaymentReminder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LandDevelopment\ucPastDuePaymentReminder.Designer.cs">
+      <DependentUpon>ucPastDuePaymentReminder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LandDevelopment\ucPayoutExtensionReminder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LandDevelopment\ucPayoutExtensionReminder.Designer.cs">
+      <DependentUpon>ucPayoutExtensionReminder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LandDevelopment\ucProbationaryBuildersReminder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LandDevelopment\ucProbationaryBuildersReminder.Designer.cs">
+      <DependentUpon>ucProbationaryBuildersReminder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LandDevelopment\ucTitleTransferConfirmationReminder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LandDevelopment\ucTitleTransferConfirmationReminder.Designer.cs">
+      <DependentUpon>ucTitleTransferConfirmationReminder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PO\ucPOBuyer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PO\ucPOBuyer.Designer.cs">
+      <DependentUpon>ucPOBuyer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rental\ucRentalEndNotification.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Rental\ucRentalEndNotification.Designer.cs">
+      <DependentUpon>ucRentalEndNotification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rental\ucRentalRequestStatusChange.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Rental\ucRentalRequestStatusChange.Designer.cs">
+      <DependentUpon>ucRentalRequestStatusChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rental\ucRentalStartNotification.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Rental\ucRentalStartNotification.Designer.cs">
+      <DependentUpon>ucRentalStartNotification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RevenueProperties\ucLeaseExpiryReminder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RevenueProperties\ucLeaseExpiryReminder.Designer.cs">
+      <DependentUpon>ucLeaseExpiryReminder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucPropertyInterface.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucPropertyInterface.Designer.cs">
+      <DependentUpon>ucPropertyInterface.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CommonComponents\ucStakeholderType.resx">
+      <DependentUpon>ucStakeholderType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fLauncher.resx">
+      <DependentUpon>fLauncher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralConstruction\ucProjectBudActNotifications.resx">
+      <DependentUpon>ucProjectBudActNotifications.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralConstruction\ucProjectCostingEmployeeScheduling.resx">
+      <DependentUpon>ucProjectCostingEmployeeScheduling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneralConstruction\ucProjectPOSubtypeApproval.resx">
+      <DependentUpon>ucProjectPOSubtypeApproval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HumanResources\ucEmpCertificateExpiry.resx">
+      <DependentUpon>ucEmpCertificateExpiry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LandDevelopment\ucBuilderNextLotDrawExclusion.resx">
+      <DependentUpon>ucBuilderNextLotDrawExclusion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LandDevelopment\ucCollectionReminders.resx">
+      <DependentUpon>ucCollectionReminders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LandDevelopment\ucCommPurDocMerge.resx">
+      <DependentUpon>ucCommPurDocMerge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LandDevelopment\ucDownPaymentDue.resx">
+      <DependentUpon>ucDownPaymentDue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LandDevelopment\ucFinancingPaymentDue.resx">
+      <DependentUpon>ucFinancingPaymentDue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LandDevelopment\ucHomeOwner.resx">
+      <DependentUpon>ucHomeOwner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LandDevelopment\ucInterestFreeExpiry.resx">
+      <DependentUpon>ucInterestFreeExpiry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LandDevelopment\ucInterestFreeExpiryMaster.resx">
+      <DependentUpon>ucInterestFreeExpiryMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LandDevelopment\ucLatePaymentReminder.resx">
+      <DependentUpon>ucLatePaymentReminder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LandDevelopment\ucLotHold.resx">
+      <DependentUpon>ucLotHold.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LandDevelopment\ucMasterAgreeMergeDetail.resx">
+      <DependentUpon>ucMasterAgreeMergeDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LandDevelopment\ucPastDuePaymentReminder.resx">
+      <DependentUpon>ucPastDuePaymentReminder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LandDevelopment\ucPayoutExtensionReminder.resx">
+      <DependentUpon>ucPayoutExtensionReminder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LandDevelopment\ucProbationaryBuildersReminder.resx">
+      <DependentUpon>ucProbationaryBuildersReminder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LandDevelopment\ucTitleTransferConfirmationReminder.resx">
+      <DependentUpon>ucTitleTransferConfirmationReminder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PO\ucPOBuyer.resx">
+      <DependentUpon>ucPOBuyer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Rental\ucRentalEndNotification.resx">
+      <DependentUpon>ucRentalEndNotification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rental\ucRentalRequestStatusChange.resx">
+      <DependentUpon>ucRentalRequestStatusChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rental\ucRentalStartNotification.resx">
+      <DependentUpon>ucRentalStartNotification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RevenueProperties\ucLeaseExpiryReminder.resx">
+      <DependentUpon>ucLeaseExpiryReminder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucPropertyInterface.resx">
+      <DependentUpon>ucPropertyInterface.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dsAlertBuyer.xsc">
+      <DependentUpon>dsAlertBuyer.xsd</DependentUpon>
+    </None>
+    <None Include="dsAlertBuyer.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAlertBuyer.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsAlertBuyer.xss">
+      <DependentUpon>dsAlertBuyer.xsd</DependentUpon>
+    </None>
+    <None Include="dsAlertEmployeeScheduling.xsc">
+      <DependentUpon>dsAlertEmployeeScheduling.xsd</DependentUpon>
+    </None>
+    <None Include="dsAlertEmployeeScheduling.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAlertEmployeeScheduling.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsAlertEmployeeScheduling.xss">
+      <DependentUpon>dsAlertEmployeeScheduling.xsd</DependentUpon>
+    </None>
+    <None Include="dsAlertSetup.xsc">
+      <DependentUpon>dsAlertSetup.xsd</DependentUpon>
+    </None>
+    <None Include="dsAlertSetup.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAlertSetup.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsAlertSetup.xss">
+      <DependentUpon>dsAlertSetup.xsd</DependentUpon>
+    </None>
+    <None Include="dsAlertUsers.xsc">
+      <DependentUpon>dsAlertUsers.xsd</DependentUpon>
+    </None>
+    <None Include="dsAlertUsers.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAlertUsers.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsAlertUsers.xss">
+      <DependentUpon>dsAlertUsers.xsd</DependentUpon>
+    </None>
+    <None Include="dsAlert_PC_Stakeholder.xsc">
+      <DependentUpon>dsAlert_PC_Stakeholder.xsd</DependentUpon>
+    </None>
+    <None Include="dsAlert_PC_Stakeholder.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAlert_PC_Stakeholder.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsAlert_PC_Stakeholder.xss">
+      <DependentUpon>dsAlert_PC_Stakeholder.xsd</DependentUpon>
+    </None>
+    <None Include="dsAllUsers.xsc">
+      <DependentUpon>dsAllUsers.xsd</DependentUpon>
+    </None>
+    <None Include="dsAllUsers.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAllUsers.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsAllUsers.xss">
+      <DependentUpon>dsAllUsers.xsd</DependentUpon>
+    </None>
+    <None Include="dsBuyer.xsc">
+      <DependentUpon>dsBuyer.xsd</DependentUpon>
+    </None>
+    <None Include="dsBuyer.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsBuyer.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsBuyer.xss">
+      <DependentUpon>dsBuyer.xsd</DependentUpon>
+    </None>
+    <None Include="dsCommPurpose.xsc">
+      <DependentUpon>dsCommPurpose.xsd</DependentUpon>
+    </None>
+    <None Include="dsCommPurpose.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCommPurpose.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsCommPurpose.xss">
+      <DependentUpon>dsCommPurpose.xsd</DependentUpon>
+    </None>
+    <None Include="dsComPur.xsc">
+      <DependentUpon>dsComPur.xsd</DependentUpon>
+    </None>
+    <None Include="dsComPur.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsComPur.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsComPur.xss">
+      <DependentUpon>dsComPur.xsd</DependentUpon>
+    </None>
+    <None Include="dsDocMerge.xsc">
+      <DependentUpon>dsDocMerge.xsd</DependentUpon>
+    </None>
+    <None Include="dsDocMerge.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDocMerge.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsDocMerge.xss">
+      <DependentUpon>dsDocMerge.xsd</DependentUpon>
+    </None>
+    <None Include="dsDocMergeLibraryItems.xsc">
+      <DependentUpon>dsDocMergeLibraryItems.xsd</DependentUpon>
+    </None>
+    <None Include="dsDocMergeLibraryItems.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDocMergeLibraryItems.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsDocMergeLibraryItems.xss">
+      <DependentUpon>dsDocMergeLibraryItems.xsd</DependentUpon>
+    </None>
+    <None Include="dsPaymentTolerance.xsc">
+      <DependentUpon>dsPaymentTolerance.xsd</DependentUpon>
+    </None>
+    <None Include="dsPaymentTolerance.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPaymentTolerance.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsPaymentTolerance.xss">
+      <DependentUpon>dsPaymentTolerance.xsd</DependentUpon>
+    </None>
+    <None Include="dsPCStakeholderType.xsc">
+      <DependentUpon>dsPCStakeholderType.xsd</DependentUpon>
+    </None>
+    <None Include="dsPCStakeholderType.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPCStakeholderType.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsPCStakeholderType.xss">
+      <DependentUpon>dsPCStakeholderType.xsd</DependentUpon>
+    </None>
+    <None Include="dsPC_StakeholderType_Lookup.xsc">
+      <DependentUpon>dsPC_StakeholderType_Lookup.xsd</DependentUpon>
+    </None>
+    <None Include="dsPC_StakeholderType_Lookup.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPC_StakeholderType_Lookup.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsPC_StakeholderType_Lookup.xss">
+      <DependentUpon>dsPC_StakeholderType_Lookup.xsd</DependentUpon>
+    </None>
+    <None Include="dsRentalPreAlerts.xsc">
+      <DependentUpon>dsRentalPreAlerts.xsd</DependentUpon>
+    </None>
+    <None Include="dsRentalPreAlerts.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsRentalPreAlerts.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsRentalPreAlerts.xss">
+      <DependentUpon>dsRentalPreAlerts.xsd</DependentUpon>
+    </None>
+    <None Include="dsRentalStartPreAlerts.xsc">
+      <DependentUpon>dsRentalStartPreAlerts.xsd</DependentUpon>
+    </None>
+    <None Include="dsRentalStartPreAlerts.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsRentalStartPreAlerts.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsRentalStartPreAlerts.xss">
+      <DependentUpon>dsRentalStartPreAlerts.xsd</DependentUpon>
+    </None>
+    <None Include="dsUser.xsc">
+      <DependentUpon>dsUser.xsd</DependentUpon>
+    </None>
+    <None Include="dsUser.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsUser.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsUser.xss">
+      <DependentUpon>dsUser.xsd</DependentUpon>
+    </None>
+    <None Include="LandDevelopment\dsTolerance.xsc">
+      <DependentUpon>dsTolerance.xsd</DependentUpon>
+    </None>
+    <None Include="LandDevelopment\dsTolerance.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTolerance.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LandDevelopment\dsTolerance.xss">
+      <DependentUpon>dsTolerance.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

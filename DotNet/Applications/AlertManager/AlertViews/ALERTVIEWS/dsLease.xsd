@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsLease" targetNamespace="http://tempuri.org/dsLease.xsd" xmlns:mstns="http://tempuri.org/dsLease.xsd" xmlns="http://tempuri.org/dsLease.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsLease" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsLease" msprop:Generator_DataSetName="dsLease">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RE_Lease_Head" msprop:Generator_UserTableName="RE_Lease_Head" msprop:Generator_RowDeletedName="RE_Lease_HeadRowDeleted" msprop:Generator_RowChangedName="RE_Lease_HeadRowChanged" msprop:Generator_RowClassName="RE_Lease_HeadRow" msprop:Generator_RowChangingName="RE_Lease_HeadRowChanging" msprop:Generator_RowEvArgName="RE_Lease_HeadRowChangeEvent" msprop:Generator_RowEvHandlerName="RE_Lease_HeadRowChangeEventHandler" msprop:Generator_TableClassName="RE_Lease_HeadDataTable" msprop:Generator_TableVarName="tableRE_Lease_Head" msprop:Generator_RowDeletingName="RE_Lease_HeadRowDeleting" msprop:Generator_TablePropName="RE_Lease_Head">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Lease_Head_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Lease_Head_ID" msprop:Generator_ColumnVarNameInTable="columnLease_Head_ID" msprop:Generator_ColumnPropNameInRow="Lease_Head_ID" msprop:Generator_ColumnPropNameInTable="Lease_Head_IDColumn" type="xs:int" />
+              <xs:element name="Property_Head_ID" msprop:Generator_UserColumnName="Property_Head_ID" msprop:Generator_ColumnVarNameInTable="columnProperty_Head_ID" msprop:Generator_ColumnPropNameInRow="Property_Head_ID" msprop:Generator_ColumnPropNameInTable="Property_Head_IDColumn" type="xs:int" />
+              <xs:element name="Lease" msprop:Generator_UserColumnName="Lease" msprop:Generator_ColumnVarNameInTable="columnLease" msprop:Generator_ColumnPropNameInRow="Lease" msprop:Generator_ColumnPropNameInTable="LeaseColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Primary_PropertySpaceUnit_ID" msprop:Generator_UserColumnName="Primary_PropertySpaceUnit_ID" msprop:Generator_ColumnVarNameInTable="columnPrimary_PropertySpaceUnit_ID" msprop:Generator_ColumnPropNameInRow="Primary_PropertySpaceUnit_ID" msprop:Generator_ColumnPropNameInTable="Primary_PropertySpaceUnit_IDColumn" type="xs:int" />
+              <xs:element name="SpaceUnitPhone" msprop:Generator_UserColumnName="SpaceUnitPhone" msprop:Generator_ColumnVarNameInTable="columnSpaceUnitPhone" msprop:Generator_ColumnPropNameInRow="SpaceUnitPhone" msprop:Generator_ColumnPropNameInTable="SpaceUnitPhoneColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OriginalStartDate" msprop:Generator_UserColumnName="OriginalStartDate" msprop:Generator_ColumnVarNameInTable="columnOriginalStartDate" msprop:Generator_ColumnPropNameInRow="OriginalStartDate" msprop:Generator_ColumnPropNameInTable="OriginalStartDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="AnniversaryDate" msprop:Generator_UserColumnName="AnniversaryDate" msprop:Generator_ColumnVarNameInTable="columnAnniversaryDate" msprop:Generator_ColumnPropNameInRow="AnniversaryDate" msprop:Generator_ColumnPropNameInTable="AnniversaryDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Current_x0020_Base_x0020_Rent" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Current Base Rent" msprop:Generator_ColumnPropNameInRow="Current_Base_Rent" msprop:Generator_ColumnVarNameInTable="columnCurrent_Base_Rent" msprop:Generator_ColumnPropNameInTable="Current_Base_RentColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Current_x0020_Other_x0020_Charges" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Current Other Charges" msprop:Generator_ColumnPropNameInRow="Current_Other_Charges" msprop:Generator_ColumnVarNameInTable="columnCurrent_Other_Charges" msprop:Generator_ColumnPropNameInTable="Current_Other_ChargesColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="UnitNumber" msprop:Generator_UserColumnName="UnitNumber" msprop:Generator_ColumnPropNameInRow="UnitNumber" msprop:Generator_ColumnVarNameInTable="columnUnitNumber" msprop:Generator_ColumnPropNameInTable="UnitNumberColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Current_x0020_Total" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Current Total" msprop:Generator_ColumnPropNameInRow="Current_Total" msprop:Generator_ColumnVarNameInTable="columnCurrent_Total" msprop:Generator_ColumnPropNameInTable="Current_TotalColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:RE_Lease_Head" />
+      <xs:field xpath="mstns:Lease_Head_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

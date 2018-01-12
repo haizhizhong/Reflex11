@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAllUsers" targetNamespace="http://tempuri.org/dsAllUsers.xsd" xmlns:mstns="http://tempuri.org/dsAllUsers.xsd" xmlns="http://tempuri.org/dsAllUsers.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAllUsers" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsAllUsers" msprop:Generator_DataSetName="dsAllUsers">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="MLUSER" msprop:Generator_UserTableName="MLUSER" msprop:Generator_RowDeletedName="MLUSERRowDeleted" msprop:Generator_TableClassName="MLUSERDataTable" msprop:Generator_RowChangedName="MLUSERRowChanged" msprop:Generator_RowClassName="MLUSERRow" msprop:Generator_RowChangingName="MLUSERRowChanging" msprop:Generator_RowEvArgName="MLUSERRowChangeEvent" msprop:Generator_RowEvHandlerName="MLUSERRowChangeEventHandler" msprop:Generator_TablePropName="MLUSER" msprop:Generator_TableVarName="tableMLUSER" msprop:Generator_RowDeletingName="MLUSERRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" msprop:Generator_UserColumnName="name" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInTable="nameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="full_name" msprop:Generator_UserColumnName="full_name" msprop:Generator_ColumnPropNameInRow="full_name" msprop:Generator_ColumnVarNameInTable="columnfull_name" msprop:Generator_ColumnPropNameInTable="full_nameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="department" msprop:Generator_UserColumnName="department" msprop:Generator_ColumnPropNameInRow="department" msprop:Generator_ColumnVarNameInTable="columndepartment" msprop:Generator_ColumnPropNameInTable="departmentColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:MLUSER" />
+      <xs:field xpath="mstns:name" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

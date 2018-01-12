@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAlert_PC_Stakeholder" targetNamespace="http://tempuri.org/dsAlert_PC_Stakeholder.xsd" xmlns:mstns="http://tempuri.org/dsAlert_PC_Stakeholder.xsd" xmlns="http://tempuri.org/dsAlert_PC_Stakeholder.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAlert_PC_Stakeholder" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsAlert_PC_Stakeholder" msprop:Generator_DataSetName="dsAlert_PC_Stakeholder">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Alert_PC_Stakeholder" msprop:Generator_UserTableName="Alert_PC_Stakeholder" msprop:Generator_RowDeletedName="Alert_PC_StakeholderRowDeleted" msprop:Generator_RowChangedName="Alert_PC_StakeholderRowChanged" msprop:Generator_RowClassName="Alert_PC_StakeholderRow" msprop:Generator_RowChangingName="Alert_PC_StakeholderRowChanging" msprop:Generator_RowEvArgName="Alert_PC_StakeholderRowChangeEvent" msprop:Generator_RowEvHandlerName="Alert_PC_StakeholderRowChangeEventHandler" msprop:Generator_TableClassName="Alert_PC_StakeholderDataTable" msprop:Generator_TableVarName="tableAlert_PC_Stakeholder" msprop:Generator_RowDeletingName="Alert_PC_StakeholderRowDeleting" msprop:Generator_TablePropName="Alert_PC_Stakeholder">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="PC_Stakeholder_Type_ID" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="PC_Stakeholder_Type_ID" msprop:Generator_ColumnVarNameInTable="columnPC_Stakeholder_Type_ID" msprop:Generator_ColumnPropNameInRow="PC_Stakeholder_Type_ID" msprop:Generator_ColumnPropNameInTable="PC_Stakeholder_Type_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Alert_ID" msprop:Generator_UserColumnName="Alert_ID" msprop:Generator_ColumnVarNameInTable="columnAlert_ID" msprop:Generator_ColumnPropNameInRow="Alert_ID" msprop:Generator_ColumnPropNameInTable="Alert_IDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Alert_PC_Stakeholder" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

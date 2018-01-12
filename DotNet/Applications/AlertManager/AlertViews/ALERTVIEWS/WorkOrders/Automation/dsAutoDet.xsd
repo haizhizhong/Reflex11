@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAutoDet" targetNamespace="http://tempuri.org/dsAutoDet.xsd" xmlns:mstns="http://tempuri.org/dsAutoDet.xsd" xmlns="http://tempuri.org/dsAutoDet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAutoDet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsAutoDet" msprop:Generator_DataSetName="dsAutoDet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="INVENTORY" msprop:Generator_TableClassName="INVENTORYDataTable" msprop:Generator_TableVarName="tableINVENTORY" msprop:Generator_TablePropName="INVENTORY" msprop:Generator_RowDeletingName="INVENTORYRowDeleting" msprop:Generator_RowChangingName="INVENTORYRowChanging" msprop:Generator_RowEvHandlerName="INVENTORYRowChangeEventHandler" msprop:Generator_RowDeletedName="INVENTORYRowDeleted" msprop:Generator_UserTableName="INVENTORY" msprop:Generator_RowChangedName="INVENTORYRowChanged" msprop:Generator_RowEvArgName="INVENTORYRowChangeEvent" msprop:Generator_RowClassName="INVENTORYRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="warehouse" msprop:Generator_ColumnVarNameInTable="columnwarehouse" msprop:Generator_ColumnPropNameInRow="warehouse" msprop:Generator_ColumnPropNameInTable="warehouseColumn" msprop:Generator_UserColumnName="warehouse" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="description" msprop:Generator_ColumnVarNameInTable="columndescription" msprop:Generator_ColumnPropNameInRow="description" msprop:Generator_ColumnPropNameInTable="descriptionColumn" msprop:Generator_UserColumnName="description" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="part_number" msprop:Generator_ColumnVarNameInTable="columnpart_number" msprop:Generator_ColumnPropNameInRow="part_number" msprop:Generator_ColumnPropNameInTable="part_numberColumn" msprop:Generator_UserColumnName="part_number" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="description1" msprop:Generator_ColumnVarNameInTable="columndescription1" msprop:Generator_ColumnPropNameInRow="description1" msprop:Generator_ColumnPropNameInTable="description1Column" msprop:Generator_UserColumnName="description1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="qty" msprop:Generator_ColumnVarNameInTable="columnqty" msprop:Generator_ColumnPropNameInRow="qty" msprop:Generator_ColumnPropNameInTable="qtyColumn" msprop:Generator_UserColumnName="qty" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

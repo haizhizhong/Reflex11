@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsPORecDet" targetNamespace="http://tempuri.org/dsPORecDet.xsd" xmlns:mstns="http://tempuri.org/dsPORecDet.xsd" xmlns="http://tempuri.org/dsPORecDet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsPORecDet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsPORecDet" msprop:Generator_DataSetName="dsPORecDet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PO_DETAIL" msprop:Generator_UserTableName="PO_DETAIL" msprop:Generator_RowDeletedName="PO_DETAILRowDeleted" msprop:Generator_TableClassName="PO_DETAILDataTable" msprop:Generator_RowChangedName="PO_DETAILRowChanged" msprop:Generator_RowClassName="PO_DETAILRow" msprop:Generator_RowChangingName="PO_DETAILRowChanging" msprop:Generator_RowEvArgName="PO_DETAILRowChangeEvent" msprop:Generator_RowEvHandlerName="PO_DETAILRowChangeEventHandler" msprop:Generator_TablePropName="PO_DETAIL" msprop:Generator_TableVarName="tablePO_DETAIL" msprop:Generator_RowDeletingName="PO_DETAILRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LINE_NUMBER" msprop:Generator_UserColumnName="LINE_NUMBER" msprop:Generator_ColumnPropNameInRow="LINE_NUMBER" msprop:Generator_ColumnVarNameInTable="columnLINE_NUMBER" msprop:Generator_ColumnPropNameInTable="LINE_NUMBERColumn" type="xs:short" />
+              <xs:element name="ONETIME" msprop:Generator_UserColumnName="ONETIME" msprop:Generator_ColumnPropNameInRow="ONETIME" msprop:Generator_ColumnVarNameInTable="columnONETIME" msprop:Generator_ColumnPropNameInTable="ONETIMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PART_NO" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PART_NO" msprop:Generator_ColumnPropNameInRow="PART_NO" msprop:Generator_ColumnVarNameInTable="columnPART_NO" msprop:Generator_ColumnPropNameInTable="PART_NOColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PART_NO_DESC" msprop:Generator_UserColumnName="PART_NO_DESC" msprop:Generator_ColumnPropNameInRow="PART_NO_DESC" msprop:Generator_ColumnVarNameInTable="columnPART_NO_DESC" msprop:Generator_ColumnPropNameInTable="PART_NO_DESCColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UNIT_PRICE" msprop:Generator_UserColumnName="UNIT_PRICE" msprop:Generator_ColumnPropNameInRow="UNIT_PRICE" msprop:Generator_ColumnVarNameInTable="columnUNIT_PRICE" msprop:Generator_ColumnPropNameInTable="UNIT_PRICEColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="UNIT_OF_MEASURE" msprop:Generator_UserColumnName="UNIT_OF_MEASURE" msprop:Generator_ColumnPropNameInRow="UNIT_OF_MEASURE" msprop:Generator_ColumnVarNameInTable="columnUNIT_OF_MEASURE" msprop:Generator_ColumnPropNameInTable="UNIT_OF_MEASUREColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="QTY_ORDERED" msprop:Generator_UserColumnName="QTY_ORDERED" msprop:Generator_ColumnPropNameInRow="QTY_ORDERED" msprop:Generator_ColumnVarNameInTable="columnQTY_ORDERED" msprop:Generator_ColumnPropNameInTable="QTY_ORDEREDColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="QTY_RECEIVED" msprop:Generator_UserColumnName="QTY_RECEIVED" msprop:Generator_ColumnPropNameInRow="QTY_RECEIVED" msprop:Generator_ColumnVarNameInTable="columnQTY_RECEIVED" msprop:Generator_ColumnPropNameInTable="QTY_RECEIVEDColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TOTAL" msprop:Generator_UserColumnName="TOTAL" msprop:Generator_ColumnPropNameInRow="TOTAL" msprop:Generator_ColumnVarNameInTable="columnTOTAL" msprop:Generator_ColumnPropNameInTable="TOTALColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

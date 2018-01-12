@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsRevHist" targetNamespace="http://tempuri.org/dsRevHist.xsd" xmlns:mstns="http://tempuri.org/dsRevHist.xsd" xmlns="http://tempuri.org/dsRevHist.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsRevHist" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsRevHist" msprop:Generator_DataSetName="dsRevHist">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PO_DETAIL_REVISIONS" msprop:Generator_TableClassName="PO_DETAIL_REVISIONSDataTable" msprop:Generator_TableVarName="tablePO_DETAIL_REVISIONS" msprop:Generator_TablePropName="PO_DETAIL_REVISIONS" msprop:Generator_RowDeletingName="PO_DETAIL_REVISIONSRowDeleting" msprop:Generator_RowChangingName="PO_DETAIL_REVISIONSRowChanging" msprop:Generator_RowEvHandlerName="PO_DETAIL_REVISIONSRowChangeEventHandler" msprop:Generator_RowDeletedName="PO_DETAIL_REVISIONSRowDeleted" msprop:Generator_UserTableName="PO_DETAIL_REVISIONS" msprop:Generator_RowChangedName="PO_DETAIL_REVISIONSRowChanged" msprop:Generator_RowEvArgName="PO_DETAIL_REVISIONSRowChangeEvent" msprop:Generator_RowClassName="PO_DETAIL_REVISIONSRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REVISION_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnREVISION_ID" msprop:Generator_ColumnPropNameInRow="REVISION_ID" msprop:Generator_ColumnPropNameInTable="REVISION_IDColumn" msprop:Generator_UserColumnName="REVISION_ID" type="xs:int" />
+              <xs:element name="PO_ID" msprop:Generator_ColumnVarNameInTable="columnPO_ID" msprop:Generator_ColumnPropNameInRow="PO_ID" msprop:Generator_ColumnPropNameInTable="PO_IDColumn" msprop:Generator_UserColumnName="PO_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="PO_DETAIL_ID" msprop:Generator_ColumnVarNameInTable="columnPO_DETAIL_ID" msprop:Generator_ColumnPropNameInRow="PO_DETAIL_ID" msprop:Generator_ColumnPropNameInTable="PO_DETAIL_IDColumn" msprop:Generator_UserColumnName="PO_DETAIL_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="USERNAME" msprop:Generator_ColumnVarNameInTable="columnUSERNAME" msprop:Generator_ColumnPropNameInRow="USERNAME" msprop:Generator_ColumnPropNameInTable="USERNAMEColumn" msprop:Generator_UserColumnName="USERNAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="REVISION_NUMBER" msprop:Generator_ColumnVarNameInTable="columnREVISION_NUMBER" msprop:Generator_ColumnPropNameInRow="REVISION_NUMBER" msprop:Generator_ColumnPropNameInTable="REVISION_NUMBERColumn" msprop:Generator_UserColumnName="REVISION_NUMBER" type="xs:int" minOccurs="0" />
+              <xs:element name="REVISION_TYPE" msprop:Generator_ColumnVarNameInTable="columnREVISION_TYPE" msprop:Generator_ColumnPropNameInRow="REVISION_TYPE" msprop:Generator_ColumnPropNameInTable="REVISION_TYPEColumn" msprop:Generator_UserColumnName="REVISION_TYPE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="REVISION_DATE" msprop:Generator_ColumnVarNameInTable="columnREVISION_DATE" msprop:Generator_ColumnPropNameInRow="REVISION_DATE" msprop:Generator_ColumnPropNameInTable="REVISION_DATEColumn" msprop:Generator_UserColumnName="REVISION_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PARTNO" msprop:Generator_ColumnVarNameInTable="columnPARTNO" msprop:Generator_ColumnPropNameInRow="PARTNO" msprop:Generator_ColumnPropNameInTable="PARTNOColumn" msprop:Generator_UserColumnName="PARTNO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PARTDESC" msprop:Generator_ColumnVarNameInTable="columnPARTDESC" msprop:Generator_ColumnPropNameInRow="PARTDESC" msprop:Generator_ColumnPropNameInTable="PARTDESCColumn" msprop:Generator_UserColumnName="PARTDESC" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="QUANTITY" msprop:Generator_ColumnVarNameInTable="columnQUANTITY" msprop:Generator_ColumnPropNameInRow="QUANTITY" msprop:Generator_ColumnPropNameInTable="QUANTITYColumn" msprop:Generator_UserColumnName="QUANTITY" type="xs:decimal" minOccurs="0" />
+              <xs:element name="UOM" msprop:Generator_ColumnVarNameInTable="columnUOM" msprop:Generator_ColumnPropNameInRow="UOM" msprop:Generator_ColumnPropNameInTable="UOMColumn" msprop:Generator_UserColumnName="UOM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ALT_UOM_USED" msprop:Generator_ColumnVarNameInTable="columnALT_UOM_USED" msprop:Generator_ColumnPropNameInRow="ALT_UOM_USED" msprop:Generator_ColumnPropNameInTable="ALT_UOM_USEDColumn" msprop:Generator_UserColumnName="ALT_UOM_USED" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CONVERTED_QTY" msprop:Generator_ColumnVarNameInTable="columnCONVERTED_QTY" msprop:Generator_ColumnPropNameInRow="CONVERTED_QTY" msprop:Generator_ColumnPropNameInTable="CONVERTED_QTYColumn" msprop:Generator_UserColumnName="CONVERTED_QTY" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CONVERTED_UNIT_PRICE" msprop:Generator_ColumnVarNameInTable="columnCONVERTED_UNIT_PRICE" msprop:Generator_ColumnPropNameInRow="CONVERTED_UNIT_PRICE" msprop:Generator_ColumnPropNameInTable="CONVERTED_UNIT_PRICEColumn" msprop:Generator_UserColumnName="CONVERTED_UNIT_PRICE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="UNIT_PRICE" msprop:Generator_ColumnVarNameInTable="columnUNIT_PRICE" msprop:Generator_ColumnPropNameInRow="UNIT_PRICE" msprop:Generator_ColumnPropNameInTable="UNIT_PRICEColumn" msprop:Generator_UserColumnName="UNIT_PRICE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EXTENSION" msprop:Generator_ColumnVarNameInTable="columnEXTENSION" msprop:Generator_ColumnPropNameInRow="EXTENSION" msprop:Generator_ColumnPropNameInTable="EXTENSIONColumn" msprop:Generator_UserColumnName="EXTENSION" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Est_ID" msprop:Generator_ColumnVarNameInTable="columnEst_ID" msprop:Generator_ColumnPropNameInRow="Est_ID" msprop:Generator_ColumnPropNameInTable="Est_IDColumn" msprop:Generator_UserColumnName="Est_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="CO_Num" msprop:Generator_ColumnVarNameInTable="columnCO_Num" msprop:Generator_ColumnPropNameInRow="CO_Num" msprop:Generator_ColumnPropNameInTable="CO_NumColumn" msprop:Generator_UserColumnName="CO_Num" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CO_Desc" msprop:Generator_ColumnVarNameInTable="columnCO_Desc" msprop:Generator_ColumnPropNameInRow="CO_Desc" msprop:Generator_ColumnPropNameInTable="CO_DescColumn" msprop:Generator_UserColumnName="CO_Desc" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PO_DETAIL_REVISIONS" />
+      <xs:field xpath="mstns:REVISION_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

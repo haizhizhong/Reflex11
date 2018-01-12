@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAlertEmployeeScheduling" targetNamespace="http://tempuri.org/dsAlertEmployeeScheduling.xsd" xmlns:mstns="http://tempuri.org/dsAlertEmployeeScheduling.xsd" xmlns="http://tempuri.org/dsAlertEmployeeScheduling.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAlertEmployeeScheduling" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsAlertEmployeeScheduling" msprop:Generator_DataSetName="dsAlertEmployeeScheduling">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="alert_employee_scheduling" msprop:Generator_UserTableName="alert_employee_scheduling" msprop:Generator_RowDeletedName="alert_employee_schedulingRowDeleted" msprop:Generator_TableClassName="alert_employee_schedulingDataTable" msprop:Generator_RowChangedName="alert_employee_schedulingRowChanged" msprop:Generator_RowClassName="alert_employee_schedulingRow" msprop:Generator_RowChangingName="alert_employee_schedulingRowChanging" msprop:Generator_RowEvArgName="alert_employee_schedulingRowChangeEvent" msprop:Generator_RowEvHandlerName="alert_employee_schedulingRowChangeEventHandler" msprop:Generator_TablePropName="alert_employee_scheduling" msprop:Generator_TableVarName="tablealert_employee_scheduling" msprop:Generator_RowDeletingName="alert_employee_schedulingRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="id" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInTable="idColumn" type="xs:int" />
+              <xs:element name="PC_Stakeholder_Type_ID" msprop:Generator_UserColumnName="PC_Stakeholder_Type_ID" msprop:Generator_ColumnPropNameInRow="PC_Stakeholder_Type_ID" msprop:Generator_ColumnVarNameInTable="columnPC_Stakeholder_Type_ID" msprop:Generator_ColumnPropNameInTable="PC_Stakeholder_Type_IDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

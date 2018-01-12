@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="dsWF_Route.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>455, 17</value>
+  </metadata>
+  <metadata name="dsPO_Det1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>680, 17</value>
+  </metadata>
+  <metadata name="dsRevHist1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="bsPO_Hdr.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>791, 17</value>
+  </metadata>
+  <metadata name="dsPO_Hdr1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>343, 17</value>
+  </metadata>
+  <metadata name="TR_Conn.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand1.CommandText" xml:space="preserve">
+    <value>SELECT        c.KnownAs, l.Level_ID, l.Level_Description, a.Response, a.Response_Time, a.Response_Notes
+FROM            WF_Route AS h INNER JOIN
+                         WF_RouteDet AS a ON a.WF_Route_ID = h.WF_Route_ID INNER JOIN
+                         web_strike_test.dbo.Contact AS c ON c.ID = a.Contact_ID INNER JOIN
+                         web_strike_test.dbo.WS_Approval_Levels AS l ON l.Approval_Level_ID = a.Approval_Level_ID
+WHERE  h.WF_Route_ID=@WF_Route_ID
+ORDER BY l.Level_ID, c.KnownAs</value>
+  </data>
+  <metadata name="daWF_Route.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>116, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand2.CommandText" xml:space="preserve">
+    <value>select p.po_id, p.pri_num, p.po, p.order_date, p.org_due_date, p.supplier, t.DESCRIPTION AS POType, st.Description AS POSupplyType, 
+	s.name, p.po_add1, p.po_add2, p.po_city, p.po_state, p.po_zip, c.DESCRIPTION AS Country,
+	cast(ph.pri_code as varchar(15)) + ' - '+ph.pri_name [Project], 
+	isnull((select SUM(ISNULL(d.extension,0)) from PO_DETAIL d where d.po_id=p.po_id),0) [PurchaseAmount],
+	ISNULL(p.HOLD_AMT,0) [HOLD_AMT], p.ContractPO_Start_Date, p.ContractPO_End_Date, cst.SubType_Description
+from PO_HEADER p
+left outer join SUPPLIER_MASTER s on s.SUPPLIER=p.supplier
+left outer join COUNTRIES AS c ON c.COUNTRY_ID = p.po_country_id 
+left outer join PO_TYPE AS t ON t.TYPE = p.po_type 
+left outer join PO_SupplyType AS st ON st.PO_SupplyType_ID = p.po_supplytype_id 
+left outer join PROJ_HEADER ph on ph.pri_id=p.pri_num
+left outer join PO_ContractPO_SubType cst on cst.id=p.ContractPO_Subtype_ID
+where p.po_id=@po_id</value>
+  </data>
+  <metadata name="daPO_Hdr.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>236, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand3.CommandText" xml:space="preserve">
+    <value>select d.part_no_desc, d.qty_ordered, u.DESCRIPTION AS UnitOfMeasure, d.unit_price AS Amount, d.extension AS Total, d.reference, d.PART_NO_EXT_DESC, d.PO_DETAIL_ID
+from po_detail as d 
+LEFT OUTER JOIN UNITS_OF_MEASURE AS u ON u.UNIT_OF_MEASURE_CODE = d.uom
+where (d.po_id = @po_id)</value>
+  </data>
+  <metadata name="daPO_Det.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>574, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand4.CommandText" xml:space="preserve">
+    <value>SELECT REVISION_ID, PO_ID, PO_DETAIL_ID, USERNAME, REVISION_NUMBER, REVISION_TYPE, REVISION_DATE, PARTNO, PARTDESC, QUANTITY, UOM, ALT_UOM_USED, CONVERTED_QTY, CONVERTED_UNIT_PRICE, UNIT_PRICE, EXTENSION, Est_ID, CO_Num, CO_Desc FROM PO_DETAIL_REVISIONS WHERE (PO_DETAIL_ID = @po_detail_id)</value>
+  </data>
+  <metadata name="sqlInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO [PO_DETAIL_REVISIONS] ([PO_ID], [PO_DETAIL_ID], [USERNAME], [REVISION_NUMBER], [REVISION_TYPE], [REVISION_DATE], [PARTNO], [PARTDESC], [QUANTITY], [UOM], [ALT_UOM_USED], [CONVERTED_QTY], [CONVERTED_UNIT_PRICE], [UNIT_PRICE], [EXTENSION], [Est_ID], [CO_Num], [CO_Desc]) VALUES (@PO_ID, @PO_DETAIL_ID, @USERNAME, @REVISION_NUMBER, @REVISION_TYPE, @REVISION_DATE, @PARTNO, @PARTDESC, @QUANTITY, @UOM, @ALT_UOM_USED, @CONVERTED_QTY, @CONVERTED_UNIT_PRICE, @UNIT_PRICE, @EXTENSION, @Est_ID, @CO_Num, @CO_Desc);
+SELECT REVISION_ID, PO_ID, PO_DETAIL_ID, USERNAME, REVISION_NUMBER, REVISION_TYPE, REVISION_DATE, PARTNO, PARTDESC, QUANTITY, UOM, ALT_UOM_USED, CONVERTED_QTY, CONVERTED_UNIT_PRICE, UNIT_PRICE, EXTENSION, Est_ID, CO_Num, CO_Desc FROM PO_DETAIL_REVISIONS WHERE (REVISION_ID = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE [PO_DETAIL_REVISIONS] SET [PO_ID] = @PO_ID, [PO_DETAIL_ID] = @PO_DETAIL_ID, [USERNAME] = @USERNAME, [REVISION_NUMBER] = @REVISION_NUMBER, [REVISION_TYPE] = @REVISION_TYPE, [REVISION_DATE] = @REVISION_DATE, [PARTNO] = @PARTNO, [PARTDESC] = @PARTDESC, [QUANTITY] = @QUANTITY, [UOM] = @UOM, [ALT_UOM_USED] = @ALT_UOM_USED, [CONVERTED_QTY] = @CONVERTED_QTY, [CONVERTED_UNIT_PRICE] = @CONVERTED_UNIT_PRICE, [UNIT_PRICE] = @UNIT_PRICE, [EXTENSION] = @EXTENSION, [Est_ID] = @Est_ID, [CO_Num] = @CO_Num, [CO_Desc] = @CO_Desc WHERE (([REVISION_ID] = @Original_REVISION_ID) AND ((@IsNull_PO_ID = 1 AND [PO_ID] IS NULL) OR ([PO_ID] = @Original_PO_ID)) AND ((@IsNull_PO_DETAIL_ID = 1 AND [PO_DETAIL_ID] IS NULL) OR ([PO_DETAIL_ID] = @Original_PO_DETAIL_ID)) AND ((@IsNull_USERNAME = 1 AND [USERNAME] IS NULL) OR ([USERNAME] = @Original_USERNAME)) AND ((@IsNull_REVISION_NUMBER = 1 AND [REVISION_NUMBER] IS NULL) OR ([REVISION_NUMBER] = @Original_REVISION_NUMBER)) AND ((@IsNull_REVISION_TYPE = 1 AND [REVISION_TYPE] IS NULL) OR ([REVISION_TYPE] = @Original_REVISION_TYPE)) AND ((@IsNull_REVISION_DATE = 1 AND [REVISION_DATE] IS NULL) OR ([REVISION_DATE] = @Original_REVISION_DATE)) AND ((@IsNull_PARTNO = 1 AND [PARTNO] IS NULL) OR ([PARTNO] = @Original_PARTNO)) AND ((@IsNull_PARTDESC = 1 AND [PARTDESC] IS NULL) OR ([PARTDESC] = @Original_PARTDESC)) AND ((@IsNull_QUANTITY = 1 AND [QUANTITY] IS NULL) OR ([QUANTITY] = @Original_QUANTITY)) AND ((@IsNull_UOM = 1 AND [UOM] IS NULL) OR ([UOM] = @Original_UOM)) AND ((@IsNull_ALT_UOM_USED = 1 AND [ALT_UOM_USED] IS NULL) OR ([ALT_UOM_USED] = @Original_ALT_UOM_USED)) AND ((@IsNull_CONVERTED_QTY = 1 AND [CONVERTED_QTY] IS NULL) OR ([CONVERTED_QTY] = @Original_CONVERTED_QTY)) AND ((@IsNull_CONVERTED_UNIT_PRICE = 1 AND [CONVERTED_UNIT_PRICE] IS NULL) OR ([CONVERTED_UNIT_PRICE] = @Original_CONVERTED_UNIT_PRICE)) AND ((@IsNull_UNIT_PRICE = 1 AND [UNIT_PRICE] IS NULL) OR ([UNIT_PRICE] = @Original_UNIT_PRICE)) AND ((@IsNull_EXTENSION = 1 AND [EXTENSION] IS NULL) OR ([EXTENSION] = @Original_EXTENSION)) AND ((@IsNull_Est_ID = 1 AND [Est_ID] IS NULL) OR ([Est_ID] = @Original_Est_ID)) AND ((@IsNull_CO_Num = 1 AND [CO_Num] IS NULL) OR ([CO_Num] = @Original_CO_Num)) AND ((@IsNull_CO_Desc = 1 AND [CO_Desc] IS NULL) OR ([CO_Desc] = @Original_CO_Desc)));
+SELECT REVISION_ID, PO_ID, PO_DETAIL_ID, USERNAME, REVISION_NUMBER, REVISION_TYPE, REVISION_DATE, PARTNO, PARTDESC, QUANTITY, UOM, ALT_UOM_USED, CONVERTED_QTY, CONVERTED_UNIT_PRICE, UNIT_PRICE, EXTENSION, Est_ID, CO_Num, CO_Desc FROM PO_DETAIL_REVISIONS WHERE (REVISION_ID = @REVISION_ID)</value>
+  </data>
+  <metadata name="sqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM [PO_DETAIL_REVISIONS] WHERE (([REVISION_ID] = @Original_REVISION_ID) AND ((@IsNull_PO_ID = 1 AND [PO_ID] IS NULL) OR ([PO_ID] = @Original_PO_ID)) AND ((@IsNull_PO_DETAIL_ID = 1 AND [PO_DETAIL_ID] IS NULL) OR ([PO_DETAIL_ID] = @Original_PO_DETAIL_ID)) AND ((@IsNull_USERNAME = 1 AND [USERNAME] IS NULL) OR ([USERNAME] = @Original_USERNAME)) AND ((@IsNull_REVISION_NUMBER = 1 AND [REVISION_NUMBER] IS NULL) OR ([REVISION_NUMBER] = @Original_REVISION_NUMBER)) AND ((@IsNull_REVISION_TYPE = 1 AND [REVISION_TYPE] IS NULL) OR ([REVISION_TYPE] = @Original_REVISION_TYPE)) AND ((@IsNull_REVISION_DATE = 1 AND [REVISION_DATE] IS NULL) OR ([REVISION_DATE] = @Original_REVISION_DATE)) AND ((@IsNull_PARTNO = 1 AND [PARTNO] IS NULL) OR ([PARTNO] = @Original_PARTNO)) AND ((@IsNull_PARTDESC = 1 AND [PARTDESC] IS NULL) OR ([PARTDESC] = @Original_PARTDESC)) AND ((@IsNull_QUANTITY = 1 AND [QUANTITY] IS NULL) OR ([QUANTITY] = @Original_QUANTITY)) AND ((@IsNull_UOM = 1 AND [UOM] IS NULL) OR ([UOM] = @Original_UOM)) AND ((@IsNull_ALT_UOM_USED = 1 AND [ALT_UOM_USED] IS NULL) OR ([ALT_UOM_USED] = @Original_ALT_UOM_USED)) AND ((@IsNull_CONVERTED_QTY = 1 AND [CONVERTED_QTY] IS NULL) OR ([CONVERTED_QTY] = @Original_CONVERTED_QTY)) AND ((@IsNull_CONVERTED_UNIT_PRICE = 1 AND [CONVERTED_UNIT_PRICE] IS NULL) OR ([CONVERTED_UNIT_PRICE] = @Original_CONVERTED_UNIT_PRICE)) AND ((@IsNull_UNIT_PRICE = 1 AND [UNIT_PRICE] IS NULL) OR ([UNIT_PRICE] = @Original_UNIT_PRICE)) AND ((@IsNull_EXTENSION = 1 AND [EXTENSION] IS NULL) OR ([EXTENSION] = @Original_EXTENSION)) AND ((@IsNull_Est_ID = 1 AND [Est_ID] IS NULL) OR ([Est_ID] = @Original_Est_ID)) AND ((@IsNull_CO_Num = 1 AND [CO_Num] IS NULL) OR ([CO_Num] = @Original_CO_Num)) AND ((@IsNull_CO_Desc = 1 AND [CO_Desc] IS NULL) OR ([CO_Desc] = @Original_CO_Desc)))</value>
+  </data>
+  <metadata name="daRevHist.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>897, 17</value>
+  </metadata>
+</root>

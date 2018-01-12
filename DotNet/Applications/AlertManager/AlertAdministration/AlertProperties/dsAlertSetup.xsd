@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAlertSetup" targetNamespace="http://tempuri.org/dsAlertSetup.xsd" xmlns:mstns="http://tempuri.org/dsAlertSetup.xsd" xmlns="http://tempuri.org/dsAlertSetup.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAlertSetup" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsAlertSetup" msprop:Generator_DataSetName="dsAlertSetup">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="alert_land_reminder_setup" msprop:Generator_UserTableName="alert_land_reminder_setup" msprop:Generator_RowDeletedName="alert_land_reminder_setupRowDeleted" msprop:Generator_TableClassName="alert_land_reminder_setupDataTable" msprop:Generator_RowChangedName="alert_land_reminder_setupRowChanged" msprop:Generator_RowClassName="alert_land_reminder_setupRow" msprop:Generator_RowChangingName="alert_land_reminder_setupRowChanging" msprop:Generator_RowEvArgName="alert_land_reminder_setupRowChangeEvent" msprop:Generator_RowEvHandlerName="alert_land_reminder_setupRowChangeEventHandler" msprop:Generator_TablePropName="alert_land_reminder_setup" msprop:Generator_TableVarName="tablealert_land_reminder_setup" msprop:Generator_RowDeletingName="alert_land_reminder_setupRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="AlertID" msprop:Generator_UserColumnName="AlertID" msprop:Generator_ColumnPropNameInRow="AlertID" msprop:Generator_ColumnVarNameInTable="columnAlertID" msprop:Generator_ColumnPropNameInTable="AlertIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="X_Days" msprop:Generator_UserColumnName="X_Days" msprop:Generator_ColumnPropNameInRow="X_Days" msprop:Generator_ColumnVarNameInTable="columnX_Days" msprop:Generator_ColumnPropNameInTable="X_DaysColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Recurrence_Days" msprop:Generator_UserColumnName="Recurrence_Days" msprop:Generator_ColumnPropNameInRow="Recurrence_Days" msprop:Generator_ColumnVarNameInTable="columnRecurrence_Days" msprop:Generator_ColumnPropNameInTable="Recurrence_DaysColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Recurrence_Months" msprop:Generator_UserColumnName="Recurrence_Months" msprop:Generator_ColumnPropNameInRow="Recurrence_Months" msprop:Generator_ColumnVarNameInTable="columnRecurrence_Months" msprop:Generator_ColumnPropNameInTable="Recurrence_MonthsColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:alert_land_reminder_setup" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

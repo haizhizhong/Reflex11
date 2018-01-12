@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCertificate" targetNamespace="http://tempuri.org/dsCertificate.xsd" xmlns:mstns="http://tempuri.org/dsCertificate.xsd" xmlns="http://tempuri.org/dsCertificate.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCertificate" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsCertificate" msprop:Generator_DataSetName="dsCertificate">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="emp_certificates" msprop:Generator_TableClassName="emp_certificatesDataTable" msprop:Generator_TableVarName="tableemp_certificates" msprop:Generator_TablePropName="emp_certificates" msprop:Generator_RowDeletingName="emp_certificatesRowDeleting" msprop:Generator_RowChangingName="emp_certificatesRowChanging" msprop:Generator_RowEvHandlerName="emp_certificatesRowChangeEventHandler" msprop:Generator_RowDeletedName="emp_certificatesRowDeleted" msprop:Generator_UserTableName="emp_certificates" msprop:Generator_RowChangedName="emp_certificatesRowChanged" msprop:Generator_RowEvArgName="emp_certificatesRowChangeEvent" msprop:Generator_RowClassName="emp_certificatesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Certificate" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnCertificate" msprop:Generator_ColumnPropNameInRow="Certificate" msprop:Generator_ColumnPropNameInTable="CertificateColumn" msprop:Generator_UserColumnName="Certificate" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="106" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Employee" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnEmployee" msprop:Generator_ColumnPropNameInRow="Employee" msprop:Generator_ColumnPropNameInTable="EmployeeColumn" msprop:Generator_UserColumnName="Employee" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="61" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="expire_date" msprop:Generator_ColumnVarNameInTable="columnexpire_date" msprop:Generator_ColumnPropNameInRow="expire_date" msprop:Generator_ColumnPropNameInTable="expire_dateColumn" msprop:Generator_UserColumnName="expire_date" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

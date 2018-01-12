@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsComPur" targetNamespace="http://tempuri.org/dsComPur.xsd" xmlns:mstns="http://tempuri.org/dsComPur.xsd" xmlns="http://tempuri.org/dsComPur.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsComPur" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsComPur" msprop:Generator_DataSetName="dsComPur">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="alert_land_reminder_com_purpose" msprop:Generator_UserTableName="alert_land_reminder_com_purpose" msprop:Generator_RowDeletedName="alert_land_reminder_com_purposeRowDeleted" msprop:Generator_TableClassName="alert_land_reminder_com_purposeDataTable" msprop:Generator_RowChangedName="alert_land_reminder_com_purposeRowChanged" msprop:Generator_RowClassName="alert_land_reminder_com_purposeRow" msprop:Generator_RowChangingName="alert_land_reminder_com_purposeRowChanging" msprop:Generator_RowEvArgName="alert_land_reminder_com_purposeRowChangeEvent" msprop:Generator_RowEvHandlerName="alert_land_reminder_com_purposeRowChangeEventHandler" msprop:Generator_TablePropName="alert_land_reminder_com_purpose" msprop:Generator_TableVarName="tablealert_land_reminder_com_purpose" msprop:Generator_RowDeletingName="alert_land_reminder_com_purposeRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="AlertID" msprop:Generator_UserColumnName="AlertID" msprop:Generator_ColumnPropNameInRow="AlertID" msprop:Generator_ColumnVarNameInTable="columnAlertID" msprop:Generator_ColumnPropNameInTable="AlertIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="COMM_PUR_ID" msprop:Generator_UserColumnName="COMM_PUR_ID" msprop:Generator_ColumnPropNameInRow="COMM_PUR_ID" msprop:Generator_ColumnVarNameInTable="columnCOMM_PUR_ID" msprop:Generator_ColumnPropNameInTable="COMM_PUR_IDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:alert_land_reminder_com_purpose" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAP_NonPORoute" targetNamespace="http://tempuri.org/dsAP_NonPORoute.xsd" xmlns:mstns="http://tempuri.org/dsAP_NonPORoute.xsd" xmlns="http://tempuri.org/dsAP_NonPORoute.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAP_NonPORoute" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsAP_NonPORoute" msprop:Generator_DataSetName="dsAP_NonPORoute">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AP_NonPORouteDet" msprop:Generator_UserTableName="AP_NonPORouteDet" msprop:Generator_RowDeletedName="AP_NonPORouteDetRowDeleted" msprop:Generator_TableClassName="AP_NonPORouteDetDataTable" msprop:Generator_RowChangedName="AP_NonPORouteDetRowChanged" msprop:Generator_RowClassName="AP_NonPORouteDetRow" msprop:Generator_RowChangingName="AP_NonPORouteDetRowChanging" msprop:Generator_RowEvArgName="AP_NonPORouteDetRowChangeEvent" msprop:Generator_RowEvHandlerName="AP_NonPORouteDetRowChangeEventHandler" msprop:Generator_TablePropName="AP_NonPORouteDet" msprop:Generator_TableVarName="tableAP_NonPORouteDet" msprop:Generator_RowDeletingName="AP_NonPORouteDetRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KnownAs" msprop:Generator_UserColumnName="KnownAs" msprop:Generator_ColumnPropNameInRow="KnownAs" msprop:Generator_ColumnVarNameInTable="columnKnownAs" msprop:Generator_ColumnPropNameInTable="KnownAsColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Level_ID" msprop:Generator_UserColumnName="Level_ID" msprop:Generator_ColumnPropNameInRow="Level_ID" msprop:Generator_ColumnVarNameInTable="columnLevel_ID" msprop:Generator_ColumnPropNameInTable="Level_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Level_Description" msprop:Generator_UserColumnName="Level_Description" msprop:Generator_ColumnPropNameInRow="Level_Description" msprop:Generator_ColumnVarNameInTable="columnLevel_Description" msprop:Generator_ColumnPropNameInTable="Level_DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="response" msprop:Generator_UserColumnName="response" msprop:Generator_ColumnPropNameInRow="response" msprop:Generator_ColumnVarNameInTable="columnresponse" msprop:Generator_ColumnPropNameInTable="responseColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="response_time" msprop:Generator_UserColumnName="response_time" msprop:Generator_ColumnPropNameInRow="response_time" msprop:Generator_ColumnVarNameInTable="columnresponse_time" msprop:Generator_ColumnPropNameInTable="response_timeColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="response_notes" msprop:Generator_UserColumnName="response_notes" msprop:Generator_ColumnPropNameInRow="response_notes" msprop:Generator_ColumnVarNameInTable="columnresponse_notes" msprop:Generator_ColumnPropNameInTable="response_notesColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

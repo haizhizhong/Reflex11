@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAlert" targetNamespace="http://tempuri.org/dsAlert.xsd" xmlns:mstns="http://tempuri.org/dsAlert.xsd" xmlns="http://tempuri.org/dsAlert.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAlert" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsAlert" msprop:Generator_DataSetName="dsAlert">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Alert" msprop:Generator_UserTableName="Alert" msprop:Generator_RowDeletedName="AlertRowDeleted" msprop:Generator_RowChangedName="AlertRowChanged" msprop:Generator_RowClassName="AlertRow" msprop:Generator_RowChangingName="AlertRowChanging" msprop:Generator_RowEvArgName="AlertRowChangeEvent" msprop:Generator_RowEvHandlerName="AlertRowChangeEventHandler" msprop:Generator_TableClassName="AlertDataTable" msprop:Generator_TableVarName="tableAlert" msprop:Generator_RowDeletingName="AlertRowDeleting" msprop:Generator_TablePropName="Alert">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="TYPE" msprop:Generator_UserColumnName="TYPE" msprop:Generator_ColumnPropNameInRow="TYPE" msprop:Generator_ColumnVarNameInTable="columnTYPE" msprop:Generator_ColumnPropNameInTable="TYPEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AAP_ID" msprop:Generator_UserColumnName="AAP_ID" msprop:Generator_ColumnPropNameInRow="AAP_ID" msprop:Generator_ColumnVarNameInTable="columnAAP_ID" msprop:Generator_ColumnPropNameInTable="AAP_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="APP_MOD_ID" msprop:Generator_UserColumnName="APP_MOD_ID" msprop:Generator_ColumnPropNameInRow="APP_MOD_ID" msprop:Generator_ColumnVarNameInTable="columnAPP_MOD_ID" msprop:Generator_ColumnPropNameInTable="APP_MOD_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SUBJECT" msprop:Generator_UserColumnName="SUBJECT" msprop:Generator_ColumnPropNameInRow="SUBJECT" msprop:Generator_ColumnVarNameInTable="columnSUBJECT" msprop:Generator_ColumnPropNameInTable="SUBJECTColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MODULE" msprop:Generator_UserColumnName="MODULE" msprop:Generator_ColumnPropNameInRow="MODULE" msprop:Generator_ColumnVarNameInTable="columnMODULE" msprop:Generator_ColumnPropNameInTable="MODULEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RECEIVED" msprop:Generator_UserColumnName="RECEIVED" msprop:Generator_ColumnPropNameInRow="RECEIVED" msprop:Generator_ColumnVarNameInTable="columnRECEIVED" msprop:Generator_ColumnPropNameInTable="RECEIVEDColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="NOTES" msprop:Generator_UserColumnName="NOTES" msprop:Generator_ColumnPropNameInRow="NOTES" msprop:Generator_ColumnVarNameInTable="columnNOTES" msprop:Generator_ColumnPropNameInTable="NOTESColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VIEWED" msprop:Generator_UserColumnName="VIEWED" msprop:Generator_ColumnPropNameInRow="VIEWED" msprop:Generator_ColumnVarNameInTable="columnVIEWED" msprop:Generator_ColumnPropNameInTable="VIEWEDColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DETAIL_ID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="DETAIL_ID" msprop:Generator_ColumnVarNameInTable="columnDETAIL_ID" msprop:Generator_ColumnPropNameInRow="DETAIL_ID" msprop:Generator_ColumnPropNameInTable="DETAIL_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="COMPLETED_TF" msprop:Generator_UserColumnName="COMPLETED_TF" msprop:Generator_ColumnPropNameInRow="COMPLETED_TF" msprop:Generator_ColumnVarNameInTable="columnCOMPLETED_TF" msprop:Generator_ColumnPropNameInTable="COMPLETED_TFColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Alert" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

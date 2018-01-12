@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsPST" targetNamespace="http://www.tempuri.org/dsPST.xsd" xmlns:mstns="http://www.tempuri.org/dsPST.xsd" xmlns="http://www.tempuri.org/dsPST.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsPST" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="SALES_TAXES">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SALES_TAX_ID" type="xs:int" />
+              <xs:element name="SALES_TAX_CODE" type="xs:string" />
+              <xs:element name="DESCRIPTION" type="xs:string" minOccurs="0" />
+              <xs:element name="SALES_TAX" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:SALES_TAXES" />
+      <xs:field xpath="mstns:SALES_TAX_CODE" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes" ?>
+<xs:schema id="dsPOInvSelect" targetNamespace="http://www.tempuri.org/dsPOInvSelect.xsd" xmlns:mstns="http://www.tempuri.org/dsPOInvSelect.xsd"
+	xmlns="http://www.tempuri.org/dsPOInvSelect.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="dsPOInvSelect" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="working_PO_Inv_Select">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="username" type="xs:string" minOccurs="0" />
+							<xs:element name="po_rec_id" type="xs:int" minOccurs="0" />
+							<xs:element name="po" type="xs:string" minOccurs="0" />
+							<xs:element name="receiver_number" type="xs:string" minOccurs="0" />
+							<xs:element name="receipt_date" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="receive_amt" type="xs:decimal" minOccurs="0" />
+							<xs:element name="outstanding_amt" type="xs:decimal" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

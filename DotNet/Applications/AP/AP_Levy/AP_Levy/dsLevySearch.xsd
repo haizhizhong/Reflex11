@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsLevySearch" targetNamespace="http://tempuri.org/dsLevySearch.xsd" xmlns:mstns="http://tempuri.org/dsLevySearch.xsd" xmlns="http://tempuri.org/dsLevySearch.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsLevySearch" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsLevySearch" msprop:Generator_DataSetName="dsLevySearch">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AP_LevySelect_Working" msprop:Generator_UserTableName="AP_LevySelect_Working" msprop:Generator_RowDeletedName="AP_LevySelect_WorkingRowDeleted" msprop:Generator_RowChangedName="AP_LevySelect_WorkingRowChanged" msprop:Generator_RowClassName="AP_LevySelect_WorkingRow" msprop:Generator_RowChangingName="AP_LevySelect_WorkingRowChanging" msprop:Generator_RowEvArgName="AP_LevySelect_WorkingRowChangeEvent" msprop:Generator_RowEvHandlerName="AP_LevySelect_WorkingRowChangeEventHandler" msprop:Generator_TableClassName="AP_LevySelect_WorkingDataTable" msprop:Generator_TableVarName="tableAP_LevySelect_Working" msprop:Generator_RowDeletingName="AP_LevySelect_WorkingRowDeleting" msprop:Generator_TablePropName="AP_LevySelect_Working">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="username" msprop:Generator_UserColumnName="username" msprop:Generator_ColumnVarNameInTable="columnusername" msprop:Generator_ColumnPropNameInRow="username" msprop:Generator_ColumnPropNameInTable="usernameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="selected" msprop:Generator_UserColumnName="selected" msprop:Generator_ColumnVarNameInTable="columnselected" msprop:Generator_ColumnPropNameInRow="selected" msprop:Generator_ColumnPropNameInTable="selectedColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="ProjectNo" msprop:Generator_UserColumnName="ProjectNo" msprop:Generator_ColumnVarNameInTable="columnProjectNo" msprop:Generator_ColumnPropNameInRow="ProjectNo" msprop:Generator_ColumnPropNameInTable="ProjectNoColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Project" msprop:Generator_UserColumnName="Project" msprop:Generator_ColumnVarNameInTable="columnProject" msprop:Generator_ColumnPropNameInRow="Project" msprop:Generator_ColumnPropNameInTable="ProjectColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Purchaser_ID" msprop:Generator_UserColumnName="Purchaser_ID" msprop:Generator_ColumnVarNameInTable="columnPurchaser_ID" msprop:Generator_ColumnPropNameInRow="Purchaser_ID" msprop:Generator_ColumnPropNameInTable="Purchaser_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Purchaser" msprop:Generator_UserColumnName="Purchaser" msprop:Generator_ColumnVarNameInTable="columnPurchaser" msprop:Generator_ColumnPropNameInRow="Purchaser" msprop:Generator_ColumnPropNameInTable="PurchaserColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MasterAgreementNo" msprop:Generator_UserColumnName="MasterAgreementNo" msprop:Generator_ColumnVarNameInTable="columnMasterAgreementNo" msprop:Generator_ColumnPropNameInRow="MasterAgreementNo" msprop:Generator_ColumnPropNameInTable="MasterAgreementNoColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="AgreementNo" msprop:Generator_UserColumnName="AgreementNo" msprop:Generator_ColumnVarNameInTable="columnAgreementNo" msprop:Generator_ColumnPropNameInRow="AgreementNo" msprop:Generator_ColumnPropNameInTable="AgreementNoColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Lot" msprop:Generator_UserColumnName="Lot" msprop:Generator_ColumnVarNameInTable="columnLot" msprop:Generator_ColumnPropNameInRow="Lot" msprop:Generator_ColumnPropNameInTable="LotColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Block" msprop:Generator_UserColumnName="Block" msprop:Generator_ColumnVarNameInTable="columnBlock" msprop:Generator_ColumnPropNameInRow="Block" msprop:Generator_ColumnPropNameInTable="BlockColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Plan" msprop:Generator_UserColumnName="Plan" msprop:Generator_ColumnVarNameInTable="columnPlan" msprop:Generator_ColumnPropNameInRow="Plan" msprop:Generator_ColumnPropNameInTable="PlanColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LevyDescription" msprop:Generator_UserColumnName="LevyDescription" msprop:Generator_ColumnVarNameInTable="columnLevyDescription" msprop:Generator_ColumnPropNameInRow="LevyDescription" msprop:Generator_ColumnPropNameInTable="LevyDescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LevyType" msprop:Generator_UserColumnName="LevyType" msprop:Generator_ColumnVarNameInTable="columnLevyType" msprop:Generator_ColumnPropNameInRow="LevyType" msprop:Generator_ColumnPropNameInTable="LevyTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Amount" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnPropNameInTable="AmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="proj_lot_agreement_levy_id" msprop:Generator_UserColumnName="proj_lot_agreement_levy_id" msprop:Generator_ColumnPropNameInRow="proj_lot_agreement_levy_id" msprop:Generator_ColumnVarNameInTable="columnproj_lot_agreement_levy_id" msprop:Generator_ColumnPropNameInTable="proj_lot_agreement_levy_idColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:AP_LevySelect_Working" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

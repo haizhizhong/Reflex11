@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsLevyType" targetNamespace="http://tempuri.org/dsLevyType.xsd" xmlns:mstns="http://tempuri.org/dsLevyType.xsd" xmlns="http://tempuri.org/dsLevyType.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsLevyType" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsLevyType" msprop:Generator_DataSetName="dsLevyType">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_LevyType" msprop:Generator_UserTableName="LD_LevyType" msprop:Generator_RowDeletedName="LD_LevyTypeRowDeleted" msprop:Generator_TableClassName="LD_LevyTypeDataTable" msprop:Generator_RowChangedName="LD_LevyTypeRowChanged" msprop:Generator_RowClassName="LD_LevyTypeRow" msprop:Generator_RowChangingName="LD_LevyTypeRowChanging" msprop:Generator_RowEvArgName="LD_LevyTypeRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_LevyTypeRowChangeEventHandler" msprop:Generator_TablePropName="LD_LevyType" msprop:Generator_TableVarName="tableLD_LevyType" msprop:Generator_RowDeletingName="LD_LevyTypeRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LevyType_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="LevyType_ID" msprop:Generator_ColumnPropNameInRow="LevyType_ID" msprop:Generator_ColumnVarNameInTable="columnLevyType_ID" msprop:Generator_ColumnPropNameInTable="LevyType_IDColumn" type="xs:int" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PaidTo" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PaidTo" msprop:Generator_ColumnPropNameInRow="PaidTo" msprop:Generator_ColumnVarNameInTable="columnPaidTo" msprop:Generator_ColumnPropNameInTable="PaidToColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LD_LevyType" />
+      <xs:field xpath="mstns:LevyType_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

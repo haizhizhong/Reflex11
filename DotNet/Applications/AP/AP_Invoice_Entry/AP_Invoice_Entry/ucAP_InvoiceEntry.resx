@@ -1,0 +1,1454 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="dsInvHeader1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnSharepoint.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIcAAMMMBwByCyRf3KsDAf/TG6oAAOvw/SZfJ6sDAwg/yAFpDgo+wgBlBzZn0iTJQFmJ
+        8v9GQQ0YpvlDQH9VS1wKCotmZv2mBN9zAD5x6d17AP/DweAWEv+Ph5ZnN4Ws+Bq5OQQQkjHRRP3FAxyz
+        M5IfH6X/urZIAieOKnVHCjB1+lSG7jt8/wakHTRn1dtgAESaBjzXO//tKoXvmBg+0HHphL3+z/yNiv3D
+        ATHQPzzJVU194A2cFytr7Ei6MP2sCMsEAaP6r2gmJrj+w/uxEvLb2RSxK/1/eTO/SvlwaAOPDI1LS//7
+        +/r28aHE/J1aSGDnd5JtBCmcGy7BKUrNYGCO8QMWyfsyKPc7NpO2+gWpGE7SSpv5sSZc5P/fL+rPxP2d
+        ANv43/z/o6mvb8UeCtcMCuAjHJD1ohg+v+OEAgYWu367LN6kah6FEHur/z3kYACYCv/gsgsengKYDlSF
+        8P/QgD7ZV+6PE9hyW3lLS71MS5VnKik4sA8dnCBi6R+4Nf6IhF2L71Dca7ugNQKmEP9FSSYukgkkuygv
+        oXfsjZNBQV7jdalPTecxLf//fDht8hEdmD5x2AAFkc3/0ylW1aJwAFzZbv//jN52dKAfH6bG/dPd905s
+        2OK1mP6uE//FGetYQPHFRhPJLbrBnP/UG1ABATVw6FkBAe/W1SfKQ3ie8eMKBmuW88Da//upo//dJv/C
+        wf+RkNNtAPzU0kKcQyVT08AAAP6/EeylAP/79TE9nf+Bf/VaUKvQ/wCCEDAwlNQVDYur9bikr/3GByZs
+        KUZYltxaVcTV+BEWhPdmXrE5N9UcE1MGBrXW/yZ/Ktng/Iu4/4v3mDBHtQOJBR9NzL9bA4z4oukkIAD/
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        ACH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAADXACwAAAAAEAAQAAAI/wCvCcRFp5OdNUyuLWl1xVoxIgKv
+        wfFkqUssTtdkQXjFgUyeawacBRvViIALMWBEEdJg5BcmYw8cndFzKwMULW6KoGBUZsCiObyYYeBDzUSP
+        EpICJUFQINkpLk2wQEoDaoiULUCmvLkjYcOlTZMaGMoVxtWLD0d2sPECSxkJTTOqRBAUwxYlOYOkdbCB
+        BEAQD8/alCImzIeaatDqRPmDDMCyFawy6YgjwgKMGkIq9dK1CwCpFMBStTh24wsOMzJyKPhk5YcpHqsA
+        CXiE5kIIRDRQBRijqhaFPlRUCADhZEKoJ4ocBEikBE+FBLSmLYgkMIufESwYRLwWbc+hQr4Ezgs60WzY
+        ge3o06MPCAA7
+</value>
+  </data>
+  <metadata name="dsHeaderSide1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>138, 17</value>
+  </metadata>
+  <metadata name="dsTerms1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>356, 56</value>
+  </metadata>
+  <metadata name="dsCurrency1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>462, 17</value>
+  </metadata>
+  <metadata name="dsAPSetupGL1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>758, 17</value>
+  </metadata>
+  <metadata name="dsSupplier1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>264, 17</value>
+  </metadata>
+  <metadata name="dsGST1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>373, 17</value>
+  </metadata>
+  <metadata name="dsPST1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>575, 17</value>
+  </metadata>
+  <metadata name="dsAllPO1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>663, 17</value>
+  </metadata>
+  <metadata name="dsSwapSeg1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>882, 17</value>
+  </metadata>
+  <metadata name="bsWorkFlow.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>483, 212</value>
+  </metadata>
+  <metadata name="dsAllocSeg1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>996, 17</value>
+  </metadata>
+  <metadata name="dsPO1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 56</value>
+  </metadata>
+  <metadata name="dsSupplier1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>264, 17</value>
+  </metadata>
+  <metadata name="dsGST1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>373, 17</value>
+  </metadata>
+  <metadata name="dsPST1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>575, 17</value>
+  </metadata>
+  <metadata name="dsSwapSeg1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>882, 17</value>
+  </metadata>
+  <metadata name="bsWorkFlow.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>483, 212</value>
+  </metadata>
+  <metadata name="dsWorkFlow1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>358, 212</value>
+  </metadata>
+  <metadata name="dsWorkFlow1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>358, 212</value>
+  </metadata>
+  <metadata name="dsAllocSeg1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>996, 17</value>
+  </metadata>
+  <metadata name="dockManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>223, 56</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>52</value>
+  </metadata>
+  <data name="hlMultiCBEntry.Properties.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAYAAAAVibZIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAARDSURBVEhLlZVbTBxVGMdnZ2eBcN0gVGC5LwEEi0UaH0wfLJJqSuOTiY1trKiNkTRNeGmsTbzE
+        0qotrKV1i1BIeBBDSRphIVxKFYGyBbtCo5QFGhVkueyy15m9scDnd87MEhMbHf/JP2fn7P/7zdkz35xl
+        OI5jtAWlT2fk7T+oydlHXJ4Wdva+8nRtWXlGTlFhgjoxKjt///N7MkpelFxBnEycXlKh0T5XkZaRn8sw
+        jIJRRcTEGEYsDosTYNEm+g+r5HWAJTtAS4fx1/y9Bw9NzAHMWyQv78DcrrdhEXPnLnbeRihRVFL30MMA
+        /Ita2ocWElLKjs8vBaWZx6vmw9YJkamIeqKz7xc3mfQHtyGA9gW2qAX/Fg1fbxt4qE4tOzo9J9BrbwAz
+        +J3gE+0L7tD50x80j4pQJjKpo2eaQr1+DBMojgKal6ANLf2z8Smlr5vMNAa8dwt4H2a8mMExDK0+8/XY
+        LvSbrimaFvwhujpi3hcCF5pI19g7G5NcemxyRoR6EOpBIBldQghvvg3k9idr9GFoRHLbLRNNe/Cn8Gi3
+        N4TeBIewSabhkt4wG5lYcnz8gYNeuwTM8Fvg5EPg8GyCG2vIbr95+moYqtrT2jHpIWEnQlxohxAEBx+E
+        DY/4YC5e6zKr4ovfGDNha6DsHoS5Q/R7mzsADm8QcOFw7FTD3V1oU/sEhZLAhhthaBva6hSh5698Z1bE
+        Fp0YnsQ+Q605/bCKFkcfWBGOC4aj7+rCUC6l+duJx/aKuP0AF650/cZEFJw0PsBmRIXniXCBu3rtnfr7
+        FKnkItW1+vGV0Z+dMHRvHYaM6zBoXIMB4yr0j6/CsMkONZ90mhJTy165ccsCd+7ZoW/MSt07tg49I2vQ
+        M2qFgUkfvPr21SEK5TgVl5r17AEu4ZkTyrjiKtFFVazot9j4vVVJacUH4uLV8erkp15QRmsPczHaSi6W
+        OPcIsTIm90hUQmGlOikrH5EKhlNFxZ0622Kob+o31zUazHV6g/nyV91zl/VoHOuu985Vn7nRxyrYWLoK
+        eeI0rTen/r41/1BT+/1tzKVLBXLEaa613eVJMek9DzazEx+l0xMAm0s8EnTNwzzufoZUIEdKTUPrCIU6
+        3QSGPegibRWCNRyJvmj8nkAzpQI5Uqbrmn+kUCv2nRXBVtcm9l8ALA4fhdY23EYomyUVyBGb+bn+DoWu
+        0GYOwIrDD8t2L56nApAX9eP6PoQq/g9UkXWhYZBC/7T5YNnmR5gXfkc/WuEBDyE4d6mXQLOlAlnK+lTX
+        T6GPLDyCBOoFtHmZp6/f+7XdAubIX4Vs5Zz/sp8+ESu/DXZc2oZ3h35edYmdhtAg5vLEuAyxrDL97Gc/
+        wOIawNR8CKYXNsE0H4SfzH6YmAnAzBKe6B8NAubkP31WqYrOKTz0XlpeZV2q9uV60S/pUiQ/qT2syyyo
+        qGZZVbRUIksKafwvycwxzF9SXPSEoD62MAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="hlOverridePWPStatus.Properties.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABcAAAAYCAYAAAARfGZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAH6SURBVEhLrdbPSlVRFMdx7fovQcQ/gZKgIggOnBTYA3TBB/EJHIigSJREiqKiUkSgIATSXBTR
+        pBTxLzZsZDXSegEngn5/h7sv66yzrSs0+OA9a6+19vace/c+Zd8H8v/TA5SHazvwHNvoNrH76MEO8iEW
+        Bp7gAjc4RRvCWCnacQbVX+IpkuadOIcGgkO0wDeJeYwj2Pof6NBgJUYKQWsPj+CbWVrAPnztMCpCkiZ4
+        AZ+ke9gA2zBoxhf4mjGoX+qBVuE1fPIm6mFzG7EFn/sKSWOxBVKNKfiiNdRBOZpoHT5nAlpgsV/xg6EJ
+        5uCLP0L3eNXEghmkGkvqwqjBW9gG17gq/LXxBWhBmT6ZgPEQH2Abee+hhcTq/9pcarGCWONlaAGxukQ0
+        aGhVS4g113+Vuc9WNFig+/gOscbBIopfPS8ahFY0D9vorgc6iwpk+mQC0EqmYRuIvoLaoD6ZWDCJzASp
+        C6jxG/jiDYRtoAn61fqccaQmKH6ABl7CF2mPV0Obqw3tM3yu9pUckryQrMaj8MlfcdfOqF+rdk5fox0x
+        mUBJajwEn6SttBW+qaVD5QC+dhA5Jeiw+FkIBsco9TTSQz6Brf+FzpDQh9/QgI6rDtgG/9KFb1D9HzxD
+        6oH2Q/dYB62Nl6oXu1CfJGYH9UqgVwMbuy/zapEvuwVw7PndcDMu3wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="hlOverrideCompliance.Properties.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABcAAAAYCAYAAAARfGZ1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAH6SURBVEhLrdbPSlVRFMdx7fovQcQ/gZKgIggOnBTYA3TBB/EJHIigSJREiqKiUkSgIATSXBTR
+        pBTxLzZsZDXSegEngn5/h7sv66yzrSs0+OA9a6+19vace/c+Zd8H8v/TA5SHazvwHNvoNrH76MEO8iEW
+        Bp7gAjc4RRvCWCnacQbVX+IpkuadOIcGgkO0wDeJeYwj2Pof6NBgJUYKQWsPj+CbWVrAPnztMCpCkiZ4
+        AZ+ke9gA2zBoxhf4mjGoX+qBVuE1fPIm6mFzG7EFn/sKSWOxBVKNKfiiNdRBOZpoHT5nAlpgsV/xg6EJ
+        5uCLP0L3eNXEghmkGkvqwqjBW9gG17gq/LXxBWhBmT6ZgPEQH2Abee+hhcTq/9pcarGCWONlaAGxukQ0
+        aGhVS4g113+Vuc9WNFig+/gOscbBIopfPS8ahFY0D9vorgc6iwpk+mQC0EqmYRuIvoLaoD6ZWDCJzASp
+        C6jxG/jiDYRtoAn61fqccaQmKH6ABl7CF2mPV0Obqw3tM3yu9pUckryQrMaj8MlfcdfOqF+rdk5fox0x
+        mUBJajwEn6SttBW+qaVD5QC+dhA5Jeiw+FkIBsco9TTSQz6Brf+FzpDQh9/QgI6rDtgG/9KFb1D9HzxD
+        6oH2Q/dYB62Nl6oXu1CfJGYH9UqgVwMbuy/zapEvuwVw7PndcDMu3wAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="hlEventHistory.Properties.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABYAAAAQCAYAAAAS7Y8mAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAR3SURBVDhPjZN7MNV5GId/xbY1adVO2mE3YbaU1jKpVCZFzdpQFnNIurgUckuXlSXrcpYjHEkU
+        CXFSThenSK1tVbszGyqEZnOpjSklHXdiuz1rrL+amumZef96P+/zvjPf+QofQkN9suC1ZsF091WGdpvM
+        54W4ms2OWm+qG+20aNZPIpOvHOyNtTQ/m6g6lv4IVMePE8RbLL69sn9z3utrkgfUHILmbGjLh4e5UJFI
+        pzyIavG6lgRrPbmzvtqicWOzH0TnC3XheLB9FLeTh2nNp69ORktFLvXXcqj89Rjll7O5c01G81/5PL2R
+        TXdJJDdCLF/uWTAl8XMV4f3nG+pqqDXl7bhMdRqNZYdRZEmI2umJ01prFptaoDvfHG2D5ZgsXIGdlRWh
+        fh7IM6XUlqTyT7Y/6et0rqqPF6aO6f5H7VNVoVSy4cSTS7HkSUMI2+HNUnM7LGzc2bYjnNC4NCKSsog+
+        lENMyjECgqNHepsxWvgdgZ5byE4MpS4zkJjvdQtVBGH8mFYQQhwXi1oK9nIg1I8jhw4SJ03H1j2aiIxS
+        Lty+T+VjJRmKMlz9xESnyVGUN5FefBsHr1iC9yUglUiQ7NrK9UgRTnOnuo1K52iqqxTuE1XliP1RFCro
+        6OxBnCxna3geR8/fpOqJkobBF9ztGcDGdTfG5i5EHDhBcXkzoQfPs0ecQ9szJaflcqR+LsTZzrujMUGY
+        IGy30LG8nug5fEZ+joGh13R19+O2M4WAmLMky8pIOXVxRNpP6unLmFm5sdjSFWtRIPLfaojPvY6Tz37a
+        O7oYfg1nC4tItjccNFcTVgl2SwzC/jgj4/7DdoZHuu0d3Wz0T8InUk5S3u9Y2G5lmdUmTMydMVnujJGZ
+        IyttPDh5qQrx0Ss4bpPwqK2DV6/gcecLCpLjMZ42LUyYbeLgVlT2iM52JV09g3QoewmKyMR1VybpZyrx
+        DZYyY9YS9OavZo6RFVp6ZgSFJXPhzyaCYk7jufsgT9q76O0fort3gONFLWjMtvIQNLT0JwXHltQ0PVDy
+        7HkPff3/IjtbhrloHz+nXSFLcYuAkCSWrnTGdIWIwL1Szl/9m4zCala7RJOWXURv3zDK7gGaWvvZGCCr
+        nzRFS330AfWNba0zC+retLX3oOx6wYPWDjx2JrHKRYw4vYy8klpyFRXkFlZwruweqadu8oO3FJFXDA33
+        n9LTN0S7sp+Eo7feauqttB+VjjD6Iw1NRe5H8mvf1DU+o6t3iOq7D9nsn4CFKBzvcBkRh0uJSCsl6Bc5
+        q9dH4ugZRWVNM30DL6lvek58RuVbHQMbn1Hju+gYWNl6/XiyNq/wLg0tg9TdayM1uxi/kFTW+0pw9o3D
+        OziFpPRzI4tbaRzJZMnrcNmeVT995gqHMc37GfeJuqaRmVuw/Rbprfj08p6Txc0UXGxEXtJIwUjlFzUg
+        UzQSm3aj18Zlf5W+yYYQQZg8c2z8Y1BV1dRdtlxbf7WPjsGaGL1v1qbozrdN0Z67JvbLry19Z2gvsRAE
+        lYlj4XcQhP8Aga+2XCaNbrYAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="hlNewInv.Properties.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="hlRefresh.Properties.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        z/it7AniT9kwv801ZPP3AAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="hlPrint.Properties.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="hlBalance.Properties.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAATOSURBVEhLtZP7T5NnFMdLZGwBNy1DEIkxomFRZF5oRVTckk1hCHLfliX7YQqCF0z2J+wnQWFz
+        S7YM5wUV8DZdBErJzLIJFFoY3kV28RYnbbG0oNAKTr475zzvW3E/b2/y6Tnv0z7fz3nat4aXXwk1xMZH
+        zIqMm7beOGfa+kghdIMQp9V/90FeCmIM9qEbZs8LXzR9RpiBrhDDnPjwud/8mHftbE85zvbswveOHcJp
+        jVOObThl34aT9jKc6CrDyc5SqiU43rlVYStBg60Y9bYtaOjYQmvFONT2vtf0bmwGGwxkzDrTvR2OB5/B
+        2r8Drf27BGt/ObFT1qw3d6Dl5nZYhG2w9JVptRTNfVvRdKOU2IrG68U4f6scLb+VY+lb0ftEYIwNTefJ
+        +IMHOjJR25WL2s6cIIdtm3C4k+BKHGI6shW2LEUHsxEH2jNxvLcAZ65uRtLaWRUiiIwNSz/a9gkab9DR
+        aPORznwiT6gVWKhhYyGJRabkImTaSdiehQYSNPR+hMTVUbtFYJwdln7kwsew9JegzpGP+u4i1PcUUi1A
+        ncYxWj9KHHPk4Zg9l/o8HOVqz8ERota+iU7Ow2XjxJV81PUUYdGqKHWCqLjQ9IofzNj/y3p81bpO+NKa
+        hn0ta4k1+MKyBp9bUlFtWaVoTsHeZjOqmszY02RCZWMysQKV51ag4twyVFmTsbsxCQnmcCWImRuXcfpC
+        DX6+chDW7v1oJazd30lt7a6hvgYt9v1ocejUwEJItdegWaerBk1d3+KnSwfQ2nsQK9JSlOD12CUZ95z4
+        T67JSa2ha807mys1wRsZ1/8clcXh0XGMjE5IHR7T+sfj8BF69T1+Ai/BvZd5pO65DhETzwCvH0h5+0NN
+        MDvhvat/jIiAN7wQNsqbtVDa7Hs0jiG6945Q2IiqEky9R2oAT/8Ghmhe87oPlMAYk5B5+XdNQAFqQiXg
+        yXgqmZLDOYTwUBCHeUgQZPgJHhLjdILBR4AprUgJZkYnZF7sHxaBhHGwFvQcCqTqoaoCVX1IldHDB4cD
+        GKcTuFmwtnCPCGbMWpj5a58mkI006ZTJhmiTHhAMprVBHwcSPu5J5PPDTTwhgZO+kOWrC/cqQdTCzJ7r
+        QyLgjXqwwME8Ja3rSKBUP1VCggNw0y/LgsDTSQz4SJBaoASvRS3Y6LjmEYFbBBykpnwhVHgeqK/pwW6v
+        6v0k+IvmXZaapwkiF2TZryoBH5uPKsEcQFU2BwMCcHGl91wUJtB7riEmAKd3DGMTk7j/EFiaklclgumR
+        8dmdlwZFwJtlKi10UKbT7vVAkei9H04JV9XpYcEz3CPBmym5msAYn91+0Q3+E8ok2qQcOjVIMSZTChI6
+        hoFgJUgwSoK7NG/SSk0QYZyf3darBPwhPcxJ8GYXrekBwVAKmsoDD31WKgnGJ3HXDSSacqtFED5zfoHt
+        Mp2JLv9TyFMQoMq9fwLynTJT+zEKGaXKYdLTv4t7hq8H9BQlmnO/FkFkTILp9PkBuOivwL/+PToew1Nw
+        vUOVe+aOC7jtnMRtF6P6W3zPdUD1973AhSsT/JjuFEFExAzD8tTcwqSV+VVLzDlVZJZKVC8xb6pONBF6
+        1Vg8tU/OqU5Mpp5YzJhyqpelFnwaFT3vVYoPYYe8/D+XIeQfM+1IN0PJjogAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="hlChargeBack.Properties.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        na1eAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="hlDeleteInv.Properties.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="hlQuickChk.Properties.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="hlChangeSupp.Properties.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        QmCC
+</value>
+  </data>
+  <metadata name="dsInvDetail1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>460, 56</value>
+  </metadata>
+  <metadata name="dsPOSelect1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>578, 56</value>
+  </metadata>
+  <metadata name="dsGLAccts1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>697, 56</value>
+  </metadata>
+  <metadata name="dsDetPO1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>145, 212</value>
+  </metadata>
+  <metadata name="bsCompanies.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>842, 212</value>
+  </metadata>
+  <metadata name="bsPWP_Status.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 212</value>
+  </metadata>
+  <metadata name="dsPOBSelect1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>811, 56</value>
+  </metadata>
+  <metadata name="dsPODSelect1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>937, 56</value>
+  </metadata>
+  <metadata name="dsPOFSelect1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 95</value>
+  </metadata>
+  <metadata name="dsPOMSelect1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>142, 95</value>
+  </metadata>
+  <metadata name="dsPOM2Select1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>272, 95</value>
+  </metadata>
+  <metadata name="dsPOInvSelect1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>892, 173</value>
+  </metadata>
+  <metadata name="bsGLAccts.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>251, 212</value>
+  </metadata>
+  <metadata name="dsDetPO1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>145, 212</value>
+  </metadata>
+  <metadata name="bsCompanies.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>842, 212</value>
+  </metadata>
+  <metadata name="dsCompanies1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>711, 212</value>
+  </metadata>
+  <metadata name="dsCompanies1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>711, 212</value>
+  </metadata>
+  <metadata name="bsPWP_Status.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 212</value>
+  </metadata>
+  <metadata name="dsPWP_Status1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 251</value>
+  </metadata>
+  <metadata name="dsPWP_Status1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 251</value>
+  </metadata>
+  <metadata name="dsPOBSelect1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>811, 56</value>
+  </metadata>
+  <metadata name="dsPODSelect1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>937, 56</value>
+  </metadata>
+  <metadata name="dsPOFSelect1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 95</value>
+  </metadata>
+  <metadata name="dsPOMSelect1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>142, 95</value>
+  </metadata>
+  <metadata name="dsPOM2Select1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>272, 95</value>
+  </metadata>
+  <metadata name="dsPOInvSelect1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>892, 173</value>
+  </metadata>
+  <metadata name="dsAP_PWP_GetLinks1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>314, 251</value>
+  </metadata>
+  <metadata name="TR_Conn.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>409, 95</value>
+  </metadata>
+  <metadata name="daInvHeader.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>508, 95</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand7.CommandText" xml:space="preserve">
+    <value>DELETE FROM [AP_INV_HEADER] WHERE (([SUPPLIER] = @Original_SUPPLIER) AND ([INV_NO] = @Original_INV_NO) AND ((@IsNull_TRANS_TYPE = 1 AND [TRANS_TYPE] IS NULL) OR ([TRANS_TYPE] = @Original_TRANS_TYPE)) AND ((@IsNull_ACCT_PERIOD = 1 AND [ACCT_PERIOD] IS NULL) OR ([ACCT_PERIOD] = @Original_ACCT_PERIOD)) AND ((@IsNull_ACCT_YEAR = 1 AND [ACCT_YEAR] IS NULL) OR ([ACCT_YEAR] = @Original_ACCT_YEAR)) AND ((@IsNull_JOURNAL_NUMBER = 1 AND [JOURNAL_NUMBER] IS NULL) OR ([JOURNAL_NUMBER] = @Original_JOURNAL_NUMBER)) AND ((@IsNull_JOURNAL_LINE_NO = 1 AND [JOURNAL_LINE_NO] IS NULL) OR ([JOURNAL_LINE_NO] = @Original_JOURNAL_LINE_NO)) AND ((@IsNull_TRANS_DATE = 1 AND [TRANS_DATE] IS NULL) OR ([TRANS_DATE] = @Original_TRANS_DATE)) AND ((@IsNull_INV_DATE = 1 AND [INV_DATE] IS NULL) OR ([INV_DATE] = @Original_INV_DATE)) AND ((@IsNull_DUE_DATE = 1 AND [DUE_DATE] IS NULL) OR ([DUE_DATE] = @Original_DUE_DATE)) AND ((@IsNull_DISCOUNT_DATE = 1 AND [DISCOUNT_DATE] IS NULL) OR ([DISCOUNT_DATE] = @Original_DISCOUNT_DATE)) AND ((@IsNull_INV_AMOUNT = 1 AND [INV_AMOUNT] IS NULL) OR ([INV_AMOUNT] = @Original_INV_AMOUNT)) AND ((@IsNull_DISCOUNT_AMOUNT = 1 AND [DISCOUNT_AMOUNT] IS NULL) OR ([DISCOUNT_AMOUNT] = @Original_DISCOUNT_AMOUNT)) AND ((@IsNull_BALANCE = 1 AND [BALANCE] IS NULL) OR ([BALANCE] = @Original_BALANCE)) AND ((@IsNull_REFERENCE = 1 AND [REFERENCE] IS NULL) OR ([REFERENCE] = @Original_REFERENCE)) AND ((@IsNull_CANCEL = 1 AND [CANCEL] IS NULL) OR ([CANCEL] = @Original_CANCEL)) AND ((@IsNull_DISCOUNT_TAKEN = 1 AND [DISCOUNT_TAKEN] IS NULL) OR ([DISCOUNT_TAKEN] = @Original_DISCOUNT_TAKEN)) AND ((@IsNull_CK_SELECT = 1 AND [CK_SELECT] IS NULL) OR ([CK_SELECT] = @Original_CK_SELECT)) AND ((@IsNull_OPERATOR = 1 AND [OPERATOR] IS NULL) OR ([OPERATOR] = @Original_OPERATOR)) AND ((@IsNull_DATE_SAVED = 1 AND [DATE_SAVED] IS NULL) OR ([DATE_SAVED] = @Original_DATE_SAVED)) AND ((@IsNull_HOLD = 1 AND [HOLD] IS NULL) OR ([HOLD] = @Original_HOLD)) AND ((@IsNull_SUPP_NAME = 1 AND [SUPP_NAME] IS NULL) OR ([SUPP_NAME] = @Original_SUPP_NAME)) AND ((@IsNull_REMITADD1 = 1 AND [REMITADD1] IS NULL) OR ([REMITADD1] = @Original_REMITADD1)) AND ((@IsNull_REMITADD2 = 1 AND [REMITADD2] IS NULL) OR ([REMITADD2] = @Original_REMITADD2)) AND ((@IsNull_REMITADD3 = 1 AND [REMITADD3] IS NULL) OR ([REMITADD3] = @Original_REMITADD3)) AND ((@IsNull_REMITCITY = 1 AND [REMITCITY] IS NULL) OR ([REMITCITY] = @Original_REMITCITY)) AND ((@IsNull_REMITSTATE = 1 AND [REMITSTATE] IS NULL) OR ([REMITSTATE] = @Original_REMITSTATE)) AND ((@IsNull_REMITZIP = 1 AND [REMITZIP] IS NULL) OR ([REMITZIP] = @Original_REMITZIP)) AND ((@IsNull_SUPP_ACCOUNT = 1 AND [SUPP_ACCOUNT] IS NULL) OR ([SUPP_ACCOUNT] = @Original_SUPP_ACCOUNT)) AND ((@IsNull_AP_SETUP_GL_ID = 1 AND [AP_SETUP_GL_ID] IS NULL) OR ([AP_SETUP_GL_ID] = @Original_AP_SETUP_GL_ID)) AND ((@IsNull_GST_CODE = 1 AND [GST_CODE] IS NULL) OR ([GST_CODE] = @Original_GST_CODE)) AND ((@IsNull_PURCH_AMT = 1 AND [PURCH_AMT] IS NULL) OR ([PURCH_AMT] = @Original_PURCH_AMT)) AND ((@IsNull_GST_AMT = 1 AND [GST_AMT] IS NULL) OR ([GST_AMT] = @Original_GST_AMT)) AND ((@IsNull_HOLD_PCT = 1 AND [HOLD_PCT] IS NULL) OR ([HOLD_PCT] = @Original_HOLD_PCT)) AND ((@IsNull_HOLD_AMT = 1 AND [HOLD_AMT] IS NULL) OR ([HOLD_AMT] = @Original_HOLD_AMT)) AND ((@IsNull_HOLD_BAL = 1 AND [HOLD_BAL] IS NULL) OR ([HOLD_BAL] = @Original_HOLD_BAL)) AND ((@IsNull_HOLD_PAY_DATE = 1 AND [HOLD_PAY_DATE] IS NULL) OR ([HOLD_PAY_DATE] = @Original_HOLD_PAY_DATE)) AND ((@IsNull_SEG_CHANGE = 1 AND [SEG_CHANGE] IS NULL) OR ([SEG_CHANGE] = @Original_SEG_CHANGE)) AND ((@IsNull_CURRENCY_ID = 1 AND [CURRENCY_ID] IS NULL) OR ([CURRENCY_ID] = @Original_CURRENCY_ID)) AND ((@IsNull_REMITCOUNTRY = 1 AND [REMITCOUNTRY] IS NULL) OR ([REMITCOUNTRY] = @Original_REMITCOUNTRY)) AND ((@IsNull_GST_EXCEPT = 1 AND [GST_EXCEPT] IS NULL) OR ([GST_EXCEPT] = @Original_GST_EXCEPT)) AND ((@IsNull_ACCRUAL_FLAG = 1 AND [ACCRUAL_FLAG] IS NULL) OR ([ACCRUAL_FLAG] = @Original_ACCRUAL_FLAG)) AND ((@IsNull_LOCKED_BY = 1 AND [LOCKED_BY] IS NULL) OR ([LOCKED_BY] = @Original_LOCKED_BY)) AND ((@IsNull_LOCKED = 1 AND [LOCKED] IS NULL) OR ([LOCKED] = @Original_LOCKED)) AND ((@IsNull_AP_INV_HEADER_ID = 1 AND [AP_INV_HEADER_ID] IS NULL) OR ([AP_INV_HEADER_ID] = @Original_AP_INV_HEADER_ID)) AND ((@IsNull_INVOICE_TYPE = 1 AND [INVOICE_TYPE] IS NULL) OR ([INVOICE_TYPE] = @Original_INVOICE_TYPE)) AND ((@IsNull_MANUAL_CHECK = 1 AND [MANUAL_CHECK] IS NULL) OR ([MANUAL_CHECK] = @Original_MANUAL_CHECK)) AND ((@IsNull_SALES_TAX_ID = 1 AND [SALES_TAX_ID] IS NULL) OR ([SALES_TAX_ID] = @Original_SALES_TAX_ID)) AND ((@IsNull_NEW_INVOICE = 1 AND [NEW_INVOICE] IS NULL) OR ([NEW_INVOICE] = @Original_NEW_INVOICE)) AND ((@IsNull_EXCH_RATE = 1 AND [EXCH_RATE] IS NULL) OR ([EXCH_RATE] = @Original_EXCH_RATE)) AND ((@IsNull_PO_ID = 1 AND [PO_ID] IS NULL) OR ([PO_ID] = @Original_PO_ID)) AND ((@IsNull_GST_EXCEPT_ID = 1 AND [GST_EXCEPT_ID] IS NULL) OR ([GST_EXCEPT_ID] = @Original_GST_EXCEPT_ID)) AND ((@IsNull_whse_id = 1 AND [whse_id] IS NULL) OR ([whse_id] = @Original_whse_id)) AND ((@IsNull_SOX_ROUTING = 1 AND [SOX_ROUTING] IS NULL) OR ([SOX_ROUTING] = @Original_SOX_ROUTING)) AND ((@IsNull_SOX_APPROVAL = 1 AND [SOX_APPROVAL] IS NULL) OR ([SOX_APPROVAL] = @Original_SOX_APPROVAL)) AND ([id] = @Original_id) AND ((@IsNull_IS_BALANCED = 1 AND [IS_BALANCED] IS NULL) OR ([IS_BALANCED] = @Original_IS_BALANCED)) AND ((@IsNull_AP_DIV = 1 AND [AP_DIV] IS NULL) OR ([AP_DIV] = @Original_AP_DIV)) AND ((@IsNull_KC_CONTRACTPO_STATUS = 1 AND [KC_CONTRACTPO_STATUS] IS NULL) OR ([KC_CONTRACTPO_STATUS] = @Original_KC_CONTRACTPO_STATUS)) AND ((@IsNull_KC_ACCRUAL_STATUS = 1 AND [KC_ACCRUAL_STATUS] IS NULL) OR ([KC_ACCRUAL_STATUS] = @Original_KC_ACCRUAL_STATUS)) AND ((@IsNull_from_web = 1 AND [from_web] IS NULL) OR ([from_web] = @Original_from_web)) AND ((@IsNull_WF_STATUS = 1 AND [WF_STATUS] IS NULL) OR ([WF_STATUS] = @Original_WF_STATUS)) AND ((@IsNull_WF_Approval_ID = 1 AND [WF_Approval_ID] IS NULL) OR ([WF_Approval_ID] = @Original_WF_Approval_ID)) AND ((@IsNull_IS_CB = 1 AND [IS_CB] IS NULL) OR ([IS_CB] = @Original_IS_CB)) AND ((@IsNull_HAS_CB = 1 AND [HAS_CB] IS NULL) OR ([HAS_CB] = @Original_HAS_CB)) AND ((@IsNull_TERMS_ID = 1 AND [TERMS_ID] IS NULL) OR ([TERMS_ID] = @Original_TERMS_ID)) AND ((@IsNull_PAYMENT_HOLD = 1 AND [PAYMENT_HOLD] IS NULL) OR ([PAYMENT_HOLD] = @Original_PAYMENT_HOLD)) AND ((@IsNull_Levy = 1 AND [Levy] IS NULL) OR ([Levy] = @Original_Levy)))</value>
+  </data>
+  <metadata name="sqlInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand1.CommandText" xml:space="preserve">
+    <value>INSERT INTO [AP_INV_HEADER] ([SUPPLIER], [INV_NO], [TRANS_TYPE], [ACCT_PERIOD], [ACCT_YEAR], [JOURNAL_NUMBER], [JOURNAL_LINE_NO], [TRANS_DATE], [INV_DATE], [DUE_DATE], [DISCOUNT_DATE], [INV_AMOUNT], [DISCOUNT_AMOUNT], [BALANCE], [REFERENCE], [CANCEL], [DISCOUNT_TAKEN], [CK_SELECT], [OPERATOR], [DATE_SAVED], [HOLD], [SUPP_NAME], [REMITADD1], [REMITADD2], [REMITADD3], [REMITCITY], [REMITSTATE], [REMITZIP], [SUPP_ACCOUNT], [AP_SETUP_GL_ID], [GST_CODE], [PURCH_AMT], [GST_AMT], [HOLD_PCT], [HOLD_AMT], [HOLD_BAL], [HOLD_PAY_DATE], [SEG_CHANGE], [CURRENCY_ID], [REMITCOUNTRY], [GST_EXCEPT], [ACCRUAL_FLAG], [LOCKED_BY], [LOCKED], [AP_INV_HEADER_ID], [INVOICE_TYPE], [MANUAL_CHECK], [SALES_TAX_ID], [NEW_INVOICE], [COMMENT], [EXCH_RATE], [PO_ID], [GST_EXCEPT_ID], [whse_id], [SOX_ROUTING], [SOX_APPROVAL], [IS_BALANCED], [AP_DIV], [KC_CONTRACTPO_STATUS], [KC_ACCRUAL_STATUS], [from_web], [WF_STATUS], [WF_Approval_ID], [IS_CB], [HAS_CB], [TERMS_ID], [PAYMENT_HOLD], [Levy]) VALUES (@SUPPLIER, @INV_NO, @TRANS_TYPE, @ACCT_PERIOD, @ACCT_YEAR, @JOURNAL_NUMBER, @JOURNAL_LINE_NO, @TRANS_DATE, @INV_DATE, @DUE_DATE, @DISCOUNT_DATE, @INV_AMOUNT, @DISCOUNT_AMOUNT, @BALANCE, @REFERENCE, @CANCEL, @DISCOUNT_TAKEN, @CK_SELECT, @OPERATOR, @DATE_SAVED, @HOLD, @SUPP_NAME, @REMITADD1, @REMITADD2, @REMITADD3, @REMITCITY, @REMITSTATE, @REMITZIP, @SUPP_ACCOUNT, @AP_SETUP_GL_ID, @GST_CODE, @PURCH_AMT, @GST_AMT, @HOLD_PCT, @HOLD_AMT, @HOLD_BAL, @HOLD_PAY_DATE, @SEG_CHANGE, @CURRENCY_ID, @REMITCOUNTRY, @GST_EXCEPT, @ACCRUAL_FLAG, @LOCKED_BY, @LOCKED, @AP_INV_HEADER_ID, @INVOICE_TYPE, @MANUAL_CHECK, @SALES_TAX_ID, @NEW_INVOICE, @COMMENT, @EXCH_RATE, @PO_ID, @GST_EXCEPT_ID, @whse_id, @SOX_ROUTING, @SOX_APPROVAL, @IS_BALANCED, @AP_DIV, @KC_CONTRACTPO_STATUS, @KC_ACCRUAL_STATUS, @from_web, @WF_STATUS, @WF_Approval_ID, @IS_CB, @HAS_CB, @TERMS_ID, @PAYMENT_HOLD, @Levy);
+SELECT a.SUPPLIER, a.INV_NO, a.TRANS_TYPE, a.ACCT_PERIOD, a.ACCT_YEAR, a.JOURNAL_NUMBER, a.JOURNAL_LINE_NO, a.TRANS_DATE, a.INV_DATE, a.DUE_DATE, a.DISCOUNT_DATE, a.INV_AMOUNT, a.DISCOUNT_AMOUNT, a.BALANCE, a.REFERENCE, a.CANCEL, a.DISCOUNT_TAKEN, a.CK_SELECT, a.OPERATOR, a.DATE_SAVED, a.HOLD, a.SUPP_NAME, a.REMITADD1, a.REMITADD2, a.REMITADD3, a.REMITCITY, a.REMITSTATE, a.REMITZIP, a.SUPP_ACCOUNT, a.AP_SETUP_GL_ID, a.GST_CODE, a.PURCH_AMT, a.GST_AMT, a.HOLD_PCT, a.HOLD_AMT, a.HOLD_BAL, a.HOLD_PAY_DATE, a.SEG_CHANGE, a.CURRENCY_ID, a.REMITCOUNTRY, a.GST_EXCEPT, a.ACCRUAL_FLAG, a.LOCKED_BY, a.LOCKED, a.AP_INV_HEADER_ID, a.INVOICE_TYPE, a.MANUAL_CHECK, a.SALES_TAX_ID, a.NEW_INVOICE, a.COMMENT, a.EXCH_RATE, a.PO_ID, a.GST_EXCEPT_ID, a.whse_id, a.SOX_ROUTING, a.SOX_APPROVAL, a.id, a.IS_BALANCED, a.AP_DIV, a.KC_CONTRACTPO_STATUS, a.KC_ACCRUAL_STATUS, a.FROM_WEB, a.WF_STATUS, a.WF_Approval_ID, a.IS_CB, a.HAS_CB, a.TERMS_ID, a.PAYMENT_HOLD, a.Levy FROM AP_INV_HEADER AS a LEFT OUTER JOIN working_mluser_supervisor AS w ON w.mluser = a.OPERATOR WHERE (a.id = SCOPE_IDENTITY())</value>
+  </data>
+  <metadata name="sqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand1.CommandText" xml:space="preserve">
+    <value>SELECT a.SUPPLIER, a.INV_NO, a.TRANS_TYPE, a.ACCT_PERIOD, a.ACCT_YEAR, a.JOURNAL_NUMBER, a.JOURNAL_LINE_NO, a.TRANS_DATE, a.INV_DATE, a.DUE_DATE, a.DISCOUNT_DATE, a.INV_AMOUNT, a.DISCOUNT_AMOUNT, a.BALANCE, a.REFERENCE, a.CANCEL, a.DISCOUNT_TAKEN, a.CK_SELECT, a.OPERATOR, a.DATE_SAVED, a.HOLD, a.SUPP_NAME, a.REMITADD1, a.REMITADD2, a.REMITADD3, a.REMITCITY, a.REMITSTATE, a.REMITZIP, a.SUPP_ACCOUNT, a.AP_SETUP_GL_ID, a.GST_CODE, a.PURCH_AMT, a.GST_AMT, a.HOLD_PCT, a.HOLD_AMT, a.HOLD_BAL, a.HOLD_PAY_DATE, a.SEG_CHANGE, a.CURRENCY_ID, a.REMITCOUNTRY, a.GST_EXCEPT, a.ACCRUAL_FLAG, a.LOCKED_BY, a.LOCKED, a.AP_INV_HEADER_ID, a.INVOICE_TYPE, a.MANUAL_CHECK, a.SALES_TAX_ID, a.NEW_INVOICE, a.COMMENT, a.EXCH_RATE, a.PO_ID, a.GST_EXCEPT_ID, a.whse_id, a.SOX_ROUTING, a.SOX_APPROVAL, a.id, a.IS_BALANCED, a.AP_DIV, a.KC_CONTRACTPO_STATUS, a.KC_ACCRUAL_STATUS, a.from_web, a.WF_STATUS, a.WF_Approval_ID, a.IS_CB, a.HAS_CB, a.TERMS_ID, a.PAYMENT_HOLD, a.Levy
+FROM AP_INV_HEADER a 
+LEFT OUTER JOIN working_mluser_supervisor w ON w.mluser = a.OPERATOR 
+WHERE (a.ACCRUAL_FLAG &lt;&gt; 'A') AND (ISNULL(a.CANCEL, 'F') = 'F') AND (w.username = @username)</value>
+  </data>
+  <metadata name="sqlUpdateCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand7.CommandText" xml:space="preserve">
+    <value>UPDATE [AP_INV_HEADER] SET [SUPPLIER] = @SUPPLIER, [INV_NO] = @INV_NO, [TRANS_TYPE] = @TRANS_TYPE, [ACCT_PERIOD] = @ACCT_PERIOD, [ACCT_YEAR] = @ACCT_YEAR, [JOURNAL_NUMBER] = @JOURNAL_NUMBER, [JOURNAL_LINE_NO] = @JOURNAL_LINE_NO, [TRANS_DATE] = @TRANS_DATE, [INV_DATE] = @INV_DATE, [DUE_DATE] = @DUE_DATE, [DISCOUNT_DATE] = @DISCOUNT_DATE, [INV_AMOUNT] = @INV_AMOUNT, [DISCOUNT_AMOUNT] = @DISCOUNT_AMOUNT, [BALANCE] = @BALANCE, [REFERENCE] = @REFERENCE, [CANCEL] = @CANCEL, [DISCOUNT_TAKEN] = @DISCOUNT_TAKEN, [CK_SELECT] = @CK_SELECT, [OPERATOR] = @OPERATOR, [DATE_SAVED] = @DATE_SAVED, [HOLD] = @HOLD, [SUPP_NAME] = @SUPP_NAME, [REMITADD1] = @REMITADD1, [REMITADD2] = @REMITADD2, [REMITADD3] = @REMITADD3, [REMITCITY] = @REMITCITY, [REMITSTATE] = @REMITSTATE, [REMITZIP] = @REMITZIP, [SUPP_ACCOUNT] = @SUPP_ACCOUNT, [AP_SETUP_GL_ID] = @AP_SETUP_GL_ID, [GST_CODE] = @GST_CODE, [PURCH_AMT] = @PURCH_AMT, [GST_AMT] = @GST_AMT, [HOLD_PCT] = @HOLD_PCT, [HOLD_AMT] = @HOLD_AMT, [HOLD_BAL] = @HOLD_BAL, [HOLD_PAY_DATE] = @HOLD_PAY_DATE, [SEG_CHANGE] = @SEG_CHANGE, [CURRENCY_ID] = @CURRENCY_ID, [REMITCOUNTRY] = @REMITCOUNTRY, [GST_EXCEPT] = @GST_EXCEPT, [ACCRUAL_FLAG] = @ACCRUAL_FLAG, [LOCKED_BY] = @LOCKED_BY, [LOCKED] = @LOCKED, [AP_INV_HEADER_ID] = @AP_INV_HEADER_ID, [INVOICE_TYPE] = @INVOICE_TYPE, [MANUAL_CHECK] = @MANUAL_CHECK, [SALES_TAX_ID] = @SALES_TAX_ID, [NEW_INVOICE] = @NEW_INVOICE, [COMMENT] = @COMMENT, [EXCH_RATE] = @EXCH_RATE, [PO_ID] = @PO_ID, [GST_EXCEPT_ID] = @GST_EXCEPT_ID, [whse_id] = @whse_id, [SOX_ROUTING] = @SOX_ROUTING, [SOX_APPROVAL] = @SOX_APPROVAL, [IS_BALANCED] = @IS_BALANCED, [AP_DIV] = @AP_DIV, [KC_CONTRACTPO_STATUS] = @KC_CONTRACTPO_STATUS, [KC_ACCRUAL_STATUS] = @KC_ACCRUAL_STATUS, [from_web] = @from_web, [WF_STATUS] = @WF_STATUS, [WF_Approval_ID] = @WF_Approval_ID, [IS_CB] = @IS_CB, [HAS_CB] = @HAS_CB, [TERMS_ID] = @TERMS_ID, [PAYMENT_HOLD] = @PAYMENT_HOLD, [Levy] = @Levy WHERE (([SUPPLIER] = @Original_SUPPLIER) AND ([INV_NO] = @Original_INV_NO) AND ((@IsNull_TRANS_TYPE = 1 AND [TRANS_TYPE] IS NULL) OR ([TRANS_TYPE] = @Original_TRANS_TYPE)) AND ((@IsNull_ACCT_PERIOD = 1 AND [ACCT_PERIOD] IS NULL) OR ([ACCT_PERIOD] = @Original_ACCT_PERIOD)) AND ((@IsNull_ACCT_YEAR = 1 AND [ACCT_YEAR] IS NULL) OR ([ACCT_YEAR] = @Original_ACCT_YEAR)) AND ((@IsNull_JOURNAL_NUMBER = 1 AND [JOURNAL_NUMBER] IS NULL) OR ([JOURNAL_NUMBER] = @Original_JOURNAL_NUMBER)) AND ((@IsNull_JOURNAL_LINE_NO = 1 AND [JOURNAL_LINE_NO] IS NULL) OR ([JOURNAL_LINE_NO] = @Original_JOURNAL_LINE_NO)) AND ((@IsNull_TRANS_DATE = 1 AND [TRANS_DATE] IS NULL) OR ([TRANS_DATE] = @Original_TRANS_DATE)) AND ((@IsNull_INV_DATE = 1 AND [INV_DATE] IS NULL) OR ([INV_DATE] = @Original_INV_DATE)) AND ((@IsNull_DUE_DATE = 1 AND [DUE_DATE] IS NULL) OR ([DUE_DATE] = @Original_DUE_DATE)) AND ((@IsNull_DISCOUNT_DATE = 1 AND [DISCOUNT_DATE] IS NULL) OR ([DISCOUNT_DATE] = @Original_DISCOUNT_DATE)) AND ((@IsNull_INV_AMOUNT = 1 AND [INV_AMOUNT] IS NULL) OR ([INV_AMOUNT] = @Original_INV_AMOUNT)) AND ((@IsNull_DISCOUNT_AMOUNT = 1 AND [DISCOUNT_AMOUNT] IS NULL) OR ([DISCOUNT_AMOUNT] = @Original_DISCOUNT_AMOUNT)) AND ((@IsNull_BALANCE = 1 AND [BALANCE] IS NULL) OR ([BALANCE] = @Original_BALANCE)) AND ((@IsNull_REFERENCE = 1 AND [REFERENCE] IS NULL) OR ([REFERENCE] = @Original_REFERENCE)) AND ((@IsNull_CANCEL = 1 AND [CANCEL] IS NULL) OR ([CANCEL] = @Original_CANCEL)) AND ((@IsNull_DISCOUNT_TAKEN = 1 AND [DISCOUNT_TAKEN] IS NULL) OR ([DISCOUNT_TAKEN] = @Original_DISCOUNT_TAKEN)) AND ((@IsNull_CK_SELECT = 1 AND [CK_SELECT] IS NULL) OR ([CK_SELECT] = @Original_CK_SELECT)) AND ((@IsNull_OPERATOR = 1 AND [OPERATOR] IS NULL) OR ([OPERATOR] = @Original_OPERATOR)) AND ((@IsNull_DATE_SAVED = 1 AND [DATE_SAVED] IS NULL) OR ([DATE_SAVED] = @Original_DATE_SAVED)) AND ((@IsNull_HOLD = 1 AND [HOLD] IS NULL) OR ([HOLD] = @Original_HOLD)) AND ((@IsNull_SUPP_NAME = 1 AND [SUPP_NAME] IS NULL) OR ([SUPP_NAME] = @Original_SUPP_NAME)) AND ((@IsNull_REMITADD1 = 1 AND [REMITADD1] IS NULL) OR ([REMITADD1] = @Original_REMITADD1)) AND ((@IsNull_REMITADD2 = 1 AND [REMITADD2] IS NULL) OR ([REMITADD2] = @Original_REMITADD2)) AND ((@IsNull_REMITADD3 = 1 AND [REMITADD3] IS NULL) OR ([REMITADD3] = @Original_REMITADD3)) AND ((@IsNull_REMITCITY = 1 AND [REMITCITY] IS NULL) OR ([REMITCITY] = @Original_REMITCITY)) AND ((@IsNull_REMITSTATE = 1 AND [REMITSTATE] IS NULL) OR ([REMITSTATE] = @Original_REMITSTATE)) AND ((@IsNull_REMITZIP = 1 AND [REMITZIP] IS NULL) OR ([REMITZIP] = @Original_REMITZIP)) AND ((@IsNull_SUPP_ACCOUNT = 1 AND [SUPP_ACCOUNT] IS NULL) OR ([SUPP_ACCOUNT] = @Original_SUPP_ACCOUNT)) AND ((@IsNull_AP_SETUP_GL_ID = 1 AND [AP_SETUP_GL_ID] IS NULL) OR ([AP_SETUP_GL_ID] = @Original_AP_SETUP_GL_ID)) AND ((@IsNull_GST_CODE = 1 AND [GST_CODE] IS NULL) OR ([GST_CODE] = @Original_GST_CODE)) AND ((@IsNull_PURCH_AMT = 1 AND [PURCH_AMT] IS NULL) OR ([PURCH_AMT] = @Original_PURCH_AMT)) AND ((@IsNull_GST_AMT = 1 AND [GST_AMT] IS NULL) OR ([GST_AMT] = @Original_GST_AMT)) AND ((@IsNull_HOLD_PCT = 1 AND [HOLD_PCT] IS NULL) OR ([HOLD_PCT] = @Original_HOLD_PCT)) AND ((@IsNull_HOLD_AMT = 1 AND [HOLD_AMT] IS NULL) OR ([HOLD_AMT] = @Original_HOLD_AMT)) AND ((@IsNull_HOLD_BAL = 1 AND [HOLD_BAL] IS NULL) OR ([HOLD_BAL] = @Original_HOLD_BAL)) AND ((@IsNull_HOLD_PAY_DATE = 1 AND [HOLD_PAY_DATE] IS NULL) OR ([HOLD_PAY_DATE] = @Original_HOLD_PAY_DATE)) AND ((@IsNull_SEG_CHANGE = 1 AND [SEG_CHANGE] IS NULL) OR ([SEG_CHANGE] = @Original_SEG_CHANGE)) AND ((@IsNull_CURRENCY_ID = 1 AND [CURRENCY_ID] IS NULL) OR ([CURRENCY_ID] = @Original_CURRENCY_ID)) AND ((@IsNull_REMITCOUNTRY = 1 AND [REMITCOUNTRY] IS NULL) OR ([REMITCOUNTRY] = @Original_REMITCOUNTRY)) AND ((@IsNull_GST_EXCEPT = 1 AND [GST_EXCEPT] IS NULL) OR ([GST_EXCEPT] = @Original_GST_EXCEPT)) AND ((@IsNull_ACCRUAL_FLAG = 1 AND [ACCRUAL_FLAG] IS NULL) OR ([ACCRUAL_FLAG] = @Original_ACCRUAL_FLAG)) AND ((@IsNull_LOCKED_BY = 1 AND [LOCKED_BY] IS NULL) OR ([LOCKED_BY] = @Original_LOCKED_BY)) AND ((@IsNull_LOCKED = 1 AND [LOCKED] IS NULL) OR ([LOCKED] = @Original_LOCKED)) AND ((@IsNull_AP_INV_HEADER_ID = 1 AND [AP_INV_HEADER_ID] IS NULL) OR ([AP_INV_HEADER_ID] = @Original_AP_INV_HEADER_ID)) AND ((@IsNull_INVOICE_TYPE = 1 AND [INVOICE_TYPE] IS NULL) OR ([INVOICE_TYPE] = @Original_INVOICE_TYPE)) AND ((@IsNull_MANUAL_CHECK = 1 AND [MANUAL_CHECK] IS NULL) OR ([MANUAL_CHECK] = @Original_MANUAL_CHECK)) AND ((@IsNull_SALES_TAX_ID = 1 AND [SALES_TAX_ID] IS NULL) OR ([SALES_TAX_ID] = @Original_SALES_TAX_ID)) AND ((@IsNull_NEW_INVOICE = 1 AND [NEW_INVOICE] IS NULL) OR ([NEW_INVOICE] = @Original_NEW_INVOICE)) AND ((@IsNull_EXCH_RATE = 1 AND [EXCH_RATE] IS NULL) OR ([EXCH_RATE] = @Original_EXCH_RATE)) AND ((@IsNull_PO_ID = 1 AND [PO_ID] IS NULL) OR ([PO_ID] = @Original_PO_ID)) AND ((@IsNull_GST_EXCEPT_ID = 1 AND [GST_EXCEPT_ID] IS NULL) OR ([GST_EXCEPT_ID] = @Original_GST_EXCEPT_ID)) AND ((@IsNull_whse_id = 1 AND [whse_id] IS NULL) OR ([whse_id] = @Original_whse_id)) AND ((@IsNull_SOX_ROUTING = 1 AND [SOX_ROUTING] IS NULL) OR ([SOX_ROUTING] = @Original_SOX_ROUTING)) AND ((@IsNull_SOX_APPROVAL = 1 AND [SOX_APPROVAL] IS NULL) OR ([SOX_APPROVAL] = @Original_SOX_APPROVAL)) AND ([id] = @Original_id) AND ((@IsNull_IS_BALANCED = 1 AND [IS_BALANCED] IS NULL) OR ([IS_BALANCED] = @Original_IS_BALANCED)) AND ((@IsNull_AP_DIV = 1 AND [AP_DIV] IS NULL) OR ([AP_DIV] = @Original_AP_DIV)) AND ((@IsNull_KC_CONTRACTPO_STATUS = 1 AND [KC_CONTRACTPO_STATUS] IS NULL) OR ([KC_CONTRACTPO_STATUS] = @Original_KC_CONTRACTPO_STATUS)) AND ((@IsNull_KC_ACCRUAL_STATUS = 1 AND [KC_ACCRUAL_STATUS] IS NULL) OR ([KC_ACCRUAL_STATUS] = @Original_KC_ACCRUAL_STATUS)) AND ((@IsNull_from_web = 1 AND [from_web] IS NULL) OR ([from_web] = @Original_from_web)) AND ((@IsNull_WF_STATUS = 1 AND [WF_STATUS] IS NULL) OR ([WF_STATUS] = @Original_WF_STATUS)) AND ((@IsNull_WF_Approval_ID = 1 AND [WF_Approval_ID] IS NULL) OR ([WF_Approval_ID] = @Original_WF_Approval_ID)) AND ((@IsNull_IS_CB = 1 AND [IS_CB] IS NULL) OR ([IS_CB] = @Original_IS_CB)) AND ((@IsNull_HAS_CB = 1 AND [HAS_CB] IS NULL) OR ([HAS_CB] = @Original_HAS_CB)) AND ((@IsNull_TERMS_ID = 1 AND [TERMS_ID] IS NULL) OR ([TERMS_ID] = @Original_TERMS_ID)) AND ((@IsNull_PAYMENT_HOLD = 1 AND [PAYMENT_HOLD] IS NULL) OR ([PAYMENT_HOLD] = @Original_PAYMENT_HOLD)) AND ((@IsNull_Levy = 1 AND [Levy] IS NULL) OR ([Levy] = @Original_Levy)));
+SELECT a.SUPPLIER, a.INV_NO, a.TRANS_TYPE, a.ACCT_PERIOD, a.ACCT_YEAR, a.JOURNAL_NUMBER, a.JOURNAL_LINE_NO, a.TRANS_DATE, a.INV_DATE, a.DUE_DATE, a.DISCOUNT_DATE, a.INV_AMOUNT, a.DISCOUNT_AMOUNT, a.BALANCE, a.REFERENCE, a.CANCEL, a.DISCOUNT_TAKEN, a.CK_SELECT, a.OPERATOR, a.DATE_SAVED, a.HOLD, a.SUPP_NAME, a.REMITADD1, a.REMITADD2, a.REMITADD3, a.REMITCITY, a.REMITSTATE, a.REMITZIP, a.SUPP_ACCOUNT, a.AP_SETUP_GL_ID, a.GST_CODE, a.PURCH_AMT, a.GST_AMT, a.HOLD_PCT, a.HOLD_AMT, a.HOLD_BAL, a.HOLD_PAY_DATE, a.SEG_CHANGE, a.CURRENCY_ID, a.REMITCOUNTRY, a.GST_EXCEPT, a.ACCRUAL_FLAG, a.LOCKED_BY, a.LOCKED, a.AP_INV_HEADER_ID, a.INVOICE_TYPE, a.MANUAL_CHECK, a.SALES_TAX_ID, a.NEW_INVOICE, a.COMMENT, a.EXCH_RATE, a.PO_ID, a.GST_EXCEPT_ID, a.whse_id, a.SOX_ROUTING, a.SOX_APPROVAL, a.id, a.IS_BALANCED, a.AP_DIV, a.KC_CONTRACTPO_STATUS, a.KC_ACCRUAL_STATUS, a.FROM_WEB, a.WF_STATUS, a.WF_Approval_ID, a.IS_CB, a.HAS_CB, a.TERMS_ID, a.PAYMENT_HOLD, a.Levy FROM AP_INV_HEADER AS a LEFT OUTER JOIN working_mluser_supervisor AS w ON w.mluser = a.OPERATOR WHERE (a.id = @id)</value>
+  </data>
+  <metadata name="daAPSetupGL.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>735, 95</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand1.CommandText" xml:space="preserve">
+    <value>DELETE FROM AP_SETUP_GL WHERE (AP_SETUP_GL_ID = @Original_AP_SETUP_GL_ID) AND (DESCRIPTION = @Original_DESCRIPTION) AND (GL_ACCOUNT = @Original_GL_ACCOUNT OR @Original_GL_ACCOUNT IS NULL AND GL_ACCOUNT IS NULL)</value>
+  </data>
+  <metadata name="sqlInsertCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand2.CommandText" xml:space="preserve">
+    <value>INSERT INTO AP_SETUP_GL(AP_SETUP_GL_ID, DESCRIPTION, GL_ACCOUNT) VALUES (@AP_SETUP_GL_ID, @DESCRIPTION, @GL_ACCOUNT); SELECT AP_SETUP_GL_ID, DESCRIPTION, GL_ACCOUNT FROM AP_SETUP_GL WHERE (AP_SETUP_GL_ID = @AP_SETUP_GL_ID) ORDER BY DESCRIPTION</value>
+  </data>
+  <metadata name="sqlSelectCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE AP_SETUP_GL SET AP_SETUP_GL_ID = @AP_SETUP_GL_ID, DESCRIPTION = @DESCRIPTION, GL_ACCOUNT = @GL_ACCOUNT WHERE (AP_SETUP_GL_ID = @Original_AP_SETUP_GL_ID) AND (DESCRIPTION = @Original_DESCRIPTION) AND (GL_ACCOUNT = @Original_GL_ACCOUNT OR @Original_GL_ACCOUNT IS NULL AND GL_ACCOUNT IS NULL); SELECT AP_SETUP_GL_ID, DESCRIPTION, GL_ACCOUNT FROM AP_SETUP_GL WHERE (AP_SETUP_GL_ID = @AP_SETUP_GL_ID) ORDER BY DESCRIPTION</value>
+  </data>
+  <metadata name="daCurrency.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>861, 95</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand2.CommandText" xml:space="preserve">
+    <value>DELETE FROM CURRENCY WHERE (CURRENCY_ID = @Original_CURRENCY_ID) AND (CURRENCY_CODE = @Original_CURRENCY_CODE) AND (DESCRIPTION = @Original_DESCRIPTION OR @Original_DESCRIPTION IS NULL AND DESCRIPTION IS NULL)</value>
+  </data>
+  <metadata name="sqlInsertCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand3.CommandText" xml:space="preserve">
+    <value>INSERT INTO CURRENCY(CURRENCY_ID, CURRENCY_CODE, DESCRIPTION) VALUES (@CURRENCY_ID, @CURRENCY_CODE, @DESCRIPTION); SELECT CURRENCY_ID, CURRENCY_CODE, DESCRIPTION FROM CURRENCY WHERE (CURRENCY_ID = @CURRENCY_ID) ORDER BY DESCRIPTION</value>
+  </data>
+  <metadata name="sqlSelectCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand2.CommandText" xml:space="preserve">
+    <value>UPDATE CURRENCY SET CURRENCY_ID = @CURRENCY_ID, CURRENCY_CODE = @CURRENCY_CODE, DESCRIPTION = @DESCRIPTION WHERE (CURRENCY_ID = @Original_CURRENCY_ID) AND (CURRENCY_CODE = @Original_CURRENCY_CODE) AND (DESCRIPTION = @Original_DESCRIPTION OR @Original_DESCRIPTION IS NULL AND DESCRIPTION IS NULL); SELECT CURRENCY_ID, CURRENCY_CODE, DESCRIPTION FROM CURRENCY WHERE (CURRENCY_ID = @CURRENCY_ID) ORDER BY DESCRIPTION</value>
+  </data>
+  <metadata name="daGST.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>974, 95</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand3.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand3.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand3.CommandText" xml:space="preserve">
+    <value>UPDATE GST_CODES SET GST_CODE = @GST_CODE, GST_DESC = @GST_DESC, GST_PCT = @GST_PCT WHERE (GST_CODE = @Original_GST_CODE) AND (GST_DESC = @Original_GST_DESC) AND (GST_PCT = @Original_GST_PCT); SELECT GST_CODE, GST_DESC, GST_PCT FROM GST_CODES WHERE (GST_CODE = @GST_CODE) ORDER BY GST_DESC</value>
+  </data>
+  <metadata name="daPST.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1061, 95</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand4.CommandText" xml:space="preserve">
+    <value>DELETE FROM SALES_TAXES WHERE (SALES_TAX_CODE = @Original_SALES_TAX_CODE) AND (DESCRIPTION = @Original_DESCRIPTION OR @Original_DESCRIPTION IS NULL AND DESCRIPTION IS NULL) AND (SALES_TAX = @Original_SALES_TAX) AND (SALES_TAX_ID = @Original_SALES_TAX_ID)</value>
+  </data>
+  <metadata name="sqlInsertCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand5.CommandText" xml:space="preserve">
+    <value>INSERT INTO SALES_TAXES(SALES_TAX_ID, SALES_TAX_CODE, DESCRIPTION, SALES_TAX) VALUES (@SALES_TAX_ID, @SALES_TAX_CODE, @DESCRIPTION, @SALES_TAX); SELECT SALES_TAX_ID, SALES_TAX_CODE, DESCRIPTION, SALES_TAX FROM SALES_TAXES WHERE (SALES_TAX_CODE = @SALES_TAX_CODE) ORDER BY DESCRIPTION</value>
+  </data>
+  <metadata name="sqlSelectCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand4.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand4.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand4.CommandText" xml:space="preserve">
+    <value>UPDATE SALES_TAXES SET SALES_TAX_ID = @SALES_TAX_ID, SALES_TAX_CODE = @SALES_TAX_CODE, DESCRIPTION = @DESCRIPTION, SALES_TAX = @SALES_TAX WHERE (SALES_TAX_CODE = @Original_SALES_TAX_CODE) AND (DESCRIPTION = @Original_DESCRIPTION OR @Original_DESCRIPTION IS NULL AND DESCRIPTION IS NULL) AND (SALES_TAX = @Original_SALES_TAX) AND (SALES_TAX_ID = @Original_SALES_TAX_ID); SELECT SALES_TAX_ID, SALES_TAX_CODE, DESCRIPTION, SALES_TAX FROM SALES_TAXES WHERE (SALES_TAX_CODE = @SALES_TAX_CODE) ORDER BY DESCRIPTION</value>
+  </data>
+  <metadata name="daTerms.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 134</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand5.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand5.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand5.CommandText" xml:space="preserve">
+    <value>UPDATE TERMS SET TERMS_ID = @TERMS_ID, TERM_CODE = @TERM_CODE, DESCRIPTION = @DESCRIPTION WHERE (TERM_CODE = @Original_TERM_CODE) AND (DESCRIPTION = @Original_DESCRIPTION OR @Original_DESCRIPTION IS NULL AND DESCRIPTION IS NULL) AND (TERMS_ID = @Original_TERMS_ID); SELECT TERMS_ID, TERM_CODE, DESCRIPTION FROM TERMS WHERE (TERM_CODE = @TERM_CODE) ORDER BY DESCRIPTION</value>
+  </data>
+  <metadata name="daSupplier.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>115, 134</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand7.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand7.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand6.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand6.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand6.CommandText" xml:space="preserve">
+    <value>UPDATE SUPPLIER_MASTER SET SUPPLIER = @SUPPLIER, NAME = @NAME WHERE (SUPPLIER = @Original_SUPPLIER) AND (NAME = @Original_NAME OR @Original_NAME IS NULL AND NAME IS NULL); SELECT SUPPLIER, NAME FROM SUPPLIER_MASTER WHERE (SUPPLIER = @SUPPLIER) ORDER BY SUPPLIER</value>
+  </data>
+  <metadata name="daSwapSeg.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>225, 134</value>
+  </metadata>
+  <metadata name="sqlSelectCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand8.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="daAllocSeg.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>339, 134</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand8.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand8.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand8.CommandText" xml:space="preserve">
+    <value>INSERT INTO GL_ALLOC(GL_ALLOC_ID, SEGMENT_NAME) VALUES (@GL_ALLOC_ID, @SEGMENT_NAME); SELECT GL_ALLOC_ID, '*' + GL_ALLOC_CODE AS GL_ALLOC_CODE, SEGMENT_NAME FROM GL_ALLOC WHERE (GL_ALLOC_ID = @GL_ALLOC_ID) ORDER BY GL_ALLOC_CODE</value>
+  </data>
+  <metadata name="sqlSelectCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand9.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand8.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand8.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand8.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand8.CommandText" xml:space="preserve">
+    <value>UPDATE GL_ALLOC SET GL_ALLOC_ID = @GL_ALLOC_ID, SEGMENT_NAME = @SEGMENT_NAME WHERE (GL_ALLOC_ID = @Original_GL_ALLOC_ID) AND (SEGMENT_NAME = @Original_SEGMENT_NAME OR @Original_SEGMENT_NAME IS NULL AND SEGMENT_NAME IS NULL); SELECT GL_ALLOC_ID, '*' + GL_ALLOC_CODE AS GL_ALLOC_CODE, SEGMENT_NAME FROM GL_ALLOC WHERE (GL_ALLOC_ID = @GL_ALLOC_ID) ORDER BY GL_ALLOC_CODE</value>
+  </data>
+  <metadata name="daPO.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>451, 134</value>
+  </metadata>
+  <metadata name="sqlSelectCommand10.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand10.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand10.CommandText" xml:space="preserve">
+    <value>SELECT DISTINCT POHDR.PO_ID, POHDR.PO, POHDR.ORDER_DATE
+FROM            PO_HEADER AS POHDR LEFT OUTER JOIN
+                         PO_REC_HEADER AS HDR ON POHDR.PO_ID = HDR.PO_ID LEFT OUTER JOIN
+                         PO_REC_DETAIL AS dtl ON dtl.PO_REC_ID = HDR.PO_REC_ID
+WHERE        (ISNULL(dtl.RECEIVER_MATCH_STATUS, 'F') = 'F') AND (POHDR.SUPPLIER = @supplier) AND (POHDR.STATUS NOT IN ('Closed', 'Cancel', 'Open')) AND 
+                         (HDR.PO_REC_ID IS NOT NULL) AND (ISNULL(POHDR.PO_FUNCTION, '') &lt;&gt; 'I') OR
+                         (ISNULL(dtl.RECEIVER_MATCH_STATUS, 'F') = 'F') AND (POHDR.SUPPLIER = @supplier) AND (POHDR.STATUS NOT IN ('Closed', 'Cancel', 'Open', 'Printed')) 
+                         AND (ISNULL(POHDR.PO_FUNCTION, '') &lt;&gt; 'I') AND (ISNULL(POHDR.CONTRACT_PO, 'F') &lt;&gt; 'F')
+ORDER BY POHDR.PO</value>
+  </data>
+  <metadata name="TR_Conn2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>629, 95</value>
+  </metadata>
+  <metadata name="daInvDetail.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>532, 134</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand10.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand10.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand10.CommandText" xml:space="preserve">
+    <value>DELETE FROM [AP_GL_ALLOC] WHERE (([SUPPLIER] = @Original_SUPPLIER) AND ([DOC_NO] = @Original_DOC_NO) AND ((@IsNull_JOURNAL_NUMBER = 1 AND [JOURNAL_NUMBER] IS NULL) OR ([JOURNAL_NUMBER] = @Original_JOURNAL_NUMBER)) AND ((@IsNull_JOURNAL_LINE_NO = 1 AND [JOURNAL_LINE_NO] IS NULL) OR ([JOURNAL_LINE_NO] = @Original_JOURNAL_LINE_NO)) AND ((@IsNull_GL_ENTRIES_LINE_NO = 1 AND [GL_ENTRIES_LINE_NO] IS NULL) OR ([GL_ENTRIES_LINE_NO] = @Original_GL_ENTRIES_LINE_NO)) AND ((@IsNull_GL_ACCOUNT = 1 AND [GL_ACCOUNT] IS NULL) OR ([GL_ACCOUNT] = @Original_GL_ACCOUNT)) AND ((@IsNull_COMMENT = 1 AND [COMMENT] IS NULL) OR ([COMMENT] = @Original_COMMENT)) AND ((@IsNull_AMOUNT = 1 AND [AMOUNT] IS NULL) OR ([AMOUNT] = @Original_AMOUNT)) AND ((@IsNull_AP_REC_ENTRY_NO = 1 AND [AP_REC_ENTRY_NO] IS NULL) OR ([AP_REC_ENTRY_NO] = @Original_AP_REC_ENTRY_NO)) AND ((@IsNull_TRANS_TYPE = 1 AND [TRANS_TYPE] IS NULL) OR ([TRANS_TYPE] = @Original_TRANS_TYPE)) AND ((@IsNull_AP_GL_ALLOC_CODE = 1 AND [AP_GL_ALLOC_CODE] IS NULL) OR ([AP_GL_ALLOC_CODE] = @Original_AP_GL_ALLOC_CODE)) AND ((@IsNull_AP_GL_ENTRIES_ID = 1 AND [AP_GL_ENTRIES_ID] IS NULL) OR ([AP_GL_ENTRIES_ID] = @Original_AP_GL_ENTRIES_ID)) AND ((@IsNull_HOLD_AMT = 1 AND [HOLD_AMT] IS NULL) OR ([HOLD_AMT] = @Original_HOLD_AMT)) AND ((@IsNull_HOLD_BAL = 1 AND [HOLD_BAL] IS NULL) OR ([HOLD_BAL] = @Original_HOLD_BAL)) AND ((@IsNull_INV_BAL = 1 AND [INV_BAL] IS NULL) OR ([INV_BAL] = @Original_INV_BAL)) AND ([SEQ] = @Original_SEQ) AND ((@IsNull_AGA_PROJ_CD = 1 AND [AGA_PROJ_CD] IS NULL) OR ([AGA_PROJ_CD] = @Original_AGA_PROJ_CD)) AND ((@IsNull_AGA_RLH_CD = 1 AND [AGA_RLH_CD] IS NULL) OR ([AGA_RLH_CD] = @Original_AGA_RLH_CD)) AND ((@IsNull_AGA_LOT = 1 AND [AGA_LOT] IS NULL) OR ([AGA_LOT] = @Original_AGA_LOT)) AND ((@IsNull_AGA_BLOCK = 1 AND [AGA_BLOCK] IS NULL) OR ([AGA_BLOCK] = @Original_AGA_BLOCK)) AND ((@IsNull_AGA_PLAN = 1 AND [AGA_PLAN] IS NULL) OR ([AGA_PLAN] = @Original_AGA_PLAN)) AND ((@IsNull_AGA_JOB_COST_CD = 1 AND [AGA_JOB_COST_CD] IS NULL) OR ([AGA_JOB_COST_CD] = @Original_AGA_JOB_COST_CD)) AND ((@IsNull_AGA_AGREE_NUM = 1 AND [AGA_AGREE_NUM] IS NULL) OR ([AGA_AGREE_NUM] = @Original_AGA_AGREE_NUM)) AND ((@IsNull_AGA_INV_ID = 1 AND [AGA_INV_ID] IS NULL) OR ([AGA_INV_ID] = @Original_AGA_INV_ID)) AND ((@IsNull_AGA_C_PROF_CNTR = 1 AND [AGA_C_PROF_CNTR] IS NULL) OR ([AGA_C_PROF_CNTR] = @Original_AGA_C_PROF_CNTR)) AND ((@IsNull_AGA_C_LEASE_NUM = 1 AND [AGA_C_LEASE_NUM] IS NULL) OR ([AGA_C_LEASE_NUM] = @Original_AGA_C_LEASE_NUM)) AND ((@IsNull_AGA_C_PROP_CD = 1 AND [AGA_C_PROP_CD] IS NULL) OR ([AGA_C_PROP_CD] = @Original_AGA_C_PROP_CD)) AND ((@IsNull_AGA_R_PROF_CNTR = 1 AND [AGA_R_PROF_CNTR] IS NULL) OR ([AGA_R_PROF_CNTR] = @Original_AGA_R_PROF_CNTR)) AND ((@IsNull_AGA_R_LEASE_NUM = 1 AND [AGA_R_LEASE_NUM] IS NULL) OR ([AGA_R_LEASE_NUM] = @Original_AGA_R_LEASE_NUM)) AND ((@IsNull_AGA_R_PROP_CD = 1 AND [AGA_R_PROP_CD] IS NULL) OR ([AGA_R_PROP_CD] = @Original_AGA_R_PROP_CD)) AND ((@IsNull_TRANSFER_FLAG = 1 AND [TRANSFER_FLAG] IS NULL) OR ([TRANSFER_FLAG] = @Original_TRANSFER_FLAG)) AND ((@IsNull_pri_num = 1 AND [pri_num] IS NULL) OR ([pri_num] = @Original_pri_num)) AND ((@IsNull_phs_code = 1 AND [phs_code] IS NULL) OR ([phs_code] = @Original_phs_code)) AND ((@IsNull_subp_code = 1 AND [subp_code] IS NULL) OR ([subp_code] = @Original_subp_code)) AND ((@IsNull_prp_component = 1 AND [prp_component] IS NULL) OR ([prp_component] = @Original_prp_component)) AND ((@IsNull_prp_subcomp = 1 AND [prp_subcomp] IS NULL) OR ([prp_subcomp] = @Original_prp_subcomp)) AND ((@IsNull_GST_AMT = 1 AND [GST_AMT] IS NULL) OR ([GST_AMT] = @Original_GST_AMT)) AND ((@IsNull_PURCH_AMT = 1 AND [PURCH_AMT] IS NULL) OR ([PURCH_AMT] = @Original_PURCH_AMT)) AND ((@IsNull_ITC = 1 AND [ITC] IS NULL) OR ([ITC] = @Original_ITC)) AND ((@IsNull_GST_BAL = 1 AND [GST_BAL] IS NULL) OR ([GST_BAL] = @Original_GST_BAL)) AND ((@IsNull_PO_ID = 1 AND [PO_ID] IS NULL) OR ([PO_ID] = @Original_PO_ID)) AND ((@IsNull_PO_TYPE = 1 AND [PO_TYPE] IS NULL) OR ([PO_TYPE] = @Original_PO_TYPE)) AND ((@IsNull_PO_REC_ID = 1 AND [PO_REC_ID] IS NULL) OR ([PO_REC_ID] = @Original_PO_REC_ID)) AND ((@IsNull_CLEAR_REQUIRED = 1 AND [CLEAR_REQUIRED] IS NULL) OR ([CLEAR_REQUIRED] = @Original_CLEAR_REQUIRED)) AND ((@IsNull_AP_INV_HEADER_ID = 1 AND [AP_INV_HEADER_ID] IS NULL) OR ([AP_INV_HEADER_ID] = @Original_AP_INV_HEADER_ID)) AND ((@IsNull_AP_GL_ALLOC_ID = 1 AND [AP_GL_ALLOC_ID] IS NULL) OR ([AP_GL_ALLOC_ID] = @Original_AP_GL_ALLOC_ID)) AND ((@IsNull_SEG_1 = 1 AND [SEG_1] IS NULL) OR ([SEG_1] = @Original_SEG_1)) AND ((@IsNull_SEG_2 = 1 AND [SEG_2] IS NULL) OR ([SEG_2] = @Original_SEG_2)) AND ((@IsNull_SEG_3 = 1 AND [SEG_3] IS NULL) OR ([SEG_3] = @Original_SEG_3)) AND ((@IsNull_SEG_4 = 1 AND [SEG_4] IS NULL) OR ([SEG_4] = @Original_SEG_4)) AND ((@IsNull_SEG_5 = 1 AND [SEG_5] IS NULL) OR ([SEG_5] = @Original_SEG_5)) AND ((@IsNull_SEG_6 = 1 AND [SEG_6] IS NULL) OR ([SEG_6] = @Original_SEG_6)) AND ((@IsNull_WCB_ASSESSABLE = 1 AND [WCB_ASSESSABLE] IS NULL) OR ([WCB_ASSESSABLE] = @Original_WCB_ASSESSABLE)) AND ((@IsNull_SLS_ID = 1 AND [SLS_ID] IS NULL) OR ([SLS_ID] = @Original_SLS_ID)) AND ((@IsNull_COMM_STAT_FLAG = 1 AND [COMM_STAT_FLAG] IS NULL) OR ([COMM_STAT_FLAG] = @Original_COMM_STAT_FLAG)) AND ((@IsNull_COMPANY_ALIAS = 1 AND [COMPANY_ALIAS] IS NULL) OR ([COMPANY_ALIAS] = @Original_COMPANY_ALIAS)) AND ((@IsNull_INTER_CO_ACCT = 1 AND [INTER_CO_ACCT] IS NULL) OR ([INTER_CO_ACCT] = @Original_INTER_CO_ACCT)) AND ((@IsNull_SUBCONTRACTOR_TYPE_ID = 1 AND [SUBCONTRACTOR_TYPE_ID] IS NULL) OR ([SUBCONTRACTOR_TYPE_ID] = @Original_SUBCONTRACTOR_TYPE_ID)) AND ((@IsNull_COMM_STAT_APPLICABLE = 1 AND [COMM_STAT_APPLICABLE] IS NULL) OR ([COMM_STAT_APPLICABLE] = @Original_COMM_STAT_APPLICABLE)) AND ((@IsNull_USE_COMM_PCT = 1 AND [USE_COMM_PCT] IS NULL) OR ([USE_COMM_PCT] = @Original_USE_COMM_PCT)) AND ((@IsNull_COMMISSION_PCT = 1 AND [COMMISSION_PCT] IS NULL) OR ([COMMISSION_PCT] = @Original_COMMISSION_PCT)) AND ((@IsNull_EXCH_RATE = 1 AND [EXCH_RATE] IS NULL) OR ([EXCH_RATE] = @Original_EXCH_RATE)) AND ((@IsNull_EXCH_AMT = 1 AND [EXCH_AMT] IS NULL) OR ([EXCH_AMT] = @Original_EXCH_AMT)) AND ((@IsNull_PO_REC_DETAIL_ID = 1 AND [PO_REC_DETAIL_ID] IS NULL) OR ([PO_REC_DETAIL_ID] = @Original_PO_REC_DETAIL_ID)) AND ((@IsNull_PROJ_BUD_EXCEEDED = 1 AND [PROJ_BUD_EXCEEDED] IS NULL) OR ([PROJ_BUD_EXCEEDED] = @Original_PROJ_BUD_EXCEEDED)) AND ((@IsNull_unit_inv_id = 1 AND [unit_inv_id] IS NULL) OR ([unit_inv_id] = @Original_unit_inv_id)) AND ((@IsNull_TIME_TICKET = 1 AND [TIME_TICKET] IS NULL) OR ([TIME_TICKET] = @Original_TIME_TICKET)) AND ((@IsNull_AFE_NO = 1 AND [AFE_NO] IS NULL) OR ([AFE_NO] = @Original_AFE_NO)) AND ((@IsNull_COST_CODE = 1 AND [COST_CODE] IS NULL) OR ([COST_CODE] = @Original_COST_CODE)) AND ((@IsNull_SUB_CODE = 1 AND [SUB_CODE] IS NULL) OR ([SUB_CODE] = @Original_SUB_CODE)) AND ((@IsNull_REFERENCE = 1 AND [REFERENCE] IS NULL) OR ([REFERENCE] = @Original_REFERENCE)) AND ((@IsNull_SEG_CHANGE = 1 AND [SEG_CHANGE] IS NULL) OR ([SEG_CHANGE] = @Original_SEG_CHANGE)) AND ((@IsNull_AGA_C_FLOOR = 1 AND [AGA_C_FLOOR] IS NULL) OR ([AGA_C_FLOOR] = @Original_AGA_C_FLOOR)) AND ((@IsNull_AGA_C_SPACE = 1 AND [AGA_C_SPACE] IS NULL) OR ([AGA_C_SPACE] = @Original_AGA_C_SPACE)) AND ((@IsNull_AGA_R_FLOOR = 1 AND [AGA_R_FLOOR] IS NULL) OR ([AGA_R_FLOOR] = @Original_AGA_R_FLOOR)) AND ((@IsNull_AGA_R_UNIT = 1 AND [AGA_R_UNIT] IS NULL) OR ([AGA_R_UNIT] = @Original_AGA_R_UNIT)) AND ((@IsNull_lv1id = 1 AND [lv1id] IS NULL) OR ([lv1id] = @Original_lv1id)) AND ((@IsNull_lv2id = 1 AND [lv2id] IS NULL) OR ([lv2id] = @Original_lv2id)) AND ((@IsNull_lv3id = 1 AND [lv3id] IS NULL) OR ([lv3id] = @Original_lv3id)) AND ((@IsNull_lv4id = 1 AND [lv4id] IS NULL) OR ([lv4id] = @Original_lv4id)) AND ((@IsNull_lem_comp = 1 AND [lem_comp] IS NULL) OR ([lem_comp] = @Original_lem_comp)) AND ((@IsNull_pri_id = 1 AND [pri_id] IS NULL) OR ([pri_id] = @Original_pri_id)) AND ((@IsNull_EXPENSE_TYPE = 1 AND [EXPENSE_TYPE] IS NULL) OR ([EXPENSE_TYPE] = @Original_EXPENSE_TYPE)) AND ((@IsNull_HOURS = 1 AND [HOURS] IS NULL) OR ([HOURS] = @Original_HOURS)) AND ((@IsNull_RATE = 1 AND [RATE] IS NULL) OR ([RATE] = @Original_RATE)) AND ((@IsNull_CB_ID = 1 AND [CB_ID] IS NULL) OR ([CB_ID] = @Original_CB_ID)) AND ((@IsNull_CB_REF = 1 AND [CB_REF] IS NULL) OR ([CB_REF] = @Original_CB_REF)) AND ((@IsNull_billable = 1 AND [billable] IS NULL) OR ([billable] = @Original_billable)) AND ((@IsNull_AR_PWP_STATUS_ID = 1 AND [AR_PWP_STATUS_ID] IS NULL) OR ([AR_PWP_STATUS_ID] = @Original_AR_PWP_STATUS_ID)))</value>
+  </data>
+  <metadata name="sqlInsertCommand10.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand10.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand10.CommandText" xml:space="preserve">
+    <value>INSERT INTO [AP_GL_ALLOC] ([SUPPLIER], [DOC_NO], [JOURNAL_NUMBER], [JOURNAL_LINE_NO], [GL_ENTRIES_LINE_NO], [GL_ACCOUNT], [COMMENT], [AMOUNT], [AP_REC_ENTRY_NO], [TRANS_TYPE], [AP_GL_ALLOC_CODE], [AP_GL_ENTRIES_ID], [HOLD_AMT], [HOLD_BAL], [INV_BAL], [SEQ], [AGA_PROJ_CD], [AGA_RLH_CD], [AGA_LOT], [AGA_BLOCK], [AGA_PLAN], [AGA_JOB_COST_CD], [AGA_AGREE_NUM], [AGA_INV_ID], [AGA_C_PROF_CNTR], [AGA_C_LEASE_NUM], [AGA_C_PROP_CD], [AGA_R_PROF_CNTR], [AGA_R_LEASE_NUM], [AGA_R_PROP_CD], [TRANSFER_FLAG], [pri_num], [phs_code], [subp_code], [prp_component], [prp_subcomp], [GST_AMT], [PURCH_AMT], [ITC], [GST_BAL], [PO_ID], [PO_TYPE], [PO_REC_ID], [CLEAR_REQUIRED], [AP_INV_HEADER_ID], [AP_GL_ALLOC_ID], [SEG_1], [SEG_2], [SEG_3], [SEG_4], [SEG_5], [SEG_6], [WCB_ASSESSABLE], [SLS_ID], [COMM_STAT_FLAG], [COMPANY_ALIAS], [INTER_CO_ACCT], [SUBCONTRACTOR_TYPE_ID], [COMM_STAT_APPLICABLE], [USE_COMM_PCT], [COMMISSION_PCT], [EXCH_RATE], [EXCH_AMT], [PO_REC_DETAIL_ID], [PROJ_BUD_EXCEEDED], [unit_inv_id], [TIME_TICKET], [AFE_NO], [COST_CODE], [SUB_CODE], [REFERENCE], [SEG_CHANGE], [AGA_C_FLOOR], [AGA_C_SPACE], [AGA_R_FLOOR], [AGA_R_UNIT], [lv1id], [lv2id], [lv3id], [lv4id], [lem_comp], [pri_id], [EXPENSE_TYPE], [HOURS], [RATE], [CB_ID], [CB_REF], [billable], [AR_PWP_STATUS_ID]) VALUES (@SUPPLIER, @DOC_NO, @JOURNAL_NUMBER, @JOURNAL_LINE_NO, @GL_ENTRIES_LINE_NO, @GL_ACCOUNT, @COMMENT, @AMOUNT, @AP_REC_ENTRY_NO, @TRANS_TYPE, @AP_GL_ALLOC_CODE, @AP_GL_ENTRIES_ID, @HOLD_AMT, @HOLD_BAL, @INV_BAL, @SEQ, @AGA_PROJ_CD, @AGA_RLH_CD, @AGA_LOT, @AGA_BLOCK, @AGA_PLAN, @AGA_JOB_COST_CD, @AGA_AGREE_NUM, @AGA_INV_ID, @AGA_C_PROF_CNTR, @AGA_C_LEASE_NUM, @AGA_C_PROP_CD, @AGA_R_PROF_CNTR, @AGA_R_LEASE_NUM, @AGA_R_PROP_CD, @TRANSFER_FLAG, @pri_num, @phs_code, @subp_code, @prp_component, @prp_subcomp, @GST_AMT, @PURCH_AMT, @ITC, @GST_BAL, @PO_ID, @PO_TYPE, @PO_REC_ID, @CLEAR_REQUIRED, @AP_INV_HEADER_ID, @AP_GL_ALLOC_ID, @SEG_1, @SEG_2, @SEG_3, @SEG_4, @SEG_5, @SEG_6, @WCB_ASSESSABLE, @SLS_ID, @COMM_STAT_FLAG, @COMPANY_ALIAS, @INTER_CO_ACCT, @SUBCONTRACTOR_TYPE_ID, @COMM_STAT_APPLICABLE, @USE_COMM_PCT, @COMMISSION_PCT, @EXCH_RATE, @EXCH_AMT, @PO_REC_DETAIL_ID, @PROJ_BUD_EXCEEDED, @unit_inv_id, @TIME_TICKET, @AFE_NO, @COST_CODE, @SUB_CODE, @REFERENCE, @SEG_CHANGE, @AGA_C_FLOOR, @AGA_C_SPACE, @AGA_R_FLOOR, @AGA_R_UNIT, @lv1id, @lv2id, @lv3id, @lv4id, @lem_comp, @pri_id, @EXPENSE_TYPE, @HOURS, @RATE, @CB_ID, @CB_REF, @billable, @AR_PWP_STATUS_ID);
+SELECT SUPPLIER, DOC_NO, JOURNAL_NUMBER, JOURNAL_LINE_NO, GL_ENTRIES_LINE_NO, GL_ACCOUNT, COMMENT, AMOUNT, AP_REC_ENTRY_NO, TRANS_TYPE, AP_GL_ALLOC_CODE, AP_GL_ENTRIES_ID, HOLD_AMT, HOLD_BAL, INV_BAL, SEQ, AGA_PROJ_CD, AGA_RLH_CD, AGA_LOT, AGA_BLOCK, AGA_PLAN, AGA_JOB_COST_CD, AGA_AGREE_NUM, AGA_INV_ID, AGA_C_PROF_CNTR, AGA_C_LEASE_NUM, AGA_C_PROP_CD, AGA_R_PROF_CNTR, AGA_R_LEASE_NUM, AGA_R_PROP_CD, TRANSFER_FLAG, pri_num, phs_code, subp_code, prp_component, prp_subcomp, GST_AMT, PURCH_AMT, ITC, GST_BAL, PO_ID, PO_TYPE, PO_REC_ID, CLEAR_REQUIRED, AP_INV_HEADER_ID, AP_GL_ALLOC_ID, SEG_1, SEG_2, SEG_3, SEG_4, SEG_5, SEG_6, WCB_ASSESSABLE, SLS_ID, COMM_STAT_FLAG, COMPANY_ALIAS, INTER_CO_ACCT, SUBCONTRACTOR_TYPE_ID, COMM_STAT_APPLICABLE, USE_COMM_PCT, COMMISSION_PCT, EXCH_RATE, EXCH_AMT, PO_REC_DETAIL_ID, PROJ_BUD_EXCEEDED, unit_inv_id, TIME_TICKET, AFE_NO, COST_CODE, SUB_CODE, REFERENCE, SEG_CHANGE, AGA_C_FLOOR, AGA_C_SPACE, AGA_R_FLOOR, AGA_R_UNIT, lv1id, lv2id, lv3id, lv4id, lem_comp, pri_id, EXPENSE_TYPE, HOURS, RATE, CB_ID, CB_REF, billable, AR_PWP_STATUS_ID FROM AP_GL_ALLOC WHERE (DOC_NO = @DOC_NO) AND (SEQ = @SEQ) AND (SUPPLIER = @SUPPLIER) ORDER BY SEQ</value>
+  </data>
+  <metadata name="sqlSelectCommand11.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand11.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand11.CommandText" xml:space="preserve">
+    <value>SELECT SUPPLIER, DOC_NO, JOURNAL_NUMBER, JOURNAL_LINE_NO, GL_ENTRIES_LINE_NO, GL_ACCOUNT, COMMENT, AMOUNT, AP_REC_ENTRY_NO, TRANS_TYPE, AP_GL_ALLOC_CODE, AP_GL_ENTRIES_ID, HOLD_AMT, HOLD_BAL, INV_BAL, SEQ, AGA_PROJ_CD, AGA_RLH_CD, AGA_LOT, AGA_BLOCK, AGA_PLAN, AGA_JOB_COST_CD, AGA_AGREE_NUM, AGA_INV_ID, AGA_C_PROF_CNTR, AGA_C_LEASE_NUM, AGA_C_PROP_CD, AGA_R_PROF_CNTR, AGA_R_LEASE_NUM, AGA_R_PROP_CD, TRANSFER_FLAG, pri_num, phs_code, subp_code, prp_component, prp_subcomp, GST_AMT, PURCH_AMT, ITC, GST_BAL, PO_ID, PO_TYPE, PO_REC_ID, CLEAR_REQUIRED, AP_INV_HEADER_ID, AP_GL_ALLOC_ID, SEG_1, SEG_2, SEG_3, SEG_4, SEG_5, SEG_6, WCB_ASSESSABLE, SLS_ID, COMM_STAT_FLAG, COMPANY_ALIAS, INTER_CO_ACCT, SUBCONTRACTOR_TYPE_ID, COMM_STAT_APPLICABLE, USE_COMM_PCT, COMMISSION_PCT, EXCH_RATE, EXCH_AMT, PO_REC_DETAIL_ID, PROJ_BUD_EXCEEDED, unit_inv_id, TIME_TICKET, AFE_NO, COST_CODE, SUB_CODE, REFERENCE, SEG_CHANGE, AGA_C_FLOOR, AGA_C_SPACE, AGA_R_FLOOR, AGA_R_UNIT,
+lv1id, lv2id, lv3id, lv4id, lem_comp, pri_id, EXPENSE_TYPE, [HOURS], RATE, CB_ID, CB_REF, billable, AR_PWP_STATUS_ID
+FROM AP_GL_ALLOC WHERE (AP_INV_HEADER_ID = @ap_inv_header_id) ORDER BY SEQ</value>
+  </data>
+  <metadata name="sqlUpdateCommand10.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand10.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand10.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand10.CommandText" xml:space="preserve">
+    <value>UPDATE [AP_GL_ALLOC] SET [SUPPLIER] = @SUPPLIER, [DOC_NO] = @DOC_NO, [JOURNAL_NUMBER] = @JOURNAL_NUMBER, [JOURNAL_LINE_NO] = @JOURNAL_LINE_NO, [GL_ENTRIES_LINE_NO] = @GL_ENTRIES_LINE_NO, [GL_ACCOUNT] = @GL_ACCOUNT, [COMMENT] = @COMMENT, [AMOUNT] = @AMOUNT, [AP_REC_ENTRY_NO] = @AP_REC_ENTRY_NO, [TRANS_TYPE] = @TRANS_TYPE, [AP_GL_ALLOC_CODE] = @AP_GL_ALLOC_CODE, [AP_GL_ENTRIES_ID] = @AP_GL_ENTRIES_ID, [HOLD_AMT] = @HOLD_AMT, [HOLD_BAL] = @HOLD_BAL, [INV_BAL] = @INV_BAL, [SEQ] = @SEQ, [AGA_PROJ_CD] = @AGA_PROJ_CD, [AGA_RLH_CD] = @AGA_RLH_CD, [AGA_LOT] = @AGA_LOT, [AGA_BLOCK] = @AGA_BLOCK, [AGA_PLAN] = @AGA_PLAN, [AGA_JOB_COST_CD] = @AGA_JOB_COST_CD, [AGA_AGREE_NUM] = @AGA_AGREE_NUM, [AGA_INV_ID] = @AGA_INV_ID, [AGA_C_PROF_CNTR] = @AGA_C_PROF_CNTR, [AGA_C_LEASE_NUM] = @AGA_C_LEASE_NUM, [AGA_C_PROP_CD] = @AGA_C_PROP_CD, [AGA_R_PROF_CNTR] = @AGA_R_PROF_CNTR, [AGA_R_LEASE_NUM] = @AGA_R_LEASE_NUM, [AGA_R_PROP_CD] = @AGA_R_PROP_CD, [TRANSFER_FLAG] = @TRANSFER_FLAG, [pri_num] = @pri_num, [phs_code] = @phs_code, [subp_code] = @subp_code, [prp_component] = @prp_component, [prp_subcomp] = @prp_subcomp, [GST_AMT] = @GST_AMT, [PURCH_AMT] = @PURCH_AMT, [ITC] = @ITC, [GST_BAL] = @GST_BAL, [PO_ID] = @PO_ID, [PO_TYPE] = @PO_TYPE, [PO_REC_ID] = @PO_REC_ID, [CLEAR_REQUIRED] = @CLEAR_REQUIRED, [AP_INV_HEADER_ID] = @AP_INV_HEADER_ID, [AP_GL_ALLOC_ID] = @AP_GL_ALLOC_ID, [SEG_1] = @SEG_1, [SEG_2] = @SEG_2, [SEG_3] = @SEG_3, [SEG_4] = @SEG_4, [SEG_5] = @SEG_5, [SEG_6] = @SEG_6, [WCB_ASSESSABLE] = @WCB_ASSESSABLE, [SLS_ID] = @SLS_ID, [COMM_STAT_FLAG] = @COMM_STAT_FLAG, [COMPANY_ALIAS] = @COMPANY_ALIAS, [INTER_CO_ACCT] = @INTER_CO_ACCT, [SUBCONTRACTOR_TYPE_ID] = @SUBCONTRACTOR_TYPE_ID, [COMM_STAT_APPLICABLE] = @COMM_STAT_APPLICABLE, [USE_COMM_PCT] = @USE_COMM_PCT, [COMMISSION_PCT] = @COMMISSION_PCT, [EXCH_RATE] = @EXCH_RATE, [EXCH_AMT] = @EXCH_AMT, [PO_REC_DETAIL_ID] = @PO_REC_DETAIL_ID, [PROJ_BUD_EXCEEDED] = @PROJ_BUD_EXCEEDED, [unit_inv_id] = @unit_inv_id, [TIME_TICKET] = @TIME_TICKET, [AFE_NO] = @AFE_NO, [COST_CODE] = @COST_CODE, [SUB_CODE] = @SUB_CODE, [REFERENCE] = @REFERENCE, [SEG_CHANGE] = @SEG_CHANGE, [AGA_C_FLOOR] = @AGA_C_FLOOR, [AGA_C_SPACE] = @AGA_C_SPACE, [AGA_R_FLOOR] = @AGA_R_FLOOR, [AGA_R_UNIT] = @AGA_R_UNIT, [lv1id] = @lv1id, [lv2id] = @lv2id, [lv3id] = @lv3id, [lv4id] = @lv4id, [lem_comp] = @lem_comp, [pri_id] = @pri_id, [EXPENSE_TYPE] = @EXPENSE_TYPE, [HOURS] = @HOURS, [RATE] = @RATE, [CB_ID] = @CB_ID, [CB_REF] = @CB_REF, [billable] = @billable, [AR_PWP_STATUS_ID] = @AR_PWP_STATUS_ID WHERE (([SUPPLIER] = @Original_SUPPLIER) AND ([DOC_NO] = @Original_DOC_NO) AND ((@IsNull_JOURNAL_NUMBER = 1 AND [JOURNAL_NUMBER] IS NULL) OR ([JOURNAL_NUMBER] = @Original_JOURNAL_NUMBER)) AND ((@IsNull_JOURNAL_LINE_NO = 1 AND [JOURNAL_LINE_NO] IS NULL) OR ([JOURNAL_LINE_NO] = @Original_JOURNAL_LINE_NO)) AND ((@IsNull_GL_ENTRIES_LINE_NO = 1 AND [GL_ENTRIES_LINE_NO] IS NULL) OR ([GL_ENTRIES_LINE_NO] = @Original_GL_ENTRIES_LINE_NO)) AND ((@IsNull_GL_ACCOUNT = 1 AND [GL_ACCOUNT] IS NULL) OR ([GL_ACCOUNT] = @Original_GL_ACCOUNT)) AND ((@IsNull_COMMENT = 1 AND [COMMENT] IS NULL) OR ([COMMENT] = @Original_COMMENT)) AND ((@IsNull_AMOUNT = 1 AND [AMOUNT] IS NULL) OR ([AMOUNT] = @Original_AMOUNT)) AND ((@IsNull_AP_REC_ENTRY_NO = 1 AND [AP_REC_ENTRY_NO] IS NULL) OR ([AP_REC_ENTRY_NO] = @Original_AP_REC_ENTRY_NO)) AND ((@IsNull_TRANS_TYPE = 1 AND [TRANS_TYPE] IS NULL) OR ([TRANS_TYPE] = @Original_TRANS_TYPE)) AND ((@IsNull_AP_GL_ALLOC_CODE = 1 AND [AP_GL_ALLOC_CODE] IS NULL) OR ([AP_GL_ALLOC_CODE] = @Original_AP_GL_ALLOC_CODE)) AND ((@IsNull_AP_GL_ENTRIES_ID = 1 AND [AP_GL_ENTRIES_ID] IS NULL) OR ([AP_GL_ENTRIES_ID] = @Original_AP_GL_ENTRIES_ID)) AND ((@IsNull_HOLD_AMT = 1 AND [HOLD_AMT] IS NULL) OR ([HOLD_AMT] = @Original_HOLD_AMT)) AND ((@IsNull_HOLD_BAL = 1 AND [HOLD_BAL] IS NULL) OR ([HOLD_BAL] = @Original_HOLD_BAL)) AND ((@IsNull_INV_BAL = 1 AND [INV_BAL] IS NULL) OR ([INV_BAL] = @Original_INV_BAL)) AND ([SEQ] = @Original_SEQ) AND ((@IsNull_AGA_PROJ_CD = 1 AND [AGA_PROJ_CD] IS NULL) OR ([AGA_PROJ_CD] = @Original_AGA_PROJ_CD)) AND ((@IsNull_AGA_RLH_CD = 1 AND [AGA_RLH_CD] IS NULL) OR ([AGA_RLH_CD] = @Original_AGA_RLH_CD)) AND ((@IsNull_AGA_LOT = 1 AND [AGA_LOT] IS NULL) OR ([AGA_LOT] = @Original_AGA_LOT)) AND ((@IsNull_AGA_BLOCK = 1 AND [AGA_BLOCK] IS NULL) OR ([AGA_BLOCK] = @Original_AGA_BLOCK)) AND ((@IsNull_AGA_PLAN = 1 AND [AGA_PLAN] IS NULL) OR ([AGA_PLAN] = @Original_AGA_PLAN)) AND ((@IsNull_AGA_JOB_COST_CD = 1 AND [AGA_JOB_COST_CD] IS NULL) OR ([AGA_JOB_COST_CD] = @Original_AGA_JOB_COST_CD)) AND ((@IsNull_AGA_AGREE_NUM = 1 AND [AGA_AGREE_NUM] IS NULL) OR ([AGA_AGREE_NUM] = @Original_AGA_AGREE_NUM)) AND ((@IsNull_AGA_INV_ID = 1 AND [AGA_INV_ID] IS NULL) OR ([AGA_INV_ID] = @Original_AGA_INV_ID)) AND ((@IsNull_AGA_C_PROF_CNTR = 1 AND [AGA_C_PROF_CNTR] IS NULL) OR ([AGA_C_PROF_CNTR] = @Original_AGA_C_PROF_CNTR)) AND ((@IsNull_AGA_C_LEASE_NUM = 1 AND [AGA_C_LEASE_NUM] IS NULL) OR ([AGA_C_LEASE_NUM] = @Original_AGA_C_LEASE_NUM)) AND ((@IsNull_AGA_C_PROP_CD = 1 AND [AGA_C_PROP_CD] IS NULL) OR ([AGA_C_PROP_CD] = @Original_AGA_C_PROP_CD)) AND ((@IsNull_AGA_R_PROF_CNTR = 1 AND [AGA_R_PROF_CNTR] IS NULL) OR ([AGA_R_PROF_CNTR] = @Original_AGA_R_PROF_CNTR)) AND ((@IsNull_AGA_R_LEASE_NUM = 1 AND [AGA_R_LEASE_NUM] IS NULL) OR ([AGA_R_LEASE_NUM] = @Original_AGA_R_LEASE_NUM)) AND ((@IsNull_AGA_R_PROP_CD = 1 AND [AGA_R_PROP_CD] IS NULL) OR ([AGA_R_PROP_CD] = @Original_AGA_R_PROP_CD)) AND ((@IsNull_TRANSFER_FLAG = 1 AND [TRANSFER_FLAG] IS NULL) OR ([TRANSFER_FLAG] = @Original_TRANSFER_FLAG)) AND ((@IsNull_pri_num = 1 AND [pri_num] IS NULL) OR ([pri_num] = @Original_pri_num)) AND ((@IsNull_phs_code = 1 AND [phs_code] IS NULL) OR ([phs_code] = @Original_phs_code)) AND ((@IsNull_subp_code = 1 AND [subp_code] IS NULL) OR ([subp_code] = @Original_subp_code)) AND ((@IsNull_prp_component = 1 AND [prp_component] IS NULL) OR ([prp_component] = @Original_prp_component)) AND ((@IsNull_prp_subcomp = 1 AND [prp_subcomp] IS NULL) OR ([prp_subcomp] = @Original_prp_subcomp)) AND ((@IsNull_GST_AMT = 1 AND [GST_AMT] IS NULL) OR ([GST_AMT] = @Original_GST_AMT)) AND ((@IsNull_PURCH_AMT = 1 AND [PURCH_AMT] IS NULL) OR ([PURCH_AMT] = @Original_PURCH_AMT)) AND ((@IsNull_ITC = 1 AND [ITC] IS NULL) OR ([ITC] = @Original_ITC)) AND ((@IsNull_GST_BAL = 1 AND [GST_BAL] IS NULL) OR ([GST_BAL] = @Original_GST_BAL)) AND ((@IsNull_PO_ID = 1 AND [PO_ID] IS NULL) OR ([PO_ID] = @Original_PO_ID)) AND ((@IsNull_PO_TYPE = 1 AND [PO_TYPE] IS NULL) OR ([PO_TYPE] = @Original_PO_TYPE)) AND ((@IsNull_PO_REC_ID = 1 AND [PO_REC_ID] IS NULL) OR ([PO_REC_ID] = @Original_PO_REC_ID)) AND ((@IsNull_CLEAR_REQUIRED = 1 AND [CLEAR_REQUIRED] IS NULL) OR ([CLEAR_REQUIRED] = @Original_CLEAR_REQUIRED)) AND ((@IsNull_AP_INV_HEADER_ID = 1 AND [AP_INV_HEADER_ID] IS NULL) OR ([AP_INV_HEADER_ID] = @Original_AP_INV_HEADER_ID)) AND ((@IsNull_AP_GL_ALLOC_ID = 1 AND [AP_GL_ALLOC_ID] IS NULL) OR ([AP_GL_ALLOC_ID] = @Original_AP_GL_ALLOC_ID)) AND ((@IsNull_SEG_1 = 1 AND [SEG_1] IS NULL) OR ([SEG_1] = @Original_SEG_1)) AND ((@IsNull_SEG_2 = 1 AND [SEG_2] IS NULL) OR ([SEG_2] = @Original_SEG_2)) AND ((@IsNull_SEG_3 = 1 AND [SEG_3] IS NULL) OR ([SEG_3] = @Original_SEG_3)) AND ((@IsNull_SEG_4 = 1 AND [SEG_4] IS NULL) OR ([SEG_4] = @Original_SEG_4)) AND ((@IsNull_SEG_5 = 1 AND [SEG_5] IS NULL) OR ([SEG_5] = @Original_SEG_5)) AND ((@IsNull_SEG_6 = 1 AND [SEG_6] IS NULL) OR ([SEG_6] = @Original_SEG_6)) AND ((@IsNull_WCB_ASSESSABLE = 1 AND [WCB_ASSESSABLE] IS NULL) OR ([WCB_ASSESSABLE] = @Original_WCB_ASSESSABLE)) AND ((@IsNull_SLS_ID = 1 AND [SLS_ID] IS NULL) OR ([SLS_ID] = @Original_SLS_ID)) AND ((@IsNull_COMM_STAT_FLAG = 1 AND [COMM_STAT_FLAG] IS NULL) OR ([COMM_STAT_FLAG] = @Original_COMM_STAT_FLAG)) AND ((@IsNull_COMPANY_ALIAS = 1 AND [COMPANY_ALIAS] IS NULL) OR ([COMPANY_ALIAS] = @Original_COMPANY_ALIAS)) AND ((@IsNull_INTER_CO_ACCT = 1 AND [INTER_CO_ACCT] IS NULL) OR ([INTER_CO_ACCT] = @Original_INTER_CO_ACCT)) AND ((@IsNull_SUBCONTRACTOR_TYPE_ID = 1 AND [SUBCONTRACTOR_TYPE_ID] IS NULL) OR ([SUBCONTRACTOR_TYPE_ID] = @Original_SUBCONTRACTOR_TYPE_ID)) AND ((@IsNull_COMM_STAT_APPLICABLE = 1 AND [COMM_STAT_APPLICABLE] IS NULL) OR ([COMM_STAT_APPLICABLE] = @Original_COMM_STAT_APPLICABLE)) AND ((@IsNull_USE_COMM_PCT = 1 AND [USE_COMM_PCT] IS NULL) OR ([USE_COMM_PCT] = @Original_USE_COMM_PCT)) AND ((@IsNull_COMMISSION_PCT = 1 AND [COMMISSION_PCT] IS NULL) OR ([COMMISSION_PCT] = @Original_COMMISSION_PCT)) AND ((@IsNull_EXCH_RATE = 1 AND [EXCH_RATE] IS NULL) OR ([EXCH_RATE] = @Original_EXCH_RATE)) AND ((@IsNull_EXCH_AMT = 1 AND [EXCH_AMT] IS NULL) OR ([EXCH_AMT] = @Original_EXCH_AMT)) AND ((@IsNull_PO_REC_DETAIL_ID = 1 AND [PO_REC_DETAIL_ID] IS NULL) OR ([PO_REC_DETAIL_ID] = @Original_PO_REC_DETAIL_ID)) AND ((@IsNull_PROJ_BUD_EXCEEDED = 1 AND [PROJ_BUD_EXCEEDED] IS NULL) OR ([PROJ_BUD_EXCEEDED] = @Original_PROJ_BUD_EXCEEDED)) AND ((@IsNull_unit_inv_id = 1 AND [unit_inv_id] IS NULL) OR ([unit_inv_id] = @Original_unit_inv_id)) AND ((@IsNull_TIME_TICKET = 1 AND [TIME_TICKET] IS NULL) OR ([TIME_TICKET] = @Original_TIME_TICKET)) AND ((@IsNull_AFE_NO = 1 AND [AFE_NO] IS NULL) OR ([AFE_NO] = @Original_AFE_NO)) AND ((@IsNull_COST_CODE = 1 AND [COST_CODE] IS NULL) OR ([COST_CODE] = @Original_COST_CODE)) AND ((@IsNull_SUB_CODE = 1 AND [SUB_CODE] IS NULL) OR ([SUB_CODE] = @Original_SUB_CODE)) AND ((@IsNull_REFERENCE = 1 AND [REFERENCE] IS NULL) OR ([REFERENCE] = @Original_REFERENCE)) AND ((@IsNull_SEG_CHANGE = 1 AND [SEG_CHANGE] IS NULL) OR ([SEG_CHANGE] = @Original_SEG_CHANGE)) AND ((@IsNull_AGA_C_FLOOR = 1 AND [AGA_C_FLOOR] IS NULL) OR ([AGA_C_FLOOR] = @Original_AGA_C_FLOOR)) AND ((@IsNull_AGA_C_SPACE = 1 AND [AGA_C_SPACE] IS NULL) OR ([AGA_C_SPACE] = @Original_AGA_C_SPACE)) AND ((@IsNull_AGA_R_FLOOR = 1 AND [AGA_R_FLOOR] IS NULL) OR ([AGA_R_FLOOR] = @Original_AGA_R_FLOOR)) AND ((@IsNull_AGA_R_UNIT = 1 AND [AGA_R_UNIT] IS NULL) OR ([AGA_R_UNIT] = @Original_AGA_R_UNIT)) AND ((@IsNull_lv1id = 1 AND [lv1id] IS NULL) OR ([lv1id] = @Original_lv1id)) AND ((@IsNull_lv2id = 1 AND [lv2id] IS NULL) OR ([lv2id] = @Original_lv2id)) AND ((@IsNull_lv3id = 1 AND [lv3id] IS NULL) OR ([lv3id] = @Original_lv3id)) AND ((@IsNull_lv4id = 1 AND [lv4id] IS NULL) OR ([lv4id] = @Original_lv4id)) AND ((@IsNull_lem_comp = 1 AND [lem_comp] IS NULL) OR ([lem_comp] = @Original_lem_comp)) AND ((@IsNull_pri_id = 1 AND [pri_id] IS NULL) OR ([pri_id] = @Original_pri_id)) AND ((@IsNull_EXPENSE_TYPE = 1 AND [EXPENSE_TYPE] IS NULL) OR ([EXPENSE_TYPE] = @Original_EXPENSE_TYPE)) AND ((@IsNull_HOURS = 1 AND [HOURS] IS NULL) OR ([HOURS] = @Original_HOURS)) AND ((@IsNull_RATE = 1 AND [RATE] IS NULL) OR ([RATE] = @Original_RATE)) AND ((@IsNull_CB_ID = 1 AND [CB_ID] IS NULL) OR ([CB_ID] = @Original_CB_ID)) AND ((@IsNull_CB_REF = 1 AND [CB_REF] IS NULL) OR ([CB_REF] = @Original_CB_REF)) AND ((@IsNull_billable = 1 AND [billable] IS NULL) OR ([billable] = @Original_billable)) AND ((@IsNull_AR_PWP_STATUS_ID = 1 AND [AR_PWP_STATUS_ID] IS NULL) OR ([AR_PWP_STATUS_ID] = @Original_AR_PWP_STATUS_ID)));
+SELECT SUPPLIER, DOC_NO, JOURNAL_NUMBER, JOURNAL_LINE_NO, GL_ENTRIES_LINE_NO, GL_ACCOUNT, COMMENT, AMOUNT, AP_REC_ENTRY_NO, TRANS_TYPE, AP_GL_ALLOC_CODE, AP_GL_ENTRIES_ID, HOLD_AMT, HOLD_BAL, INV_BAL, SEQ, AGA_PROJ_CD, AGA_RLH_CD, AGA_LOT, AGA_BLOCK, AGA_PLAN, AGA_JOB_COST_CD, AGA_AGREE_NUM, AGA_INV_ID, AGA_C_PROF_CNTR, AGA_C_LEASE_NUM, AGA_C_PROP_CD, AGA_R_PROF_CNTR, AGA_R_LEASE_NUM, AGA_R_PROP_CD, TRANSFER_FLAG, pri_num, phs_code, subp_code, prp_component, prp_subcomp, GST_AMT, PURCH_AMT, ITC, GST_BAL, PO_ID, PO_TYPE, PO_REC_ID, CLEAR_REQUIRED, AP_INV_HEADER_ID, AP_GL_ALLOC_ID, SEG_1, SEG_2, SEG_3, SEG_4, SEG_5, SEG_6, WCB_ASSESSABLE, SLS_ID, COMM_STAT_FLAG, COMPANY_ALIAS, INTER_CO_ACCT, SUBCONTRACTOR_TYPE_ID, COMM_STAT_APPLICABLE, USE_COMM_PCT, COMMISSION_PCT, EXCH_RATE, EXCH_AMT, PO_REC_DETAIL_ID, PROJ_BUD_EXCEEDED, unit_inv_id, TIME_TICKET, AFE_NO, COST_CODE, SUB_CODE, REFERENCE, SEG_CHANGE, AGA_C_FLOOR, AGA_C_SPACE, AGA_R_FLOOR, AGA_R_UNIT, lv1id, lv2id, lv3id, lv4id, lem_comp, pri_id, EXPENSE_TYPE, HOURS, RATE, CB_ID, CB_REF, billable, AR_PWP_STATUS_ID FROM AP_GL_ALLOC WHERE (DOC_NO = @DOC_NO) AND (SEQ = @SEQ) AND (SUPPLIER = @SUPPLIER) ORDER BY SEQ</value>
+  </data>
+  <metadata name="daGLAccts.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>645, 134</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand11.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand11.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand11.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand11.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand12.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand12.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand12.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand11.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand11.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand11.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand11.CommandText" xml:space="preserve">
+    <value>UPDATE GL_ACCOUNTS SET ACCOUNT_NUMBER = @ACCOUNT_NUMBER, DESCRIPTION = @DESCRIPTION WHERE (ACCOUNT_NUMBER = @Original_ACCOUNT_NUMBER) AND (DESCRIPTION = @Original_DESCRIPTION); SELECT ACCOUNT_NUMBER, DESCRIPTION FROM GL_ACCOUNTS WHERE (ACCOUNT_NUMBER = @ACCOUNT_NUMBER)</value>
+  </data>
+  <metadata name="daAllPO.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>753, 134</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand12.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand12.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand12.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand12.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand12.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand12.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand13.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand13.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand13.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand12.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand12.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand12.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand12.CommandText" xml:space="preserve">
+    <value>UPDATE PO_HEADER SET PO_ID = @PO_ID, PO = @PO, ORDER_DATE = @ORDER_DATE WHERE (PO = @Original_PO) AND (ORDER_DATE = @Original_ORDER_DATE OR @Original_ORDER_DATE IS NULL AND ORDER_DATE IS NULL) AND (PO_ID = @Original_PO_ID); SELECT PO_ID, PO, ORDER_DATE FROM PO_HEADER WHERE (PO = @PO) ORDER BY PO</value>
+  </data>
+  <metadata name="daHeaderSide.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>848, 134</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand9.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlDeleteCommand9.CommandText" xml:space="preserve">
+    <value>DELETE FROM [AP_INV_HEADER] WHERE (([id] = @Original_id) AND ((@IsNull_AP_INV_HEADER_ID = 1 AND [AP_INV_HEADER_ID] IS NULL) OR ([AP_INV_HEADER_ID] = @Original_AP_INV_HEADER_ID)) AND ((@IsNull_AP_SETUP_GL_ID = 1 AND [AP_SETUP_GL_ID] IS NULL) OR ([AP_SETUP_GL_ID] = @Original_AP_SETUP_GL_ID)) AND ((@IsNull_INVOICE_TYPE = 1 AND [INVOICE_TYPE] IS NULL) OR ([INVOICE_TYPE] = @Original_INVOICE_TYPE)) AND ((@IsNull_CURRENCY_ID = 1 AND [CURRENCY_ID] IS NULL) OR ([CURRENCY_ID] = @Original_CURRENCY_ID)) AND ((@IsNull_DISCOUNT_AMOUNT = 1 AND [DISCOUNT_AMOUNT] IS NULL) OR ([DISCOUNT_AMOUNT] = @Original_DISCOUNT_AMOUNT)) AND ((@IsNull_DISCOUNT_DATE = 1 AND [DISCOUNT_DATE] IS NULL) OR ([DISCOUNT_DATE] = @Original_DISCOUNT_DATE)) AND ((@IsNull_HOLD_PCT = 1 AND [HOLD_PCT] IS NULL) OR ([HOLD_PCT] = @Original_HOLD_PCT)) AND ((@IsNull_HOLD_AMT = 1 AND [HOLD_AMT] IS NULL) OR ([HOLD_AMT] = @Original_HOLD_AMT)) AND ((@IsNull_HOLD_PAY_DATE = 1 AND [HOLD_PAY_DATE] IS NULL) OR ([HOLD_PAY_DATE] = @Original_HOLD_PAY_DATE)) AND ((@IsNull_HOLD = 1 AND [HOLD] IS NULL) OR ([HOLD] = @Original_HOLD)) AND ((@IsNull_PAYMENT_HOLD = 1 AND [PAYMENT_HOLD] IS NULL) OR ([PAYMENT_HOLD] = @Original_PAYMENT_HOLD)) AND ((@IsNull_SUPP_NAME = 1 AND [SUPP_NAME] IS NULL) OR ([SUPP_NAME] = @Original_SUPP_NAME)) AND ((@IsNull_REMITADD1 = 1 AND [REMITADD1] IS NULL) OR ([REMITADD1] = @Original_REMITADD1)) AND ((@IsNull_REMITADD2 = 1 AND [REMITADD2] IS NULL) OR ([REMITADD2] = @Original_REMITADD2)) AND ((@IsNull_REMITADD3 = 1 AND [REMITADD3] IS NULL) OR ([REMITADD3] = @Original_REMITADD3)) AND ((@IsNull_REMITCITY = 1 AND [REMITCITY] IS NULL) OR ([REMITCITY] = @Original_REMITCITY)) AND ((@IsNull_REMITSTATE = 1 AND [REMITSTATE] IS NULL) OR ([REMITSTATE] = @Original_REMITSTATE)) AND ((@IsNull_REMITZIP = 1 AND [REMITZIP] IS NULL) OR ([REMITZIP] = @Original_REMITZIP)) AND ((@IsNull_SUPP_ACCOUNT = 1 AND [SUPP_ACCOUNT] IS NULL) OR ([SUPP_ACCOUNT] = @Original_SUPP_ACCOUNT)) AND ((@IsNull_ACCT_YEAR = 1 AND [ACCT_YEAR] IS NULL) OR ([ACCT_YEAR] = @Original_ACCT_YEAR)) AND ((@IsNull_ACCT_PERIOD = 1 AND [ACCT_PERIOD] IS NULL) OR ([ACCT_PERIOD] = @Original_ACCT_PERIOD)) AND ((@IsNull_PURCH_AMT = 1 AND [PURCH_AMT] IS NULL) OR ([PURCH_AMT] = @Original_PURCH_AMT)) AND ((@IsNull_INV_AMOUNT = 1 AND [INV_AMOUNT] IS NULL) OR ([INV_AMOUNT] = @Original_INV_AMOUNT)) AND ((@IsNull_HOLD_BAL = 1 AND [HOLD_BAL] IS NULL) OR ([HOLD_BAL] = @Original_HOLD_BAL)) AND ((@IsNull_WF_Approval_ID = 1 AND [WF_Approval_ID] IS NULL) OR ([WF_Approval_ID] = @Original_WF_Approval_ID)) AND ((@IsNull_TERMS_ID = 1 AND [TERMS_ID] IS NULL) OR ([TERMS_ID] = @Original_TERMS_ID)))</value>
+  </data>
+  <metadata name="sqlSelectCommand14.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand14.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand14.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand14.CommandText" xml:space="preserve">
+    <value>SELECT id, AP_INV_HEADER_ID, AP_SETUP_GL_ID, INVOICE_TYPE, CURRENCY_ID, DISCOUNT_AMOUNT, DISCOUNT_DATE, HOLD_PCT, HOLD_AMT, HOLD_PAY_DATE, HOLD, PAYMENT_HOLD, SUPP_NAME, REMITADD1, REMITADD2, REMITADD3, REMITCITY, REMITSTATE, REMITZIP, SUPP_ACCOUNT, COMMENT, ACCT_YEAR, ACCT_PERIOD, PURCH_AMT, INV_AMOUNT, HOLD_BAL, WF_Approval_ID, TERMS_ID FROM AP_INV_HEADER WHERE (AP_INV_HEADER_ID = @ap_inv_header_id)</value>
+  </data>
+  <metadata name="sqlUpdateCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand9.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand9.CommandText" xml:space="preserve">
+    <value>UPDATE [AP_INV_HEADER] SET [AP_INV_HEADER_ID] = @AP_INV_HEADER_ID, [AP_SETUP_GL_ID] = @AP_SETUP_GL_ID, [INVOICE_TYPE] = @INVOICE_TYPE, [CURRENCY_ID] = @CURRENCY_ID, [DISCOUNT_AMOUNT] = @DISCOUNT_AMOUNT, [DISCOUNT_DATE] = @DISCOUNT_DATE, [HOLD_PCT] = @HOLD_PCT, [HOLD_AMT] = @HOLD_AMT, [HOLD_PAY_DATE] = @HOLD_PAY_DATE, [HOLD] = @HOLD, [PAYMENT_HOLD] = @PAYMENT_HOLD, [SUPP_NAME] = @SUPP_NAME, [REMITADD1] = @REMITADD1, [REMITADD2] = @REMITADD2, [REMITADD3] = @REMITADD3, [REMITCITY] = @REMITCITY, [REMITSTATE] = @REMITSTATE, [REMITZIP] = @REMITZIP, [SUPP_ACCOUNT] = @SUPP_ACCOUNT, [COMMENT] = @COMMENT, [ACCT_YEAR] = @ACCT_YEAR, [ACCT_PERIOD] = @ACCT_PERIOD, [PURCH_AMT] = @PURCH_AMT, [INV_AMOUNT] = @INV_AMOUNT, [HOLD_BAL] = @HOLD_BAL, [WF_Approval_ID] = @WF_Approval_ID, [TERMS_ID] = @TERMS_ID WHERE (([id] = @Original_id) AND ((@IsNull_AP_INV_HEADER_ID = 1 AND [AP_INV_HEADER_ID] IS NULL) OR ([AP_INV_HEADER_ID] = @Original_AP_INV_HEADER_ID)) AND ((@IsNull_AP_SETUP_GL_ID = 1 AND [AP_SETUP_GL_ID] IS NULL) OR ([AP_SETUP_GL_ID] = @Original_AP_SETUP_GL_ID)) AND ((@IsNull_INVOICE_TYPE = 1 AND [INVOICE_TYPE] IS NULL) OR ([INVOICE_TYPE] = @Original_INVOICE_TYPE)) AND ((@IsNull_CURRENCY_ID = 1 AND [CURRENCY_ID] IS NULL) OR ([CURRENCY_ID] = @Original_CURRENCY_ID)) AND ((@IsNull_DISCOUNT_AMOUNT = 1 AND [DISCOUNT_AMOUNT] IS NULL) OR ([DISCOUNT_AMOUNT] = @Original_DISCOUNT_AMOUNT)) AND ((@IsNull_DISCOUNT_DATE = 1 AND [DISCOUNT_DATE] IS NULL) OR ([DISCOUNT_DATE] = @Original_DISCOUNT_DATE)) AND ((@IsNull_HOLD_PCT = 1 AND [HOLD_PCT] IS NULL) OR ([HOLD_PCT] = @Original_HOLD_PCT)) AND ((@IsNull_HOLD_AMT = 1 AND [HOLD_AMT] IS NULL) OR ([HOLD_AMT] = @Original_HOLD_AMT)) AND ((@IsNull_HOLD_PAY_DATE = 1 AND [HOLD_PAY_DATE] IS NULL) OR ([HOLD_PAY_DATE] = @Original_HOLD_PAY_DATE)) AND ((@IsNull_HOLD = 1 AND [HOLD] IS NULL) OR ([HOLD] = @Original_HOLD)) AND ((@IsNull_PAYMENT_HOLD = 1 AND [PAYMENT_HOLD] IS NULL) OR ([PAYMENT_HOLD] = @Original_PAYMENT_HOLD)) AND ((@IsNull_SUPP_NAME = 1 AND [SUPP_NAME] IS NULL) OR ([SUPP_NAME] = @Original_SUPP_NAME)) AND ((@IsNull_REMITADD1 = 1 AND [REMITADD1] IS NULL) OR ([REMITADD1] = @Original_REMITADD1)) AND ((@IsNull_REMITADD2 = 1 AND [REMITADD2] IS NULL) OR ([REMITADD2] = @Original_REMITADD2)) AND ((@IsNull_REMITADD3 = 1 AND [REMITADD3] IS NULL) OR ([REMITADD3] = @Original_REMITADD3)) AND ((@IsNull_REMITCITY = 1 AND [REMITCITY] IS NULL) OR ([REMITCITY] = @Original_REMITCITY)) AND ((@IsNull_REMITSTATE = 1 AND [REMITSTATE] IS NULL) OR ([REMITSTATE] = @Original_REMITSTATE)) AND ((@IsNull_REMITZIP = 1 AND [REMITZIP] IS NULL) OR ([REMITZIP] = @Original_REMITZIP)) AND ((@IsNull_SUPP_ACCOUNT = 1 AND [SUPP_ACCOUNT] IS NULL) OR ([SUPP_ACCOUNT] = @Original_SUPP_ACCOUNT)) AND ((@IsNull_ACCT_YEAR = 1 AND [ACCT_YEAR] IS NULL) OR ([ACCT_YEAR] = @Original_ACCT_YEAR)) AND ((@IsNull_ACCT_PERIOD = 1 AND [ACCT_PERIOD] IS NULL) OR ([ACCT_PERIOD] = @Original_ACCT_PERIOD)) AND ((@IsNull_PURCH_AMT = 1 AND [PURCH_AMT] IS NULL) OR ([PURCH_AMT] = @Original_PURCH_AMT)) AND ((@IsNull_INV_AMOUNT = 1 AND [INV_AMOUNT] IS NULL) OR ([INV_AMOUNT] = @Original_INV_AMOUNT)) AND ((@IsNull_HOLD_BAL = 1 AND [HOLD_BAL] IS NULL) OR ([HOLD_BAL] = @Original_HOLD_BAL)) AND ((@IsNull_WF_Approval_ID = 1 AND [WF_Approval_ID] IS NULL) OR ([WF_Approval_ID] = @Original_WF_Approval_ID)) AND ((@IsNull_TERMS_ID = 1 AND [TERMS_ID] IS NULL) OR ([TERMS_ID] = @Original_TERMS_ID)));
+SELECT id, AP_INV_HEADER_ID, AP_SETUP_GL_ID, INVOICE_TYPE, CURRENCY_ID, DISCOUNT_AMOUNT, DISCOUNT_DATE, HOLD_PCT, HOLD_AMT, HOLD_PAY_DATE, HOLD, PAYMENT_HOLD, SUPP_NAME, REMITADD1, REMITADD2, REMITADD3, REMITCITY, REMITSTATE, REMITZIP, SUPP_ACCOUNT, COMMENT, ACCT_YEAR, ACCT_PERIOD, PURCH_AMT, INV_AMOUNT, HOLD_BAL, WF_Approval_ID, TERMS_ID FROM AP_INV_HEADER WHERE (id = @id)</value>
+  </data>
+  <metadata name="daPOSelect.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>976, 134</value>
+  </metadata>
+  <metadata name="sqlSelectCommand15.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand15.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand15.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand15.CommandText" xml:space="preserve">
+    <value>SELECT r.PO_REC_ID, p.PO AS [PO #], p.SUPP_NAME AS [Supplier Name], SUM(rd.TOTAL) AS [PO Amount] FROM PO_REC_HEADER r INNER JOIN PO_HEADER p ON p.PO_ID = r.PO_ID INNER JOIN PO_REC_DETAIL rd ON rd.PO_REC_ID = r.PO_REC_ID WHERE (p.STATUS NOT IN ('Cancel', 'Closed')) AND (ISNULL(p.PO_FUNCTION, '') &lt;&gt; 'I') GROUP BY r.PO_REC_ID, p.PO, p.SUPP_NAME, p.ORDER_DATE ORDER BY p.PO, p.ORDER_DATE DESC</value>
+  </data>
+  <metadata name="daPOFSelect.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 173</value>
+  </metadata>
+  <metadata name="sqlSelectCommand16.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand16.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand16.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand16.CommandText" xml:space="preserve">
+    <value>SELECT r.PO_REC_ID, p.PO AS [PO #], p.SUPP_NAME AS [Supplier Name], r.RECEIVER_NUMBER, r.RECEIPT_DATE, SUM(rd.TOTAL) AS [PO Amount], ISNULL(r.FREIGHT_EST, 0) AS EST, ISNULL(r.FREIGHT_ACT, 0) AS ACT, ISNULL(r.FREIGHT_EST, 0) - ISNULL(r.FREIGHT_ACT, 0) AS OS FROM PO_REC_HEADER r INNER JOIN PO_HEADER p ON p.PO_ID = r.PO_ID INNER JOIN PO_REC_DETAIL rd ON rd.PO_REC_ID = r.PO_REC_ID WHERE (p.STATUS NOT IN ('Cancel', 'Closed')) AND (ISNULL(p.PO_FUNCTION, '') &lt;&gt; 'I') GROUP BY r.PO_REC_ID, p.PO, p.SUPP_NAME, p.ORDER_DATE, r.RECEIVER_NUMBER, r.RECEIPT_DATE, ISNULL(r.FREIGHT_EST, 0), ISNULL(r.FREIGHT_ACT, 0), ISNULL(r.FREIGHT_EST, 0) - ISNULL(r.FREIGHT_ACT, 0) ORDER BY p.PO, p.ORDER_DATE DESC</value>
+  </data>
+  <metadata name="daPOBSelect.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>137, 173</value>
+  </metadata>
+  <metadata name="sqlSelectCommand17.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand17.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand17.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand17.CommandText" xml:space="preserve">
+    <value>SELECT r.PO_REC_ID, p.PO AS [PO #], p.SUPP_NAME AS [Supplier Name], r.RECEIVER_NUMBER, r.RECEIPT_DATE, SUM(rd.TOTAL) AS [PO Amount], ISNULL(r.BROKERAGE_EST, 0) AS EST, ISNULL(r.BROKERAGE_ACT, 0) AS ACT, ISNULL(r.BROKERAGE_EST, 0) - ISNULL(r.BROKERAGE_ACT, 0) AS OS FROM PO_REC_HEADER r INNER JOIN PO_HEADER p ON p.PO_ID = r.PO_ID INNER JOIN PO_REC_DETAIL rd ON rd.PO_REC_ID = r.PO_REC_ID WHERE (p.STATUS NOT IN ('Cancel', 'Closed')) AND (ISNULL(p.PO_FUNCTION, '') &lt;&gt; 'I') GROUP BY r.PO_REC_ID, p.PO, p.SUPP_NAME, p.ORDER_DATE, r.RECEIVER_NUMBER, r.RECEIPT_DATE, ISNULL(r.BROKERAGE_EST, 0), ISNULL(r.BROKERAGE_ACT, 0), ISNULL(r.BROKERAGE_EST, 0) - ISNULL(r.BROKERAGE_ACT, 0) ORDER BY p.PO, p.ORDER_DATE DESC</value>
+  </data>
+  <metadata name="daPOMSelect.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>384, 173</value>
+  </metadata>
+  <metadata name="sqlSelectCommand18.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand18.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand18.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand18.CommandText" xml:space="preserve">
+    <value>SELECT r.PO_REC_ID, p.PO AS [PO #], p.SUPP_NAME AS [Supplier Name], r.RECEIVER_NUMBER, r.RECEIPT_DATE, SUM(rd.TOTAL) AS [PO Amount], ISNULL(r.MISC_EST, 0) AS EST, ISNULL(r.MISC_ACT, 0) AS ACT, ISNULL(r.MISC_EST, 0) - ISNULL(r.MISC_ACT, 0) AS OS FROM PO_REC_HEADER r INNER JOIN PO_HEADER p ON p.PO_ID = r.PO_ID INNER JOIN PO_REC_DETAIL rd ON rd.PO_REC_ID = r.PO_REC_ID WHERE (p.STATUS NOT IN ('Cancel', 'Closed')) AND (ISNULL(p.PO_FUNCTION, '') &lt;&gt; 'I') GROUP BY r.PO_REC_ID, p.PO, p.SUPP_NAME, p.ORDER_DATE, r.RECEIVER_NUMBER, r.RECEIPT_DATE, ISNULL(r.MISC_EST, 0), ISNULL(r.MISC_ACT, 0), ISNULL(r.MISC_EST, 0) - ISNULL(r.MISC_ACT, 0) ORDER BY p.PO, p.ORDER_DATE DESC</value>
+  </data>
+  <metadata name="daPODSelect.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>509, 173</value>
+  </metadata>
+  <metadata name="sqlSelectCommand19.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand19.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand19.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand19.CommandText" xml:space="preserve">
+    <value>SELECT r.PO_REC_ID, p.PO AS [PO #], p.SUPP_NAME AS [Supplier Name], r.RECEIVER_NUMBER, r.RECEIPT_DATE, SUM(rd.TOTAL) AS [PO Amount], ISNULL(r.DUTY_EST, 0) AS EST, ISNULL(r.DUTY_ACT, 0) AS ACT, ISNULL(r.DUTY_EST, 0) - ISNULL(r.DUTY_ACT, 0) AS OS FROM PO_REC_HEADER r INNER JOIN PO_HEADER p ON p.PO_ID = r.PO_ID INNER JOIN PO_REC_DETAIL rd ON rd.PO_REC_ID = r.PO_REC_ID WHERE (p.STATUS NOT IN ('Cancel', 'Closed')) AND (ISNULL(p.PO_FUNCTION, '') &lt;&gt; 'I') GROUP BY r.PO_REC_ID, p.PO, p.SUPP_NAME, p.ORDER_DATE, r.RECEIVER_NUMBER, r.RECEIPT_DATE, ISNULL(r.DUTY_EST, 0), ISNULL(r.DUTY_ACT, 0), ISNULL(r.DUTY_EST, 0) - ISNULL(r.DUTY_ACT, 0) ORDER BY p.PO, p.ORDER_DATE DESC</value>
+  </data>
+  <metadata name="daPOM2Select.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>631, 173</value>
+  </metadata>
+  <metadata name="sqlSelectCommand20.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand20.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand20.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand20.CommandText" xml:space="preserve">
+    <value>SELECT r.PO_REC_ID, p.PO AS [PO #], p.SUPP_NAME AS [Supplier Name], r.RECEIVER_NUMBER, r.RECEIPT_DATE, SUM(rd.TOTAL) AS [PO Amount], ISNULL(r.MISC_EST2, 0) AS EST, ISNULL(r.MISC_ACT2, 0) AS ACT, ISNULL(r.MISC_EST2, 0) - ISNULL(r.MISC_ACT2, 0) AS OS FROM PO_REC_HEADER r INNER JOIN PO_HEADER p ON p.PO_ID = r.PO_ID INNER JOIN PO_REC_DETAIL rd ON rd.PO_REC_ID = r.PO_REC_ID WHERE (p.STATUS NOT IN ('Cancel', 'Closed')) AND (ISNULL(p.PO_FUNCTION, '') &lt;&gt; 'I') GROUP BY r.PO_REC_ID, p.PO, p.SUPP_NAME, p.ORDER_DATE, r.RECEIVER_NUMBER, r.RECEIPT_DATE, ISNULL(r.MISC_EST2, 0), ISNULL(r.MISC_ACT2, 0), ISNULL(r.MISC_EST2, 0) - ISNULL(r.MISC_ACT2, 0) ORDER BY p.PO, p.ORDER_DATE DESC</value>
+  </data>
+  <metadata name="daPOInvSelect.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>762, 173</value>
+  </metadata>
+  <metadata name="sqlInsertCommand13.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand13.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand13.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand13.CommandText" xml:space="preserve">
+    <value>INSERT INTO working_PO_Inv_Select(username, po_rec_id, po, receiver_number, receipt_date, receive_amt, outstanding_amt) VALUES (@username, @po_rec_id, @po, @receiver_number, @receipt_date, @receive_amt, @outstanding_amt); SELECT username, po_rec_id, po, receiver_number, receipt_date, receive_amt, outstanding_amt FROM working_PO_Inv_Select</value>
+  </data>
+  <metadata name="sqlSelectCommand21.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand21.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand21.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="daDetPO.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1028, 173</value>
+  </metadata>
+  <metadata name="sqlSelectCommand22.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand22.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand22.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand22.CommandText" xml:space="preserve">
+    <value>SELECT DISTINCT POHDR.PO_ID, POHDR.PO, POHDR.ORDER_DATE FROM PO_HEADER POHDR LEFT OUTER JOIN PO_REC_HEADER HDR ON POHDR.PO_ID = HDR.PO_ID LEFT OUTER JOIN PO_REC_DETAIL dtl ON dtl.PO_REC_ID = HDR.PO_REC_ID WHERE (ISNULL(dtl.RECEIVER_MATCH_STATUS, 'F') = 'F') AND (POHDR.SUPPLIER = @SUPPLIER) AND (POHDR.STATUS &lt;&gt; 'Closed') AND (HDR.PO_REC_ID IS NOT NULL) AND (ISNULL(POHDR.PO_FUNCTION, '') &lt;&gt; 'I') AND (1 = 1) OR (ISNULL(dtl.RECEIVER_MATCH_STATUS, 'F') = 'F') AND (POHDR.SUPPLIER = @SUPPLIER) AND (POHDR.STATUS &lt;&gt; 'Closed') AND (ISNULL(POHDR.PO_FUNCTION, '') &lt;&gt; 'I') AND (1 = 1) AND (ISNULL(POHDR.CONTRACT_PO, 'F') &lt;&gt; 'F')</value>
+  </data>
+  <metadata name="sqlSelectCommand23.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand23.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand23.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlSelectCommand23.CommandText" xml:space="preserve">
+    <value>select Approval_ID, Work_Flow, case when isnull(approval_type,'') = 'S' then 'Stakeholder' else 'Contact' end [ApprovalType]  
+from WS_Approval_WorkFlow where ISNULL(Is_Active,'F')='T' order by Work_Flow</value>
+  </data>
+  <metadata name="WEB_Conn.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>601, 212</value>
+  </metadata>
+  <metadata name="sqlInsertCommand9.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand9.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand9.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand9.CommandText" xml:space="preserve">
+    <value>INSERT INTO [WS_Approval_WorkFlow] ([Work_Flow]) VALUES (@Work_Flow);
+SELECT Approval_ID, Work_Flow, CASE WHEN isnull(approval_type , '') = 'S' THEN 'Stakeholder' ELSE 'Contact' END AS ApprovalType FROM WS_Approval_WorkFlow WHERE (Approval_ID = SCOPE_IDENTITY()) ORDER BY Work_Flow</value>
+  </data>
+  <metadata name="sqlUpdateCommand13.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand13.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand13.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand13.CommandText" xml:space="preserve">
+    <value>UPDATE [WS_Approval_WorkFlow] SET [Work_Flow] = @Work_Flow WHERE (([Approval_ID] = @Original_Approval_ID) AND ((@IsNull_Work_Flow = 1 AND [Work_Flow] IS NULL) OR ([Work_Flow] = @Original_Work_Flow)));
+SELECT Approval_ID, Work_Flow, CASE WHEN isnull(approval_type , '') = 'S' THEN 'Stakeholder' ELSE 'Contact' END AS ApprovalType FROM WS_Approval_WorkFlow WHERE (Approval_ID = @Approval_ID) ORDER BY Work_Flow</value>
+  </data>
+  <metadata name="sqlDeleteCommand13.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand13.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand13.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="daWorkFlow.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>104, 56</value>
+  </metadata>
+  <metadata name="sqlSelectCommand24.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand24.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand24.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="daCompanies.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>258, 173</value>
+  </metadata>
+  <metadata name="sqlSelectCommand25.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand25.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand25.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand14.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand14.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlInsertCommand14.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlInsertCommand14.CommandText" xml:space="preserve">
+    <value>INSERT INTO [AR_PWP_STATUS] ([AR_PWP_STATUS_ID], [DESCRIPTION]) VALUES (@AR_PWP_STATUS_ID, @DESCRIPTION);
+SELECT AR_PWP_STATUS_ID, DESCRIPTION FROM AR_PWP_STATUS WHERE (AR_PWP_STATUS_ID = @AR_PWP_STATUS_ID)</value>
+  </data>
+  <metadata name="sqlUpdateCommand14.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand14.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand14.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="sqlUpdateCommand14.CommandText" xml:space="preserve">
+    <value>UPDATE [AR_PWP_STATUS] SET [AR_PWP_STATUS_ID] = @AR_PWP_STATUS_ID, [DESCRIPTION] = @DESCRIPTION WHERE (([AR_PWP_STATUS_ID] = @Original_AR_PWP_STATUS_ID) AND ((@IsNull_DESCRIPTION = 1 AND [DESCRIPTION] IS NULL) OR ([DESCRIPTION] = @Original_DESCRIPTION)));
+SELECT AR_PWP_STATUS_ID, DESCRIPTION FROM AR_PWP_STATUS WHERE (AR_PWP_STATUS_ID = @AR_PWP_STATUS_ID)</value>
+  </data>
+  <metadata name="sqlDeleteCommand14.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand14.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand14.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="daPWP_Status.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>967, 212</value>
+  </metadata>
+  <metadata name="sqlSelectCommand26.DesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand26.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlSelectCommand26.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="daAP_PWP_GetLinks.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>152, 251</value>
+  </metadata>
+</root>

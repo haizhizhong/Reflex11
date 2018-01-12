@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsDetPO" targetNamespace="http://www.tempuri.org/dsDetPO.xsd" xmlns:mstns="http://www.tempuri.org/dsDetPO.xsd" xmlns="http://www.tempuri.org/dsDetPO.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsDetPO" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="PO_HEADER">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PO_ID" type="xs:int" />
+              <xs:element name="PO" type="xs:string" />
+              <xs:element name="ORDER_DATE" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PO_HEADER" />
+      <xs:field xpath="mstns:PO" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

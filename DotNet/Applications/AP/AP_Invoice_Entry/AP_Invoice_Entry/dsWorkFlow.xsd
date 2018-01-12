@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsWorkFlow" targetNamespace="http://tempuri.org/dsWorkFlow.xsd" xmlns:mstns="http://tempuri.org/dsWorkFlow.xsd" xmlns="http://tempuri.org/dsWorkFlow.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsWorkFlow" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsWorkFlow" msprop:Generator_DataSetName="dsWorkFlow">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="WS_Approval_WorkFlow" msprop:Generator_UserTableName="WS_Approval_WorkFlow" msprop:Generator_RowDeletedName="WS_Approval_WorkFlowRowDeleted" msprop:Generator_RowChangedName="WS_Approval_WorkFlowRowChanged" msprop:Generator_RowClassName="WS_Approval_WorkFlowRow" msprop:Generator_RowChangingName="WS_Approval_WorkFlowRowChanging" msprop:Generator_RowEvArgName="WS_Approval_WorkFlowRowChangeEvent" msprop:Generator_RowEvHandlerName="WS_Approval_WorkFlowRowChangeEventHandler" msprop:Generator_TableClassName="WS_Approval_WorkFlowDataTable" msprop:Generator_TableVarName="tableWS_Approval_WorkFlow" msprop:Generator_RowDeletingName="WS_Approval_WorkFlowRowDeleting" msprop:Generator_TablePropName="WS_Approval_WorkFlow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Approval_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Approval_ID" msprop:Generator_ColumnVarNameInTable="columnApproval_ID" msprop:Generator_ColumnPropNameInRow="Approval_ID" msprop:Generator_ColumnPropNameInTable="Approval_IDColumn" type="xs:int" />
+              <xs:element name="Work_Flow" msprop:Generator_UserColumnName="Work_Flow" msprop:Generator_ColumnVarNameInTable="columnWork_Flow" msprop:Generator_ColumnPropNameInRow="Work_Flow" msprop:Generator_ColumnPropNameInTable="Work_FlowColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ApprovalType" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ApprovalType" msprop:Generator_ColumnPropNameInRow="ApprovalType" msprop:Generator_ColumnVarNameInTable="columnApprovalType" msprop:Generator_ColumnPropNameInTable="ApprovalTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="11" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:WS_Approval_WorkFlow" />
+      <xs:field xpath="mstns:Approval_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

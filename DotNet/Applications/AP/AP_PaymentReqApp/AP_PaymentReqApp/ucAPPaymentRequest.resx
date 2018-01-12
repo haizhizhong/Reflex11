@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="dockManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="dsRequest1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>392, 17</value>
+  </metadata>
+  <metadata name="wSApprovalWorkFlowBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>751, 17</value>
+  </metadata>
+  <metadata name="dsWorkFlow1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>626, 17</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlSelectCommand1.CommandText" xml:space="preserve">
+    <value>SELECT        id, username, WS_INV_ID, WS_HB_ID, DATE, SUPPLIER, SUPP_NAME, Contact, INV_AMOUNT, AP_ROUTING_STATUS, INV_NO, Submission_Type, Origin, 
+                         non_po_route, WF_Approval_ID, SUB_TYPE, SUB_TYPE_C
+FROM            AP_PayReqApprover
+WHERE        (username = @username)
+ORDER BY DATE desc</value>
+  </data>
+  <metadata name="TR_Conn.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>293, 17</value>
+  </metadata>
+  <metadata name="daRequest.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>150, 17</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlDeleteCommand.CommandText" xml:space="preserve">
+    <value>DELETE FROM [AP_PayReqApprover] WHERE (([id] = @Original_id) AND ((@IsNull_username = 1 AND [username] IS NULL) OR ([username] = @Original_username)) AND ((@IsNull_WS_INV_ID = 1 AND [WS_INV_ID] IS NULL) OR ([WS_INV_ID] = @Original_WS_INV_ID)) AND ((@IsNull_WS_HB_ID = 1 AND [WS_HB_ID] IS NULL) OR ([WS_HB_ID] = @Original_WS_HB_ID)) AND ((@IsNull_DATE = 1 AND [DATE] IS NULL) OR ([DATE] = @Original_DATE)) AND ((@IsNull_SUPPLIER = 1 AND [SUPPLIER] IS NULL) OR ([SUPPLIER] = @Original_SUPPLIER)) AND ((@IsNull_SUPP_NAME = 1 AND [SUPP_NAME] IS NULL) OR ([SUPP_NAME] = @Original_SUPP_NAME)) AND ((@IsNull_Contact = 1 AND [Contact] IS NULL) OR ([Contact] = @Original_Contact)) AND ((@IsNull_INV_AMOUNT = 1 AND [INV_AMOUNT] IS NULL) OR ([INV_AMOUNT] = @Original_INV_AMOUNT)) AND ((@IsNull_AP_ROUTING_STATUS = 1 AND [AP_ROUTING_STATUS] IS NULL) OR ([AP_ROUTING_STATUS] = @Original_AP_ROUTING_STATUS)) AND ((@IsNull_INV_NO = 1 AND [INV_NO] IS NULL) OR ([INV_NO] = @Original_INV_NO)) AND ((@IsNull_Submission_Type = 1 AND [Submission_Type] IS NULL) OR ([Submission_Type] = @Original_Submission_Type)) AND ((@IsNull_Origin = 1 AND [Origin] IS NULL) OR ([Origin] = @Original_Origin)) AND ((@IsNull_non_po_route = 1 AND [non_po_route] IS NULL) OR ([non_po_route] = @Original_non_po_route)) AND ((@IsNull_WF_Approval_ID = 1 AND [WF_Approval_ID] IS NULL) OR ([WF_Approval_ID] = @Original_WF_Approval_ID)) AND ((@IsNull_SUB_TYPE = 1 AND [SUB_TYPE] IS NULL) OR ([SUB_TYPE] = @Original_SUB_TYPE)) AND ((@IsNull_SUB_TYPE_C = 1 AND [SUB_TYPE_C] IS NULL) OR ([SUB_TYPE_C] = @Original_SUB_TYPE_C)))</value>
+  </data>
+  <metadata name="sqlInsertCommand.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlInsertCommand.CommandText" xml:space="preserve">
+    <value>INSERT INTO [AP_PayReqApprover] ([username], [WS_INV_ID], [WS_HB_ID], [DATE], [SUPPLIER], [SUPP_NAME], [Contact], [INV_AMOUNT], [AP_ROUTING_STATUS], [INV_NO], [Submission_Type], [Origin], [non_po_route], [WF_Approval_ID], [SUB_TYPE], [SUB_TYPE_C]) VALUES (@username, @WS_INV_ID, @WS_HB_ID, @DATE, @SUPPLIER, @SUPP_NAME, @Contact, @INV_AMOUNT, @AP_ROUTING_STATUS, @INV_NO, @Submission_Type, @Origin, @non_po_route, @WF_Approval_ID, @SUB_TYPE, @SUB_TYPE_C);
+SELECT id, username, WS_INV_ID, WS_HB_ID, DATE, SUPPLIER, SUPP_NAME, Contact, INV_AMOUNT, AP_ROUTING_STATUS, INV_NO, Submission_Type, Origin, non_po_route, WF_Approval_ID, SUB_TYPE, SUB_TYPE_C FROM AP_PayReqApprover WHERE (id = SCOPE_IDENTITY()) ORDER BY DATE DESC</value>
+  </data>
+  <metadata name="sqlUpdateCommand.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlUpdateCommand.CommandText" xml:space="preserve">
+    <value>UPDATE [AP_PayReqApprover] SET [username] = @username, [WS_INV_ID] = @WS_INV_ID, [WS_HB_ID] = @WS_HB_ID, [DATE] = @DATE, [SUPPLIER] = @SUPPLIER, [SUPP_NAME] = @SUPP_NAME, [Contact] = @Contact, [INV_AMOUNT] = @INV_AMOUNT, [AP_ROUTING_STATUS] = @AP_ROUTING_STATUS, [INV_NO] = @INV_NO, [Submission_Type] = @Submission_Type, [Origin] = @Origin, [non_po_route] = @non_po_route, [WF_Approval_ID] = @WF_Approval_ID, [SUB_TYPE] = @SUB_TYPE, [SUB_TYPE_C] = @SUB_TYPE_C WHERE (([id] = @Original_id) AND ((@IsNull_username = 1 AND [username] IS NULL) OR ([username] = @Original_username)) AND ((@IsNull_WS_INV_ID = 1 AND [WS_INV_ID] IS NULL) OR ([WS_INV_ID] = @Original_WS_INV_ID)) AND ((@IsNull_WS_HB_ID = 1 AND [WS_HB_ID] IS NULL) OR ([WS_HB_ID] = @Original_WS_HB_ID)) AND ((@IsNull_DATE = 1 AND [DATE] IS NULL) OR ([DATE] = @Original_DATE)) AND ((@IsNull_SUPPLIER = 1 AND [SUPPLIER] IS NULL) OR ([SUPPLIER] = @Original_SUPPLIER)) AND ((@IsNull_SUPP_NAME = 1 AND [SUPP_NAME] IS NULL) OR ([SUPP_NAME] = @Original_SUPP_NAME)) AND ((@IsNull_Contact = 1 AND [Contact] IS NULL) OR ([Contact] = @Original_Contact)) AND ((@IsNull_INV_AMOUNT = 1 AND [INV_AMOUNT] IS NULL) OR ([INV_AMOUNT] = @Original_INV_AMOUNT)) AND ((@IsNull_AP_ROUTING_STATUS = 1 AND [AP_ROUTING_STATUS] IS NULL) OR ([AP_ROUTING_STATUS] = @Original_AP_ROUTING_STATUS)) AND ((@IsNull_INV_NO = 1 AND [INV_NO] IS NULL) OR ([INV_NO] = @Original_INV_NO)) AND ((@IsNull_Submission_Type = 1 AND [Submission_Type] IS NULL) OR ([Submission_Type] = @Original_Submission_Type)) AND ((@IsNull_Origin = 1 AND [Origin] IS NULL) OR ([Origin] = @Original_Origin)) AND ((@IsNull_non_po_route = 1 AND [non_po_route] IS NULL) OR ([non_po_route] = @Original_non_po_route)) AND ((@IsNull_WF_Approval_ID = 1 AND [WF_Approval_ID] IS NULL) OR ([WF_Approval_ID] = @Original_WF_Approval_ID)) AND ((@IsNull_SUB_TYPE = 1 AND [SUB_TYPE] IS NULL) OR ([SUB_TYPE] = @Original_SUB_TYPE)) AND ((@IsNull_SUB_TYPE_C = 1 AND [SUB_TYPE_C] IS NULL) OR ([SUB_TYPE_C] = @Original_SUB_TYPE_C)));
+SELECT id, username, WS_INV_ID, WS_HB_ID, DATE, SUPPLIER, SUPP_NAME, Contact, INV_AMOUNT, AP_ROUTING_STATUS, INV_NO, Submission_Type, Origin, non_po_route, WF_Approval_ID, SUB_TYPE, SUB_TYPE_C FROM AP_PayReqApprover WHERE (id = @id) ORDER BY DATE DESC</value>
+  </data>
+  <metadata name="sqlSelectCommand2.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlSelectCommand2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="WEB_Conn.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>1001, 17</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlInsertCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlUpdateCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="sqlUpdateCommand1.CommandText" xml:space="preserve">
+    <value>UPDATE [WS_Approval_WorkFlow] SET [Work_Flow] = @Work_Flow WHERE (([Approval_ID] = @Original_Approval_ID) AND ((@IsNull_Work_Flow = 1 AND [Work_Flow] IS NULL) OR ([Work_Flow] = @Original_Work_Flow)));
+SELECT Approval_ID, Work_Flow FROM WS_Approval_WorkFlow WHERE (Approval_ID = @Approval_ID) ORDER BY Work_Flow</value>
+  </data>
+  <metadata name="sqlDeleteCommand1.DesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.CommandDesignTimeVisible" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="sqlDeleteCommand1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <metadata name="daWorkFlow.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>507, 17</value>
+  </metadata>
+</root>

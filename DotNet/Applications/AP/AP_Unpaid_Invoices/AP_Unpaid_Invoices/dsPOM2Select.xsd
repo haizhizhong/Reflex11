@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="dsPOM2Select" targetNamespace="http://www.tempuri.org/dsPOM2Select.xsd" xmlns:mstns="http://www.tempuri.org/dsPOM2Select.xsd" xmlns="http://www.tempuri.org/dsPOM2Select.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="dsPOM2Select" msdata:IsDataSet="true">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element name="PO_REC_HEADER">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PO_REC_ID" type="xs:int" />
+              <xs:element name="PO_x0020__x0023_" type="xs:string" />
+              <xs:element name="Supplier_x0020_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="RECEIVER_NUMBER" type="xs:string" minOccurs="0" />
+              <xs:element name="RECEIPT_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PO_x0020_Amount" msdata:ReadOnly="true" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EST" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+              <xs:element name="ACT" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+              <xs:element name="OS" msdata:ReadOnly="true" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PO_REC_HEADER" />
+      <xs:field xpath="mstns:PO_REC_ID" />
+      <xs:field xpath="mstns:PO_x0020__x0023_" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

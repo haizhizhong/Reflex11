@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsRequest" targetNamespace="http://tempuri.org/dsRequest.xsd" xmlns:mstns="http://tempuri.org/dsRequest.xsd" xmlns="http://tempuri.org/dsRequest.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsRequest" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsRequest" msprop:Generator_DataSetName="dsRequest">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table" msprop:Generator_UserTableName="Table" msprop:Generator_RowDeletedName="TableRowDeleted" msprop:Generator_RowChangedName="TableRowChanged" msprop:Generator_RowClassName="TableRow" msprop:Generator_RowChangingName="TableRowChanging" msprop:Generator_RowEvArgName="TableRowChangeEvent" msprop:Generator_RowEvHandlerName="TableRowChangeEventHandler" msprop:Generator_TableClassName="TableDataTable" msprop:Generator_TableVarName="tableTable" msprop:Generator_RowDeletingName="TableRowDeleting" msprop:Generator_TablePropName="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WS_INV_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="WS_INV_ID" msprop:Generator_ColumnPropNameInRow="WS_INV_ID" msprop:Generator_ColumnVarNameInTable="columnWS_INV_ID" msprop:Generator_ColumnPropNameInTable="WS_INV_IDColumn" type="xs:int" />
+              <xs:element name="DATE" msprop:Generator_UserColumnName="DATE" msprop:Generator_ColumnPropNameInRow="DATE" msprop:Generator_ColumnVarNameInTable="columnDATE" msprop:Generator_ColumnPropNameInTable="DATEColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SUPPLIER" msprop:Generator_UserColumnName="SUPPLIER" msprop:Generator_ColumnPropNameInRow="SUPPLIER" msprop:Generator_ColumnVarNameInTable="columnSUPPLIER" msprop:Generator_ColumnPropNameInTable="SUPPLIERColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SUPP_NAME" msprop:Generator_UserColumnName="SUPP_NAME" msprop:Generator_ColumnPropNameInRow="SUPP_NAME" msprop:Generator_ColumnVarNameInTable="columnSUPP_NAME" msprop:Generator_ColumnPropNameInTable="SUPP_NAMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Contact" msprop:Generator_UserColumnName="Contact" msprop:Generator_ColumnPropNameInRow="Contact" msprop:Generator_ColumnVarNameInTable="columnContact" msprop:Generator_ColumnPropNameInTable="ContactColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="128" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="INV_AMOUNT" msprop:Generator_UserColumnName="INV_AMOUNT" msprop:Generator_ColumnPropNameInRow="INV_AMOUNT" msprop:Generator_ColumnVarNameInTable="columnINV_AMOUNT" msprop:Generator_ColumnPropNameInTable="INV_AMOUNTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PROJ_MANAGER_STATUS" msprop:Generator_UserColumnName="PROJ_MANAGER_STATUS" msprop:Generator_ColumnPropNameInRow="PROJ_MANAGER_STATUS" msprop:Generator_ColumnVarNameInTable="columnPROJ_MANAGER_STATUS" msprop:Generator_ColumnPropNameInTable="PROJ_MANAGER_STATUSColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AP_ROUTING_STATUS" msprop:Generator_UserColumnName="AP_ROUTING_STATUS" msprop:Generator_ColumnPropNameInRow="AP_ROUTING_STATUS" msprop:Generator_ColumnVarNameInTable="columnAP_ROUTING_STATUS" msprop:Generator_ColumnPropNameInTable="AP_ROUTING_STATUSColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PRI_ID" msprop:Generator_UserColumnName="PRI_ID" msprop:Generator_ColumnPropNameInRow="PRI_ID" msprop:Generator_ColumnVarNameInTable="columnPRI_ID" msprop:Generator_ColumnPropNameInTable="PRI_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="CON_INV_NO" msprop:Generator_UserColumnName="CON_INV_NO" msprop:Generator_ColumnVarNameInTable="columnCON_INV_NO" msprop:Generator_ColumnPropNameInRow="CON_INV_NO" msprop:Generator_ColumnPropNameInTable="CON_INV_NOColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Submission_Type" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Submission_Type" msprop:Generator_ColumnPropNameInRow="Submission_Type" msprop:Generator_ColumnVarNameInTable="columnSubmission_Type" msprop:Generator_ColumnPropNameInTable="Submission_TypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="6" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Origin" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Origin" msprop:Generator_ColumnPropNameInRow="Origin" msprop:Generator_ColumnVarNameInTable="columnOrigin" msprop:Generator_ColumnPropNameInTable="OriginColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="non_po_route" msprop:Generator_UserColumnName="non_po_route" msprop:Generator_ColumnPropNameInRow="non_po_route" msprop:Generator_ColumnVarNameInTable="columnnon_po_route" msprop:Generator_ColumnPropNameInTable="non_po_routeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WF_Approval_ID" msprop:Generator_UserColumnName="WF_Approval_ID" msprop:Generator_ColumnVarNameInTable="columnWF_Approval_ID" msprop:Generator_ColumnPropNameInRow="WF_Approval_ID" msprop:Generator_ColumnPropNameInTable="WF_Approval_IDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AP_PayReqApprover" msprop:Generator_UserTableName="AP_PayReqApprover" msprop:Generator_RowDeletedName="AP_PayReqApproverRowDeleted" msprop:Generator_TableClassName="AP_PayReqApproverDataTable" msprop:Generator_RowChangedName="AP_PayReqApproverRowChanged" msprop:Generator_RowClassName="AP_PayReqApproverRow" msprop:Generator_RowChangingName="AP_PayReqApproverRowChanging" msprop:Generator_RowEvArgName="AP_PayReqApproverRowChangeEvent" msprop:Generator_RowEvHandlerName="AP_PayReqApproverRowChangeEventHandler" msprop:Generator_TablePropName="AP_PayReqApprover" msprop:Generator_TableVarName="tableAP_PayReqApprover" msprop:Generator_RowDeletingName="AP_PayReqApproverRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="id" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInTable="idColumn" type="xs:int" />
+              <xs:element name="username" msprop:Generator_UserColumnName="username" msprop:Generator_ColumnPropNameInRow="username" msprop:Generator_ColumnVarNameInTable="columnusername" msprop:Generator_ColumnPropNameInTable="usernameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WS_INV_ID" msprop:Generator_UserColumnName="WS_INV_ID" msprop:Generator_ColumnPropNameInRow="WS_INV_ID" msprop:Generator_ColumnVarNameInTable="columnWS_INV_ID" msprop:Generator_ColumnPropNameInTable="WS_INV_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="WS_HB_ID" msprop:Generator_UserColumnName="WS_HB_ID" msprop:Generator_ColumnPropNameInRow="WS_HB_ID" msprop:Generator_ColumnVarNameInTable="columnWS_HB_ID" msprop:Generator_ColumnPropNameInTable="WS_HB_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DATE" msprop:Generator_UserColumnName="DATE" msprop:Generator_ColumnPropNameInRow="DATE" msprop:Generator_ColumnVarNameInTable="columnDATE" msprop:Generator_ColumnPropNameInTable="DATEColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="SUPPLIER" msprop:Generator_UserColumnName="SUPPLIER" msprop:Generator_ColumnPropNameInRow="SUPPLIER" msprop:Generator_ColumnVarNameInTable="columnSUPPLIER" msprop:Generator_ColumnPropNameInTable="SUPPLIERColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SUPP_NAME" msprop:Generator_UserColumnName="SUPP_NAME" msprop:Generator_ColumnPropNameInRow="SUPP_NAME" msprop:Generator_ColumnVarNameInTable="columnSUPP_NAME" msprop:Generator_ColumnPropNameInTable="SUPP_NAMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Contact" msprop:Generator_UserColumnName="Contact" msprop:Generator_ColumnPropNameInRow="Contact" msprop:Generator_ColumnVarNameInTable="columnContact" msprop:Generator_ColumnPropNameInTable="ContactColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="INV_AMOUNT" msprop:Generator_UserColumnName="INV_AMOUNT" msprop:Generator_ColumnPropNameInRow="INV_AMOUNT" msprop:Generator_ColumnVarNameInTable="columnINV_AMOUNT" msprop:Generator_ColumnPropNameInTable="INV_AMOUNTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="AP_ROUTING_STATUS" msprop:Generator_UserColumnName="AP_ROUTING_STATUS" msprop:Generator_ColumnPropNameInRow="AP_ROUTING_STATUS" msprop:Generator_ColumnVarNameInTable="columnAP_ROUTING_STATUS" msprop:Generator_ColumnPropNameInTable="AP_ROUTING_STATUSColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="INV_NO" msprop:Generator_UserColumnName="INV_NO" msprop:Generator_ColumnPropNameInRow="INV_NO" msprop:Generator_ColumnVarNameInTable="columnINV_NO" msprop:Generator_ColumnPropNameInTable="INV_NOColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Submission_Type" msprop:Generator_UserColumnName="Submission_Type" msprop:Generator_ColumnPropNameInRow="Submission_Type" msprop:Generator_ColumnVarNameInTable="columnSubmission_Type" msprop:Generator_ColumnPropNameInTable="Submission_TypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Origin" msprop:Generator_UserColumnName="Origin" msprop:Generator_ColumnPropNameInRow="Origin" msprop:Generator_ColumnVarNameInTable="columnOrigin" msprop:Generator_ColumnPropNameInTable="OriginColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="non_po_route" msprop:Generator_UserColumnName="non_po_route" msprop:Generator_ColumnPropNameInRow="non_po_route" msprop:Generator_ColumnVarNameInTable="columnnon_po_route" msprop:Generator_ColumnPropNameInTable="non_po_routeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WF_Approval_ID" msprop:Generator_UserColumnName="WF_Approval_ID" msprop:Generator_ColumnPropNameInRow="WF_Approval_ID" msprop:Generator_ColumnVarNameInTable="columnWF_Approval_ID" msprop:Generator_ColumnPropNameInTable="WF_Approval_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SUB_TYPE" msprop:Generator_UserColumnName="SUB_TYPE" msprop:Generator_ColumnPropNameInRow="SUB_TYPE" msprop:Generator_ColumnVarNameInTable="columnSUB_TYPE" msprop:Generator_ColumnPropNameInTable="SUB_TYPEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SUB_TYPE_C" msprop:Generator_UserColumnName="SUB_TYPE_C" msprop:Generator_ColumnPropNameInRow="SUB_TYPE_C" msprop:Generator_ColumnVarNameInTable="columnSUB_TYPE_C" msprop:Generator_ColumnPropNameInTable="SUB_TYPE_CColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Table" />
+      <xs:field xpath="mstns:WS_INV_ID" />
+    </xs:unique>
+    <xs:unique name="AP_PayReqApprover_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:AP_PayReqApprover" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

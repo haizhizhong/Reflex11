@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsSearch" targetNamespace="http://tempuri.org/dsSearch.xsd" xmlns:mstns="http://tempuri.org/dsSearch.xsd" xmlns="http://tempuri.org/dsSearch.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsSearch" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsSearch" msprop:Generator_DataSetName="dsSearch">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AP_SUBCON_COMP_SEARCH" msprop:Generator_TableClassName="AP_SUBCON_COMP_SEARCHDataTable" msprop:Generator_TableVarName="tableAP_SUBCON_COMP_SEARCH" msprop:Generator_TablePropName="AP_SUBCON_COMP_SEARCH" msprop:Generator_RowDeletingName="AP_SUBCON_COMP_SEARCHRowDeleting" msprop:Generator_RowChangingName="AP_SUBCON_COMP_SEARCHRowChanging" msprop:Generator_RowEvHandlerName="AP_SUBCON_COMP_SEARCHRowChangeEventHandler" msprop:Generator_RowDeletedName="AP_SUBCON_COMP_SEARCHRowDeleted" msprop:Generator_UserTableName="AP_SUBCON_COMP_SEARCH" msprop:Generator_RowChangedName="AP_SUBCON_COMP_SEARCHRowChanged" msprop:Generator_RowEvArgName="AP_SUBCON_COMP_SEARCHRowChangeEvent" msprop:Generator_RowClassName="AP_SUBCON_COMP_SEARCHRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="supplier_id" msprop:Generator_ColumnVarNameInTable="columnsupplier_id" msprop:Generator_ColumnPropNameInRow="supplier_id" msprop:Generator_ColumnPropNameInTable="supplier_idColumn" msprop:Generator_UserColumnName="supplier_id" type="xs:int" minOccurs="0" />
+              <xs:element name="insur_type_id" msprop:Generator_ColumnVarNameInTable="columninsur_type_id" msprop:Generator_ColumnPropNameInRow="insur_type_id" msprop:Generator_ColumnPropNameInTable="insur_type_idColumn" msprop:Generator_UserColumnName="insur_type_id" type="xs:int" minOccurs="0" />
+              <xs:element name="expiry_date" msprop:Generator_ColumnVarNameInTable="columnexpiry_date" msprop:Generator_ColumnPropNameInRow="expiry_date" msprop:Generator_ColumnPropNameInTable="expiry_dateColumn" msprop:Generator_UserColumnName="expiry_date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="rule_warning" msprop:Generator_ColumnVarNameInTable="columnrule_warning" msprop:Generator_ColumnPropNameInRow="rule_warning" msprop:Generator_ColumnPropNameInTable="rule_warningColumn" msprop:Generator_UserColumnName="rule_warning" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="rule_accrual" msprop:Generator_ColumnVarNameInTable="columnrule_accrual" msprop:Generator_ColumnPropNameInRow="rule_accrual" msprop:Generator_ColumnPropNameInTable="rule_accrualColumn" msprop:Generator_UserColumnName="rule_accrual" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="rule_payment" msprop:Generator_ColumnVarNameInTable="columnrule_payment" msprop:Generator_ColumnPropNameInRow="rule_payment" msprop:Generator_ColumnPropNameInTable="rule_paymentColumn" msprop:Generator_UserColumnName="rule_payment" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="rule_po" msprop:Generator_ColumnVarNameInTable="columnrule_po" msprop:Generator_ColumnPropNameInRow="rule_po" msprop:Generator_ColumnPropNameInTable="rule_poColumn" msprop:Generator_UserColumnName="rule_po" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="webrule_internal_alert" msprop:Generator_ColumnVarNameInTable="columnwebrule_internal_alert" msprop:Generator_ColumnPropNameInRow="webrule_internal_alert" msprop:Generator_ColumnPropNameInTable="webrule_internal_alertColumn" msprop:Generator_UserColumnName="webrule_internal_alert" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="webrule_warn_contractor" msprop:Generator_ColumnVarNameInTable="columnwebrule_warn_contractor" msprop:Generator_ColumnPropNameInRow="webrule_warn_contractor" msprop:Generator_ColumnPropNameInTable="webrule_warn_contractorColumn" msprop:Generator_UserColumnName="webrule_warn_contractor" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="webrule_restrict_payment_req" msprop:Generator_ColumnVarNameInTable="columnwebrule_restrict_payment_req" msprop:Generator_ColumnPropNameInRow="webrule_restrict_payment_req" msprop:Generator_ColumnPropNameInTable="webrule_restrict_payment_reqColumn" msprop:Generator_UserColumnName="webrule_restrict_payment_req" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pri_id" msprop:Generator_ColumnVarNameInTable="columnpri_id" msprop:Generator_ColumnPropNameInRow="pri_id" msprop:Generator_ColumnPropNameInTable="pri_idColumn" msprop:Generator_UserColumnName="pri_id" type="xs:int" minOccurs="0" />
+              <xs:element name="active" msprop:Generator_ColumnVarNameInTable="columnactive" msprop:Generator_ColumnPropNameInRow="active" msprop:Generator_ColumnPropNameInTable="activeColumn" msprop:Generator_UserColumnName="active" type="xs:boolean" />
+              <xs:element name="project_required" msprop:Generator_ColumnVarNameInTable="columnproject_required" msprop:Generator_ColumnPropNameInRow="project_required" msprop:Generator_ColumnPropNameInTable="project_requiredColumn" msprop:Generator_UserColumnName="project_required" type="xs:boolean" />
+              <xs:element name="Frequency" msprop:Generator_ColumnVarNameInTable="columnFrequency" msprop:Generator_ColumnPropNameInRow="Frequency" msprop:Generator_ColumnPropNameInTable="FrequencyColumn" msprop:Generator_UserColumnName="Frequency" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="rule_restrict" msprop:Generator_ColumnVarNameInTable="columnrule_restrict" msprop:Generator_ColumnPropNameInRow="rule_restrict" msprop:Generator_ColumnPropNameInTable="rule_restrictColumn" msprop:Generator_UserColumnName="rule_restrict" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="rule_holdback_release" msprop:Generator_ColumnVarNameInTable="columnrule_holdback_release" msprop:Generator_ColumnPropNameInRow="rule_holdback_release" msprop:Generator_ColumnPropNameInTable="rule_holdback_releaseColumn" msprop:Generator_UserColumnName="rule_holdback_release" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PO" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnPO" msprop:Generator_ColumnPropNameInRow="PO" msprop:Generator_ColumnPropNameInTable="POColumn" msprop:Generator_UserColumnName="PO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:AP_SUBCON_COMP_SEARCH" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsLevyMatch" targetNamespace="http://tempuri.org/dsLevyMatch.xsd" xmlns:mstns="http://tempuri.org/dsLevyMatch.xsd" xmlns="http://tempuri.org/dsLevyMatch.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsLevyMatch" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsLevyMatch" msprop:Generator_DataSetName="dsLevyMatch">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LD_Levy" msprop:Generator_UserTableName="LD_Levy" msprop:Generator_RowDeletedName="LD_LevyRowDeleted" msprop:Generator_TableClassName="LD_LevyDataTable" msprop:Generator_RowChangedName="LD_LevyRowChanged" msprop:Generator_RowClassName="LD_LevyRow" msprop:Generator_RowChangingName="LD_LevyRowChanging" msprop:Generator_RowEvArgName="LD_LevyRowChangeEvent" msprop:Generator_RowEvHandlerName="LD_LevyRowChangeEventHandler" msprop:Generator_TablePropName="LD_Levy" msprop:Generator_TableVarName="tableLD_Levy" msprop:Generator_RowDeletingName="LD_LevyRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MASTER_AGREEMENT_NUM" msprop:Generator_UserColumnName="MASTER_AGREEMENT_NUM" msprop:Generator_ColumnPropNameInRow="MASTER_AGREEMENT_NUM" msprop:Generator_ColumnVarNameInTable="columnMASTER_AGREEMENT_NUM" msprop:Generator_ColumnPropNameInTable="MASTER_AGREEMENT_NUMColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="agreement_num" msprop:Generator_UserColumnName="agreement_num" msprop:Generator_ColumnPropNameInRow="agreement_num" msprop:Generator_ColumnVarNameInTable="columnagreement_num" msprop:Generator_ColumnPropNameInTable="agreement_numColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="lot_num" msprop:Generator_UserColumnName="lot_num" msprop:Generator_ColumnPropNameInRow="lot_num" msprop:Generator_ColumnVarNameInTable="columnlot_num" msprop:Generator_ColumnPropNameInTable="lot_numColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="block_num" msprop:Generator_UserColumnName="block_num" msprop:Generator_ColumnPropNameInRow="block_num" msprop:Generator_ColumnVarNameInTable="columnblock_num" msprop:Generator_ColumnPropNameInTable="block_numColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="plan_num" msprop:Generator_UserColumnName="plan_num" msprop:Generator_ColumnPropNameInRow="plan_num" msprop:Generator_ColumnVarNameInTable="columnplan_num" msprop:Generator_ColumnPropNameInTable="plan_numColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LevyDescription" msprop:Generator_UserColumnName="LevyDescription" msprop:Generator_ColumnPropNameInRow="LevyDescription" msprop:Generator_ColumnVarNameInTable="columnLevyDescription" msprop:Generator_ColumnPropNameInTable="LevyDescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LevyType" msprop:Generator_UserColumnName="LevyType" msprop:Generator_ColumnPropNameInRow="LevyType" msprop:Generator_ColumnVarNameInTable="columnLevyType" msprop:Generator_ColumnPropNameInTable="LevyTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Amount" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInTable="AmountColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

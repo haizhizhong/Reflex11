@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsProject" targetNamespace="http://tempuri.org/dsProject.xsd" xmlns:mstns="http://tempuri.org/dsProject.xsd" xmlns="http://tempuri.org/dsProject.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsProject" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsProject" msprop:Generator_DataSetName="dsProject">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PROJ_HEADER" msprop:Generator_UserTableName="PROJ_HEADER" msprop:Generator_RowDeletedName="PROJ_HEADERRowDeleted" msprop:Generator_RowChangedName="PROJ_HEADERRowChanged" msprop:Generator_RowClassName="PROJ_HEADERRow" msprop:Generator_RowChangingName="PROJ_HEADERRowChanging" msprop:Generator_RowEvArgName="PROJ_HEADERRowChangeEvent" msprop:Generator_RowEvHandlerName="PROJ_HEADERRowChangeEventHandler" msprop:Generator_TableClassName="PROJ_HEADERDataTable" msprop:Generator_TableVarName="tablePROJ_HEADER" msprop:Generator_RowDeletingName="PROJ_HEADERRowDeleting" msprop:Generator_TablePropName="PROJ_HEADER">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="pri_id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="pri_id" msprop:Generator_ColumnVarNameInTable="columnpri_id" msprop:Generator_ColumnPropNameInRow="pri_id" msprop:Generator_ColumnPropNameInTable="pri_idColumn" type="xs:int" />
+              <xs:element name="pri_code" msprop:Generator_UserColumnName="pri_code" msprop:Generator_ColumnVarNameInTable="columnpri_code" msprop:Generator_ColumnPropNameInRow="pri_code" msprop:Generator_ColumnPropNameInTable="pri_codeColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="pri_name" msprop:Generator_UserColumnName="pri_name" msprop:Generator_ColumnVarNameInTable="columnpri_name" msprop:Generator_ColumnPropNameInRow="pri_name" msprop:Generator_ColumnPropNameInTable="pri_nameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Status" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInTable="StatusColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PROJ_HEADER" />
+      <xs:field xpath="mstns:pri_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

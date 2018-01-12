@@ -1,0 +1,506 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B1986C65-17C4-4B04-BCF1-71B6D2B0A579}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>AP_Unpaid_Invoices</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>AP_Unpaid_Invoices</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\..\..\..\DotNetCompileDirectory%28no running%29\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AccountingPicker">
+      <Name>accountingpicker</Name>
+      <HintPath>..\..\..\..\dotnetcompiledirectory%28no running%29\accountingpicker.dll</HintPath>
+    </Reference>
+    <Reference Include="APGSTException">
+      <Name>APGSTException</Name>
+      <HintPath>..\..\..\..\DotNetCompileDirectory%28no running%29\APGSTException.dll</HintPath>
+    </Reference>
+    <Reference Include="APPOSelect">
+      <Name>APPOSelect</Name>
+      <HintPath>..\..\..\..\DotNetCompileDirectory%28no running%29\APPOSelect.dll</HintPath>
+    </Reference>
+    <Reference Include="ApprovalRequestHistoryViewer, Version=1.0.3959.26158, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="CL_Dialog">
+      <Name>CL_Dialog</Name>
+      <HintPath>..\..\..\..\DotNetCompileDirectory%28no running%29\CL_Dialog.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Pdf.v16.2.Core">
+      <Name>DevExpress.Pdf.v16.2.Core</Name>
+      <AssemblyFolderKey>hklm\developer express .net v6.3</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v16.2.Core">
+      <Name>DevExpress.Printing.v16.2.Core</Name>
+      <AssemblyFolderKey>hklm\developer express .net v6.3</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.Data.v16.2">
+      <Name>DevExpress.Data.v16.2</Name>
+      <AssemblyFolderKey>hklm\developer express .net v6.3</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v16.2">
+      <Name>DevExpress.Utils.v16.2</Name>
+      <AssemblyFolderKey>hklm\developer express .net v6.3</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v16.2">
+      <Name>DevExpress.XtraBars.v16.2</Name>
+      <AssemblyFolderKey>hklm\developer express .net v6.3</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v16.2">
+      <Name>DevExpress.XtraEditors.v16.2</Name>
+      <AssemblyFolderKey>hklm\developer express .net v6.3</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v16.2">
+      <Name>DevExpress.XtraPrinting.v16.2</Name>
+      <AssemblyFolderKey>hklm\developer express .net v6.3</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v16.2">
+      <Name>DevExpress.XtraGrid.v16.2</Name>
+      <AssemblyFolderKey>hklm\developer express .net v6.3</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v16.2">
+      <Name>DevExpress.XtraLayout.v16.2</Name>
+      <AssemblyFolderKey>hklm\developer express .net v6.3</AssemblyFolderKey>
+    </Reference>
+    <Reference Include="HMBaseReporting, Version=1.0.4778.26602, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\DotNetCompileDirectory(no running)\HMBaseReporting.dll</HintPath>
+    </Reference>
+    <Reference Include="HMConnection">
+      <Name>HMConnection</Name>
+      <HintPath>..\..\..\..\DotNetCompileDirectory%28no running%29\HMConnection.dll</HintPath>
+    </Reference>
+    <Reference Include="HMReportPrinter">
+      <Name>HMReportPrinter</Name>
+      <HintPath>..\..\..\..\DotNetCompileDirectory%28no running%29\HMReportPrinter.dll</HintPath>
+    </Reference>
+    <Reference Include="KeyControlAccess">
+      <Name>KeyControlAccess</Name>
+      <HintPath>..\..\..\..\DotNetCompileDirectory%28no running%29\KeyControlAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="ReflexEditors, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\DotNetCompileDirectory(no running)\ReflexEditors.dll</HintPath>
+    </Reference>
+    <Reference Include="ReflexImgSrc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\DotNetCompileDirectory(no running)\ReflexImgSrc.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="TUC_HMDevXManager">
+      <Name>TUC_HMDevXManager</Name>
+      <HintPath>..\..\..\..\DotNetCompileDirectory%28no running%29\TUC_HMDevXManager.dll</HintPath>
+    </Reference>
+    <Reference Include="WorkFlowRouting, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="WS_Popups">
+      <Name>WS_Popups</Name>
+      <HintPath>..\..\..\..\DotNetCompileDirectory%28no running%29\WS_Popups.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dsAllocSeg.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAllocSeg.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsAllPO.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAllPO.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsAPSetupGL.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAPSetupGL.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsBank.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsBank.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsCurrency.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCurrency.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsDetail.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDetail.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsDetPO.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDetPO.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsGLAccts.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsGLAccts.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsGST.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsGST.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsHeader.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsHeader.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsInvNo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsInvNo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPOBSelect.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPOBSelect.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPODSelect.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPODSelect.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPOFSelect.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPOFSelect.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPOM2Select.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPOM2Select.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPOMSelect.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPOMSelect.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPOSelect.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPOSelect.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPST.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPST.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsPWP_Status.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPWP_Status.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSupplier.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSupplier.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsSwapSeg.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSwapSeg.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsTerms.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsTerms.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmManChk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuickCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ucAP_Unpaid_Invoices.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Content Include="dsAllocSeg.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAllocSeg.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="dsAllPO.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAllPO.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="dsAPSetupGL.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAPSetupGL.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="dsBank.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsBank.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="dsCurrency.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCurrency.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="dsDetail.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDetail.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="dsDetPO.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDetPO.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="dsGLAccts.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsGLAccts.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="dsGST.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsGST.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="dsHeader.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsHeader.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="dsInvNo.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsInvNo.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="dsPOBSelect.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPOBSelect.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="dsPODSelect.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPODSelect.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="dsPOFSelect.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPOFSelect.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="dsPOM2Select.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPOM2Select.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="dsPOMSelect.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPOMSelect.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="dsPOSelect.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPOSelect.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="dsPST.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPST.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="dsSupplier.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSupplier.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Include="dsSwapSeg.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSwapSeg.Designer.cs</LastGenOutput>
+    </Content>
+    <None Include="dsDetail.xsc">
+      <DependentUpon>dsDetail.xsd</DependentUpon>
+    </None>
+    <None Include="dsDetail.xss">
+      <DependentUpon>dsDetail.xsd</DependentUpon>
+    </None>
+    <None Include="dsHeader.xsc">
+      <DependentUpon>dsHeader.xsd</DependentUpon>
+    </None>
+    <None Include="dsHeader.xss">
+      <DependentUpon>dsHeader.xsd</DependentUpon>
+    </None>
+    <None Include="dsPOSelect.xsx">
+      <DependentUpon>dsPOSelect.xsd</DependentUpon>
+    </None>
+    <None Include="dsPWP_Status.xsc">
+      <DependentUpon>dsPWP_Status.xsd</DependentUpon>
+    </None>
+    <None Include="dsPWP_Status.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPWP_Status.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsPWP_Status.xss">
+      <DependentUpon>dsPWP_Status.xsd</DependentUpon>
+    </None>
+    <None Include="dsTerms.xsc">
+      <DependentUpon>dsTerms.xsd</DependentUpon>
+    </None>
+    <None Include="dsTerms.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsTerms.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsTerms.xss">
+      <DependentUpon>dsTerms.xsd</DependentUpon>
+    </None>
+    <EmbeddedResource Include="frmManChk.resx">
+      <DependentUpon>frmManChk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuickCheck.resx">
+      <DependentUpon>frmQuickCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucAP_Unpaid_Invoices.resx">
+      <DependentUpon>ucAP_Unpaid_Invoices.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
